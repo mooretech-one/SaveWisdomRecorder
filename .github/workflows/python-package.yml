@@ -48,7 +48,7 @@ jobs:
             --hidden-import tkinter \
             --windowed \
             --clean \
-            SaveWisdomRecorder.py
+            save_wisdom_recorder.py
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
