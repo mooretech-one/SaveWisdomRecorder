@@ -27,13 +27,19 @@ jobs:
           pip install pyinstaller sounddevice scipy pydub numpy
 
       - name: Build with PyInstaller
+        shell: bash                    # ← THIS IS THE KEY FIX
         run: |
           pyinstaller --onedir --name SaveWisdomRecorder \
-            --add-data "QUESTIONS:QUESTIONS" \
+            --add-data "QUESTIONS;QUESTIONS" \
+            --add-data "RECORDINGS;RECORDINGS" \
             --hidden-import sounddevice \
+            --hidden-import pydub \
+            --hidden-import numpy \
             --hidden-import scipy \
             --windowed \
-            save_wisdom_recorder.py
+            --clean \
+            --log-level=INFO \
+            SaveWisdomRecorder.py
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
