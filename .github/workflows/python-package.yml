@@ -27,19 +27,21 @@ jobs:
           pip install pyinstaller sounddevice scipy pydub numpy
 
       - name: Build with PyInstaller
-        shell: bash                    # ← THIS IS THE MISSING LINE
+        shell: bash                    # ← THIS IS THE CRITICAL LINE
         run: |
-          pyinstaller --onedir --name SaveWisdomRecorder \
+          pyinstaller \
+            --onedir \
+            --name SaveWisdomRecorder \
             --add-data "QUESTIONS;QUESTIONS" \
             --add-data "RECORDINGS;RECORDINGS" \
             --hidden-import sounddevice \
             --hidden-import pydub \
             --hidden-import numpy \
-            --hidden-import scipy.io.wavfile \
             --hidden-import scipy \
+            --hidden-import scipy.io.wavfile \
+            --hidden-import tkinter \
             --windowed \
             --clean \
-            --log-level=INFO \
             SaveWisdomRecorder.py
 
       - name: Upload artifacts
