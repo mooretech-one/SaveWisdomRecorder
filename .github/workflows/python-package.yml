@@ -33,7 +33,7 @@ jobs:
             --hidden-import sounddevice \
             --hidden-import scipy \
             --windowed \
-            save_wisdom_app.py
+            save_wisdom_recorder.py
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
