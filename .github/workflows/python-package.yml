@@ -27,13 +27,19 @@ jobs:
           pip install pyinstaller sounddevice scipy pydub numpy
 
       - name: Build with PyInstaller
-        shell: bash                    # ← THIS IS THE CRITICAL LINE
+        shell: bash
         run: |
+          if [[ "${{ matrix.os }}" == "windows-latest" ]]; then
+            SEP=";"
+          else
+            SEP=":"
+          fi
+
           pyinstaller \
             --onedir \
             --name SaveWisdomRecorder \
-            --add-data "QUESTIONS;QUESTIONS" \
-            --add-data "RECORDINGS;RECORDINGS" \
+            --add-data "QUESTIONS${SEP}QUESTIONS" \
+            --add-data "RECORDINGS${SEP}RECORDINGS" \
             --hidden-import sounddevice \
             --hidden-import pydub \
             --hidden-import numpy \
