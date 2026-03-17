@@ -27,7 +27,7 @@ jobs:
           pip install pyinstaller sounddevice scipy pydub numpy
 
       - name: Build with PyInstaller
-        shell: bash                    # ← THIS IS THE KEY FIX
+        shell: bash                    # ← THIS IS THE MISSING LINE
         run: |
           pyinstaller --onedir --name SaveWisdomRecorder \
             --add-data "QUESTIONS;QUESTIONS" \
@@ -35,6 +35,7 @@ jobs:
             --hidden-import sounddevice \
             --hidden-import pydub \
             --hidden-import numpy \
+            --hidden-import scipy.io.wavfile \
             --hidden-import scipy \
             --windowed \
             --clean \
