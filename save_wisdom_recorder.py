@@ -25,7 +25,7 @@ QUESTIONS_DIR = Path("QUESTIONS")
 CONFIG_PATH = Path("config.json")
 
 # ------------------------------------------------------------------------------
-# CONFIG MANAGER
+# CONFIG MANAGER (with migration + answered count storage)
 # ------------------------------------------------------------------------------
 class ConfigManager:
     @staticmethod
@@ -33,7 +33,13 @@ class ConfigManager:
         if CONFIG_PATH.exists():
             try:
                 with open(CONFIG_PATH, encoding="utf-8") as f:
-                    return json.load(f)
+                    data = json.load(f)
+                    # Migrate old config format
+                    if "users" in data:
+                        for name, value in list(data["users"].items()):
+                            if isinstance(value, str):
+                                data["users"][name] = {"language": value, "answered": 0}
+                    return data
             except Exception:
                 pass
         return {"users": {}, "last_user": ""}
@@ -139,9 +145,14 @@ class SaveWisdomApp(tk.Tk):
 
         self.name_combo["values"] = sorted(self.config.get("users", {}).keys())
 
-        if self.config.get("last_user") and self.config["last_user"] in self.config.get("users", {}):
-            self.name_combo.set(self.config["last_user"])
-            self._on_name_selected()
+        # Auto-load last user (percentage shows correctly)
+        last_user = self.config.get("last_user")
+        if last_user and last_user in self.config.get("users", {}):
+            self.name_combo.set(last_user)
+            user_data = self.config["users"][last_user]
+            lang = user_data.get("language") if isinstance(user_data, dict) else user_data
+            self.lang_combo.set(lang)
+            self.after(100, self._on_select_clicked)
 
         self._reset_ui_state()
 
@@ -213,10 +224,21 @@ class SaveWisdomApp(tk.Tk):
 
         level_frame = tk.Frame(self, bg=DARK_BG)
         level_frame.pack(fill="x", padx=20, pady=22)
+
         tk.Label(level_frame, text="LEVEL:", bg=DARK_BG, fg=NEON_GREEN, font=("Courier", FONT_SIZE)).pack(side="left")
         self.level_canvas = tk.Canvas(level_frame, width=620, height=30, bg="#001100", highlightthickness=3, highlightbackground=NEON_GREEN)
         self.level_canvas.pack(side="left", padx=10)
         self.level_canvas.create_line(620, 5, 620, 25, fill="#003300", width=2)
+
+        tk.Label(level_frame, text="     ", bg=DARK_BG).pack(side="left")
+        tk.Label(level_frame, text="ANSWERED:", bg=DARK_BG, fg=NEON_GREEN, font=("Courier", FONT_SIZE)).pack(side="left", padx=(30, 10))
+        self.progress_canvas = tk.Canvas(level_frame, width=620, height=30, bg="#001100", highlightthickness=3, highlightbackground=NEON_GREEN)
+        self.progress_canvas.pack(side="left", padx=10)
+        self.progress_canvas.create_line(620, 5, 620, 25, fill="#003300", width=2)
+
+        self.percent_label = tk.Label(level_frame, text="0%", bg=DARK_BG, fg=NEON_GREEN,
+                                      font=("Courier", FONT_SIZE, "bold"), width=6)
+        self.percent_label.pack(side="left", padx=12)
 
         self.status_var = tk.StringVar(value="Ready")
         self.status_bar = tk.Label(self, textvariable=self.status_var, bg=DARK_BG, fg=NEON_GREEN,
@@ -236,15 +258,17 @@ class SaveWisdomApp(tk.Tk):
         langs = [f.stem.replace("questions_", "") for f in files]
         self.lang_combo["values"] = sorted(langs)
 
-    # === NEW HELPER: cleans the highlight on BOTH comboboxes (works for readonly language too) ===
     def _deselect_comboboxes(self):
         self.after(10, lambda: self.name_combo.selection_clear())
         self.after(10, lambda: self.lang_combo.selection_clear())
 
     def _reset_ui_state(self):
+        """Reset everything INCLUDING loaded questions/answers so the percentage bar goes to 0% immediately when name/language changes."""
         if self.is_recording_ui:
             self.stop_recording(advance=False)
 
+        self.questions = []          # ← CRITICAL: clear so bar shows 0%
+        self.answers = {}            # ← CRITICAL: clear so bar shows 0%
         self.current_question = None
         self.question_box.config(text="")
         self.q_number_label.config(text="0000")
@@ -254,24 +278,40 @@ class SaveWisdomApp(tk.Tk):
         self.stop_btn.config(state="disabled")
         self.status_var.set("Click Select to choose user and language")
         self.ready = False
+        self._update_progress_bar()  # now guaranteed 0%
 
     def _on_name_selected(self, event=None):
         name = self.name_combo.get().strip()
         if name:
             users = self.config.get("users", {})
-            if name in users:
-                self.lang_combo.set(users[name])
-            else:
-                self.lang_combo.set("English")
+            user_data = users.get(name, "")
+            lang = user_data.get("language") if isinstance(user_data, dict) else user_data
+            self.lang_combo.set(lang or "English")
         self._reset_ui_state()
-        self._deselect_comboboxes()          # ← now cleans BOTH
+        self._deselect_comboboxes()
 
     def _on_name_key_release(self, event=None):
         self._reset_ui_state()
 
     def _on_lang_changed(self, event=None):
         self._reset_ui_state()
-        self._deselect_comboboxes()          # ← now works for language too!
+        self._deselect_comboboxes()
+
+    def _update_progress_bar(self):
+        """Neon percentage bar – shows 0% when no user selected, real % only after Select."""
+        if not hasattr(self, "progress_canvas") or not self.questions:
+            self.progress_canvas.delete("bar")
+            self.percent_label.config(text="0%")
+            return
+
+        total = len(self.questions)
+        answered = len(self.answers)
+        perc = int((answered / total) * 100) if total > 0 else 0
+        width = int(perc / 100 * 620)
+
+        self.progress_canvas.delete("bar")
+        self.progress_canvas.create_rectangle(0, 5, width, 25, fill=NEON_GREEN, tags="bar")
+        self.percent_label.config(text=f"{perc}%")
 
     def _on_select_clicked(self):
         name = self.name_combo.get().strip()
@@ -281,7 +321,12 @@ class SaveWisdomApp(tk.Tk):
             messagebox.showwarning("Missing info", "Please enter a name and choose a language")
             return
 
-        self.config.setdefault("users", {})[name] = lang
+        # Ensure config format
+        users = self.config.setdefault("users", {})
+        if name not in users or not isinstance(users[name], dict):
+            users[name] = {"language": lang, "answered": 0}
+        else:
+            users[name]["language"] = lang
         self.config["last_user"] = name
         ConfigManager.save(self.config)
 
@@ -305,6 +350,10 @@ class SaveWisdomApp(tk.Tk):
         else:
             self.answers = {}
 
+        # Cache answered count
+        users[name]["answered"] = len(self.answers)
+        ConfigManager.save(self.config)
+
         unanswered = [q for q in self.questions if str(q["number"]) not in self.answers]
         if unanswered:
             self.current_question = min(unanswered, key=lambda q: q["number"])
@@ -319,10 +368,19 @@ class SaveWisdomApp(tk.Tk):
         else:
             self._show_congratulations()
 
+        # Show REAL percentage for this user
+        self._update_progress_bar()
+
     def _save_answers(self):
         data = {"answers": self.answers}
         with open(self.answers_path, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=2)
+
+        # Update cached count
+        name = self.name_combo.get().strip()
+        if name in self.config.get("users", {}):
+            self.config["users"][name]["answered"] = len(self.answers)
+            ConfigManager.save(self.config)
 
     def _show_congratulations(self):
         self.question_box.config(text="🎉 Congratulations!\n\nYou have answered all 1000 questions!\n\nYour wisdom is now safely recorded.")
@@ -384,6 +442,9 @@ class SaveWisdomApp(tk.Tk):
             }
             self._save_answers()
             self.status_var.set(f"✅ Saved: {filename}")
+
+            self._update_progress_bar()
+
             if advance:
                 self.next_question()
 

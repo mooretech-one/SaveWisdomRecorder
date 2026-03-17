@@ -21,13 +21,28 @@ if len(sys.argv) < 2:
     sys.exit(1)
 
 lang = sys.argv[1].lower()
-print(f"Fetching English questions → preparing for {lang}...")
+print(f"Preparing questions for {lang}...")
 
 # Create folder
 QUESTIONS_DIR = Path("QUESTIONS")
 QUESTIONS_DIR.mkdir(exist_ok=True)
 
-# Fetch
+# Define output filename early so we can check it before doing any work
+filename = QUESTIONS_DIR / f"questions_{lang}.json"
+
+# NEW: Ask if translation + overwrite should be done when file already exists
+if filename.exists():
+    response = input(f"⚠️  File '{filename.name}' already exists.\n"
+                     f"Do you want to re-translate the questions and overwrite it? (y/n): ").strip().lower()
+
+    if response not in ('y', 'yes'):
+        print("✅ Operation cancelled – existing file was left unchanged.")
+        sys.exit(0)
+    else:
+        print("Overwriting with fresh translation...")
+
+# Fetch English questions
+print("Fetching English questions from savewisdom.org...")
 resp = requests.get("https://savewisdom.org/the-1000-word-save-wisdom-questions/", timeout=30)
 soup = BeautifulSoup(resp.text, "html.parser")
 questions = []
@@ -48,16 +63,16 @@ if lang == "en":
     print("English requested → no translation needed")
 else:
     translator = Translator()
+    print(f"Starting translation to {lang} (this may take a minute)...")
     for i, q in enumerate(questions):
         try:
             q["translated"] = translator.translate(q["english"], dest=lang).text
             time.sleep(0.35)
         except:
-            q["translated"] = q["english"]
+            q["translated"] = q["english"]  # fallback
         if (i + 1) % 50 == 0:
-            print(f"Translated {i+1}/1000")
+            print(f"Translated {i + 1}/1000")
 
-# Save into QUESTIONS/
-filename = QUESTIONS_DIR / f"questions_{lang}.json"
+# Save (this will overwrite if user confirmed)
 filename.write_text(json.dumps(questions, ensure_ascii=False, indent=2), encoding="utf-8")
 print(f"✅ Saved {len(questions)} questions to {filename}")
