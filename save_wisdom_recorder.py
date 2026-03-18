@@ -31,9 +31,9 @@ def resource_path(relative_path: str) -> Path:
 
 
 # ------------------------------------------------------------------------------
-# CONSTANTS
+# CONSTANTS (ALL SIZES NOW ~2/3 OF ORIGINAL)
 # ------------------------------------------------------------------------------
-FONT_SIZE = 24
+FONT_SIZE = 16
 NEON_GREEN = "#00FF41"
 DARK_BG = "#000000"
 
@@ -136,9 +136,9 @@ class SaveWisdomApp(tk.Tk):
 
         style = ttk.Style(self)
         style.configure("Neon.TCombobox", fieldbackground="#000000", background="#000000",
-                        foreground="#00FF41", padding=16, arrowsize=36)
+                        foreground="#00FF41", padding=11, arrowsize=24)
         style.map("Neon.TCombobox", background=[("readonly", "#000000")],
-                  fieldbackground=[("readonly", "#000000")], arrowsize=[("readonly", 36)])
+                  fieldbackground=[("readonly", "#000000")], arrowsize=[("readonly", 24)])
 
         self.title("Save Wisdom Recorder")
 
@@ -149,7 +149,7 @@ class SaveWisdomApp(tk.Tk):
         self.option_add('*TCombobox*Listbox.font', ("Courier", FONT_SIZE))
 
         self.configure(bg=DARK_BG)
-        self.minsize(950, 700)
+        self.minsize(633, 467)
         self.update_idletasks()
         self.geometry(f"{self.winfo_screenwidth()}x{self.winfo_screenheight()}")
 
@@ -180,53 +180,53 @@ class SaveWisdomApp(tk.Tk):
 
     def _build_ui(self):
         top = tk.Frame(self, bg=DARK_BG)
-        top.pack(fill="x", padx=20, pady=(25, 25))
+        top.pack(fill="x", padx=13, pady=(17, 17))
 
-        tk.Label(top, text="NAME:", bg=DARK_BG, fg=NEON_GREEN, font=("Courier", FONT_SIZE + 2, "bold")).pack(side="left")
-        self.name_combo = ttk.Combobox(top, width=32, height=24, style="Neon.TCombobox", font=("Courier", FONT_SIZE))
-        self.name_combo.pack(side="left", padx=12, pady=24)
+        tk.Label(top, text="NAME:", bg=DARK_BG, fg=NEON_GREEN, font=("Courier", FONT_SIZE + 1, "bold")).pack(side="left")
+        self.name_combo = ttk.Combobox(top, width=32, height=16, style="Neon.TCombobox", font=("Courier", FONT_SIZE))
+        self.name_combo.pack(side="left", padx=8, pady=16)
         self.name_combo.bind("<<ComboboxSelected>>", self._on_name_selected)
         self.name_combo.bind("<KeyRelease>", self._on_name_key_release)
 
-        tk.Label(top, text="LANGUAGE:", bg=DARK_BG, fg=NEON_GREEN, font=("Courier", FONT_SIZE + 2, "bold")).pack(side="left", padx=(30, 8))
-        self.lang_combo = ttk.Combobox(top, state="readonly", style="Neon.TCombobox", width=18, height=24, font=("Courier", FONT_SIZE))
+        tk.Label(top, text="LANGUAGE:", bg=DARK_BG, fg=NEON_GREEN, font=("Courier", FONT_SIZE + 1, "bold")).pack(side="left", padx=(20, 5))
+        self.lang_combo = ttk.Combobox(top, state="readonly", style="Neon.TCombobox", width=6, height=16, font=("Courier", FONT_SIZE))
         self.lang_combo.pack(side="left")
         self.lang_combo.bind("<<ComboboxSelected>>", self._on_lang_changed)
 
         self.select_btn = tk.Button(top, text="Select", bg=DARK_BG, fg=NEON_GREEN,
                                     font=("Courier", FONT_SIZE, "bold"), command=self._on_select_clicked,
                                     activebackground=DARK_BG, activeforeground=NEON_GREEN,
-                                    disabledforeground=NEON_GREEN, highlightbackground=DARK_BG, height=2, padx=44)
-        self.select_btn.pack(side="left", padx=22)
+                                    disabledforeground=NEON_GREEN, highlightbackground=DARK_BG, height=2, padx=29)
+        self.select_btn.pack(side="left", padx=15)
 
         qnum = tk.Frame(self, bg=DARK_BG)
-        qnum.pack(fill="x", padx=20, pady=32)
-        tk.Label(qnum, text="QUESTION:", bg=DARK_BG, fg=NEON_GREEN, font=("Courier", FONT_SIZE + 2, "bold")).pack(side="left")
+        qnum.pack(fill="x", padx=13, pady=21)
+        tk.Label(qnum, text="QUESTION:", bg=DARK_BG, fg=NEON_GREEN, font=("Courier", FONT_SIZE + 1, "bold")).pack(side="left")
         self.q_number_label = tk.Label(qnum, text="0000", bg=DARK_BG, fg=NEON_GREEN,
-                                       font=("Courier", FONT_SIZE + 6, "bold"), width=6, relief="ridge")
-        self.q_number_label.pack(side="left", padx=15)
+                                       font=("Courier", FONT_SIZE + 4, "bold"), width=6, relief="ridge")
+        self.q_number_label.pack(side="left", padx=10)
 
         self.question_box = tk.Label(self, text="", bg=DARK_BG, fg=NEON_GREEN,
-                                     font=("Courier", 36), wraplength=1600, justify="left",
-                                     relief="ridge", bd=5, height=10, padx=25, pady=50, anchor="center")
-        self.question_box.pack(fill="both", expand=True, padx=20, pady=22)
+                                     font=("Courier", 24), wraplength=1067, justify="left",
+                                     relief="ridge", bd=3, height=7, padx=17, pady=33, anchor="center")
+        self.question_box.pack(fill="both", expand=True, padx=13, pady=15)
 
         btns = tk.Frame(self, bg=DARK_BG)
-        btns.pack(fill="x", padx=20, pady=22)
+        btns.pack(fill="x", padx=13, pady=15)
 
-        self.next_btn = tk.Button(btns, text="Next Question", bg=DARK_BG, fg=NEON_GREEN,
+        self.next_btn = tk.Button(btns, text="Next", bg=DARK_BG, fg=NEON_GREEN,
                                   font=("Courier", FONT_SIZE, "bold"), command=self.next_question, state="disabled",
                                   activebackground=DARK_BG, activeforeground=NEON_GREEN,
                                   disabledforeground=NEON_GREEN, highlightbackground=DARK_BG,
-                                  width=18, height=2, pady=22)
-        self.next_btn.pack(side="left", padx=8)
+                                  width=12, height=2, pady=15)
+        self.next_btn.pack(side="left", padx=5)
 
-        self.random_btn = tk.Button(btns, text="Random Question", bg=DARK_BG, fg=NEON_GREEN,
+        self.random_btn = tk.Button(btns, text="Random", bg=DARK_BG, fg=NEON_GREEN,
                                     font=("Courier", FONT_SIZE, "bold"), command=self.random_question, state="disabled",
                                     activebackground=DARK_BG, activeforeground=NEON_GREEN,
                                     disabledforeground=NEON_GREEN, highlightbackground=DARK_BG,
-                                    width=18, height=2, pady=22)
-        self.random_btn.pack(side="left", padx=8)
+                                    width=12, height=2, pady=15)
+        self.random_btn.pack(side="left", padx=5)
 
         tk.Label(btns, text="     ", bg=DARK_BG).pack(side="left")
 
@@ -234,38 +234,38 @@ class SaveWisdomApp(tk.Tk):
                                  font=("Courier", FONT_SIZE, "bold"), command=self.start_recording, state="disabled",
                                  activebackground=DARK_BG, activeforeground=NEON_GREEN,
                                  disabledforeground=NEON_GREEN, highlightbackground=DARK_BG,
-                                 width=12, height=2, pady=22)
-        self.rec_btn.pack(side="left", padx=8)
+                                 width=12, height=2, pady=15)
+        self.rec_btn.pack(side="left", padx=5)
 
         self.stop_btn = tk.Button(btns, text="⏹ Stop", bg=DARK_BG, fg=NEON_GREEN,
                                   font=("Courier", FONT_SIZE, "bold"), command=self.stop_recording, state="disabled",
                                   activebackground=DARK_BG, activeforeground=NEON_GREEN,
                                   disabledforeground=NEON_GREEN, highlightbackground=DARK_BG,
-                                  width=12, height=2, pady=22)
-        self.stop_btn.pack(side="left", padx=8)
+                                  width=12, height=2, pady=15)
+        self.stop_btn.pack(side="left", padx=5)
 
         level_frame = tk.Frame(self, bg=DARK_BG)
-        level_frame.pack(fill="x", padx=20, pady=22)
+        level_frame.pack(fill="x", padx=13, pady=15)
 
         tk.Label(level_frame, text="LEVEL:", bg=DARK_BG, fg=NEON_GREEN, font=("Courier", FONT_SIZE)).pack(side="left")
-        self.level_canvas = tk.Canvas(level_frame, width=620, height=30, bg="#001100", highlightthickness=3, highlightbackground=NEON_GREEN)
-        self.level_canvas.pack(side="left", padx=10)
-        self.level_canvas.create_line(620, 5, 620, 25, fill="#003300", width=2)
+        self.level_canvas = tk.Canvas(level_frame, width=413, height=20, bg="#001100", highlightthickness=2, highlightbackground=NEON_GREEN)
+        self.level_canvas.pack(side="left", padx=7)
+        self.level_canvas.create_line(413, 3, 413, 17, fill="#003300", width=2)
 
         tk.Label(level_frame, text="     ", bg=DARK_BG).pack(side="left")
-        tk.Label(level_frame, text="ANSWERED:", bg=DARK_BG, fg=NEON_GREEN, font=("Courier", FONT_SIZE)).pack(side="left", padx=(30, 10))
-        self.progress_canvas = tk.Canvas(level_frame, width=620, height=30, bg="#001100", highlightthickness=3, highlightbackground=NEON_GREEN)
-        self.progress_canvas.pack(side="left", padx=10)
-        self.progress_canvas.create_line(620, 5, 620, 25, fill="#003300", width=2)
+        tk.Label(level_frame, text="ANSWERED:", bg=DARK_BG, fg=NEON_GREEN, font=("Courier", FONT_SIZE)).pack(side="left", padx=(20, 7))
+        self.progress_canvas = tk.Canvas(level_frame, width=413, height=20, bg="#001100", highlightthickness=2, highlightbackground=NEON_GREEN)
+        self.progress_canvas.pack(side="left", padx=7)
+        self.progress_canvas.create_line(413, 3, 413, 17, fill="#003300", width=2)
 
         self.percent_label = tk.Label(level_frame, text="0%", bg=DARK_BG, fg=NEON_GREEN,
                                       font=("Courier", FONT_SIZE, "bold"), width=6)
-        self.percent_label.pack(side="left", padx=12)
+        self.percent_label.pack(side="left", padx=8)
 
         self.status_var = tk.StringVar(value="Ready")
         self.status_bar = tk.Label(self, textvariable=self.status_var, bg=DARK_BG, fg=NEON_GREEN,
                                    font=("Courier", FONT_SIZE), relief="sunken", anchor="w")
-        self.status_bar.pack(fill="x", side="bottom", padx=20, pady=22)
+        self.status_bar.pack(fill="x", side="bottom", padx=13, pady=15)
 
         self.protocol("WM_DELETE_WINDOW", self._on_close)
 
@@ -329,10 +329,10 @@ class SaveWisdomApp(tk.Tk):
         total = len(self.questions)
         answered = len(self.answers)
         perc = int((answered / total) * 100) if total > 0 else 0
-        width = int(perc / 100 * 620)
+        width = int(perc / 100 * 413)
 
         self.progress_canvas.delete("bar")
-        self.progress_canvas.create_rectangle(0, 5, width, 25, fill=NEON_GREEN, tags="bar")
+        self.progress_canvas.create_rectangle(0, 3, width, 17, fill=NEON_GREEN, tags="bar")
         self.percent_label.config(text=f"{perc}%")
 
     def _on_select_clicked(self):
@@ -479,9 +479,9 @@ class SaveWisdomApp(tk.Tk):
         if not self.is_recording_ui:
             return
         level = self.recorder.current_level
-        width = int(level * 620)
+        width = int(level * 413)
         self.level_canvas.delete("bar")
-        self.level_canvas.create_rectangle(0, 5, width, 25, fill=NEON_GREEN, tags="bar")
+        self.level_canvas.create_rectangle(0, 3, width, 17, fill=NEON_GREEN, tags="bar")
         self.after(40, self._update_level_bar)
 
     def _on_close(self):
