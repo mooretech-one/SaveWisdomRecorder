@@ -26,6 +26,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install pyinstaller sounddevice scipy pydub numpy
 
+      - name: Clean RECORDINGS directory (prevent junk from being bundled)
+        run: |
+          rm -rf RECORDINGS/* RECORDINGS/.* 2>/dev/null || true
+          mkdir -p RECORDINGS
+          touch RECORDINGS/.keep 2>/dev/null || true
+
       - name: Build with PyInstaller
         shell: bash
         run: |
@@ -39,7 +45,7 @@ jobs:
             --onedir \
             --name SaveWisdomRecorder \
             --add-data "QUESTIONS${SEP}QUESTIONS" \
-            --add-data "RECORDINGS${SEP}RECORDINGS" \
+            --contents-directory . \
             --hidden-import sounddevice \
             --hidden-import pydub \
             --hidden-import numpy \
