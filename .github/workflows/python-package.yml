@@ -35,11 +35,16 @@ jobs:
             SEP=":"
           fi
 
+          # Upgrade to latest PyInstaller (better DLL/collection handling)
+          pip install pyinstaller --upgrade
+
           pyinstaller \
             --onedir \
             --name SaveWisdomRecorder \
             --add-data "QUESTIONS${SEP}QUESTIONS" \
             --collect-all sounddevice \
+            --collect-all numpy \
+            --collect-all scipy \
             --contents-directory . \
             --hidden-import sounddevice \
             --hidden-import pydub \

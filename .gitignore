@@ -58,7 +58,11 @@ Thumbs.db
 config.json
 
 # All recordings, answers, and generated audio files
-RECORDINGS/*/
+# → Keep the RECORDINGS folder in the repo (so clones get an empty folder)
+# → Ignore everything inside it EXCEPT the .keep file
+RECORDINGS/
+!RECORDINGS/.keep
+!RECORDINGS/.gitkeep
 
 # Temporary audio files (extra safety net)
 *.wav
