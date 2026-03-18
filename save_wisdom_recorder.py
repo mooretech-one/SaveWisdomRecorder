@@ -9,10 +9,26 @@ import threading
 import time
 from datetime import datetime
 import numpy as np
-
+import sys
+import os
 import sounddevice as sd
 from scipy.io import wavfile
 from pydub import AudioSegment
+
+
+# ------------------------------------------------------------------------------
+# RESOURCE PATH HELPER (FIXES LINUX + BUNDLED EXECUTABLE PATHS)
+# ------------------------------------------------------------------------------
+def resource_path(relative_path: str) -> Path:
+    """Works perfectly in development AND when frozen with PyInstaller (--contents-directory .)"""
+    if getattr(sys, 'frozen', False):
+        # Bundled executable: everything is next to SaveWisdomRecorder.exe
+        base_path = Path(os.path.dirname(sys.executable))
+    else:
+        # Normal Python run
+        base_path = Path(os.path.dirname(os.path.abspath(__file__)))
+    return base_path / relative_path
+
 
 # ------------------------------------------------------------------------------
 # CONSTANTS
@@ -20,9 +36,12 @@ from pydub import AudioSegment
 FONT_SIZE = 24
 NEON_GREEN = "#00FF41"
 DARK_BG = "#000000"
-RECORDINGS_BASE = Path("RECORDINGS")
-QUESTIONS_DIR = Path("QUESTIONS")
-CONFIG_PATH = Path("config.json")
+
+# These now use the helper → QUESTIONS folder will be found on Linux
+RECORDINGS_BASE = resource_path("RECORDINGS")
+QUESTIONS_DIR   = resource_path("QUESTIONS")
+CONFIG_PATH     = resource_path("config.json")
+
 
 # ------------------------------------------------------------------------------
 # CONFIG MANAGER (with migration + answered count storage)
@@ -112,6 +131,9 @@ class SaveWisdomApp(tk.Tk):
     def __init__(self):
         super().__init__()
 
+        # Ensure RECORDINGS folder always exists at runtime (important in bundled exe)
+        RECORDINGS_BASE.mkdir(parents=True, exist_ok=True)
+
         style = ttk.Style(self)
         style.configure("Neon.TCombobox", fieldbackground="#000000", background="#000000",
                         foreground="#00FF41", padding=16, arrowsize=36)
@@ -185,7 +207,7 @@ class SaveWisdomApp(tk.Tk):
         self.q_number_label.pack(side="left", padx=15)
 
         self.question_box = tk.Label(self, text="", bg=DARK_BG, fg=NEON_GREEN,
-                                     font=("Courier", 36), wraplength=950, justify="left",
+                                     font=("Courier", 36), wraplength=1600, justify="left",
                                      relief="ridge", bd=5, height=10, padx=25, pady=50, anchor="center")
         self.question_box.pack(fill="both", expand=True, padx=20, pady=22)
 
