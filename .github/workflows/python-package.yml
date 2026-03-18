@@ -26,34 +26,28 @@ jobs:
           python -m pip install --upgrade pip
           pip install pyinstaller sounddevice scipy pydub numpy
 
-      - name: Clean RECORDINGS directory (prevent junk from being bundled)
+      - name: Ensure RECORDINGS directory exists
         run: |
-          rm -rf RECORDINGS/* RECORDINGS/.* 2>/dev/null || true
-          mkdir -p RECORDINGS
-          touch RECORDINGS/.keep 2>/dev/null || true
+          python -c "
+import os
+os.makedirs('RECORDINGS', exist_ok=True)
+print('RECORDINGS directory created (empty)')
+          "
 
       - name: Build with PyInstaller
         shell: bash
         run: |
           if [[ "${{ matrix.os }}" == "windows-latest" ]]; then
             SEP=";"
-            # Bundle the exact PortAudio DLLs that sounddevice ships on Windows
-            SD_PATH=$(python -c "
-import os
-import _sounddevice_data
-print(os.path.dirname(_sounddevice_data.__file__))
-            ")
-            EXTRA="--add-data \"${SD_PATH}${SEP}_sounddevice_data\""
           else
             SEP=":"
-            EXTRA=""
           fi
 
           pyinstaller \
             --onedir \
             --name SaveWisdomRecorder \
             --add-data "QUESTIONS${SEP}QUESTIONS" \
-            $EXTRA \
+            --collect-all sounddevice \
             --contents-directory . \
             --hidden-import sounddevice \
             --hidden-import pydub \
