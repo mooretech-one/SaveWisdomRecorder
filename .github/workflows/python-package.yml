@@ -26,14 +26,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install pyinstaller sounddevice scipy pydub numpy
 
-      - name: Ensure RECORDINGS directory exists
-        run: |
-          python -c "
-import os
-os.makedirs('RECORDINGS', exist_ok=True)
-print('RECORDINGS directory created (empty)')
-          "
-
       - name: Build with PyInstaller
         shell: bash
         run: |

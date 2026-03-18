@@ -58,7 +58,7 @@ Thumbs.db
 config.json
 
 # All recordings, answers, and generated audio files
-RECORDINGS/*
+RECORDINGS/*/
 
 # Temporary audio files (extra safety net)
 *.wav
