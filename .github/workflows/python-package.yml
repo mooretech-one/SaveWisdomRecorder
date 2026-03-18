@@ -42,6 +42,7 @@ jobs:
             --onedir \
             --name SaveWisdomRecorder \
             --add-data "QUESTIONS${SEP}QUESTIONS" \
+            --add-data "RECORDINGS${SEP}RECORDINGS" \
             --collect-all sounddevice \
             --collect-all numpy \
             --collect-all scipy \
