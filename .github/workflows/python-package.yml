@@ -37,14 +37,23 @@ jobs:
         run: |
           if [[ "${{ matrix.os }}" == "windows-latest" ]]; then
             SEP=";"
+            # Bundle the exact PortAudio DLLs that sounddevice ships on Windows
+            SD_PATH=$(python -c "
+import os
+import _sounddevice_data
+print(os.path.dirname(_sounddevice_data.__file__))
+            ")
+            EXTRA="--add-data \"${SD_PATH}${SEP}_sounddevice_data\""
           else
             SEP=":"
+            EXTRA=""
           fi
 
           pyinstaller \
             --onedir \
             --name SaveWisdomRecorder \
             --add-data "QUESTIONS${SEP}QUESTIONS" \
+            $EXTRA \
             --contents-directory . \
             --hidden-import sounddevice \
             --hidden-import pydub \
