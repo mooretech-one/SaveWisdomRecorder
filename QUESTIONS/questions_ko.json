@@ -1,0 +1,5002 @@
+[
+  {
+    "number": 1,
+    "english": "What is your most treasured childhood memory?",
+    "translated": "당신의 가장 소중한 어린 시절 기억은 무엇입니까?"
+  },
+  {
+    "number": 2,
+    "english": "Who had the most influence on you as a child, and what did you learn from them?",
+    "translated": "어렸을 때 당신에게 가장 큰 영향을 준 사람은 누구였으며, 그 사람에게서 무엇을 배웠나요?"
+  },
+  {
+    "number": 3,
+    "english": "If you could give one piece of advice to your younger self, what would it be?",
+    "translated": "어린 나에게 한 가지 조언을 해준다면 어떤 것이 있을까요?"
+  },
+  {
+    "number": 4,
+    "english": "How did your childhood environment shape your worldview?",
+    "translated": "당신의 어린 시절 환경이 당신의 세계관을 어떻게 형성했습니까?"
+  },
+  {
+    "number": 5,
+    "english": "What was your family dynamic like growing up, and how did it affect you later in life?",
+    "translated": "성장하면서 가족의 역동성은 어땠으며, 그것이 나중에 인생에 어떤 영향을 미쳤나요?"
+  },
+  {
+    "number": 6,
+    "english": "What do you think your younger self would be most surprised by about your life today?",
+    "translated": "당신의 어린 시절이 오늘 당신의 삶에서 가장 놀랄 것이라고 생각하는 것은 무엇입니까?"
+  },
+  {
+    "number": 7,
+    "english": "How did you cope with challenges or adversity in your childhood?",
+    "translated": "어린 시절의 어려움이나 역경에 어떻게 대처하셨나요?"
+  },
+  {
+    "number": 8,
+    "english": "What core values were instilled in you at a young age?",
+    "translated": "어린 나이에 당신에게 심어진 핵심 가치는 무엇입니까?"
+  },
+  {
+    "number": 9,
+    "english": "When did you first realize that adults don’t have all the answers?",
+    "translated": "어른들이 모든 답을 갖고 있지는 않다는 사실을 언제 처음 깨달았나요?"
+  },
+  {
+    "number": 10,
+    "english": "What role did siblings or close relatives play in your early development?",
+    "translated": "당신의 초기 발달 과정에서 형제자매나 가까운 친척은 어떤 역할을 했나요?"
+  },
+  {
+    "number": 11,
+    "english": "When you were little, what did you dream of becoming when you grew up?",
+    "translated": "어렸을 때, 커서 무엇이 되고 싶은 꿈이 있었나요?"
+  },
+  {
+    "number": 12,
+    "english": "What was your relationship like with your parents or primary caregivers?",
+    "translated": "부모님이나 주 양육자와의 관계는 어땠나요?"
+  },
+  {
+    "number": 13,
+    "english": "How do you think your upbringing influences the way you approach relationships now?",
+    "translated": "당신의 성장이 현재 관계에 접근하는 방식에 어떤 영향을 미친다고 생각하시나요?"
+  },
+  {
+    "number": 14,
+    "english": "Were there any traditions in your childhood that you hope to pass on to future generations?",
+    "translated": "당신의 어린 시절, 미래 세대에게 물려주고 싶은 전통이 있었나요?"
+  },
+  {
+    "number": 15,
+    "english": "What did you most appreciate about your parents’ approach to parenting?",
+    "translated": "부모님의 양육 방식에 대해 가장 감사하게 생각하는 점은 무엇입니까?"
+  },
+  {
+    "number": 16,
+    "english": "Were there any false beliefs you absorbed in childhood that you later had to let go of?",
+    "translated": "어린 시절에 흡수했지만 나중에 버려야 했던 잘못된 믿음이 있었나요?"
+  },
+  {
+    "number": 17,
+    "english": "Which childhood friendships influenced you the most, and why?",
+    "translated": "어린 시절의 어떤 우정이 당신에게 가장 큰 영향을 미쳤으며, 그 이유는 무엇입니까?"
+  },
+  {
+    "number": 18,
+    "english": "How did you handle fears or nightmares as a child?",
+    "translated": "어렸을 때 두려움이나 악몽을 어떻게 처리했습니까?"
+  },
+  {
+    "number": 19,
+    "english": "What was your favorite place to escape to or play in as a kid?",
+    "translated": "어렸을 때 가장 좋아했던 탈출 장소는 어디였나요?"
+  },
+  {
+    "number": 20,
+    "english": "Did you have a role model or idol when you were young? Why that person?",
+    "translated": "어렸을 때 롤모델이나 아이돌이 있었나요?그 사람이 왜요?"
+  },
+  {
+    "number": 21,
+    "english": "How were mistakes or failures treated in your family growing up?",
+    "translated": "당신의 가족은 자라면서 실수나 실패를 어떻게 다루었나요?"
+  },
+  {
+    "number": 22,
+    "english": "Did you ever have a secret hiding spot as a child? Where and why?",
+    "translated": "어렸을 때 비밀리에 숨어 있던 장소가 있었나요?어디서, 왜?"
+  },
+  {
+    "number": 23,
+    "english": "What’s a funny or embarrassing story from your early years?",
+    "translated": "당신의 어린 시절에 있었던 재미있거나 창피한 이야기는 무엇입니까?"
+  },
+  {
+    "number": 24,
+    "english": "Which family member or close adult made you feel safest as a child? How?",
+    "translated": "어렸을 때 가장 안전하다고 느꼈던 가족이나 가까운 어른은 누구입니까?어떻게?"
+  },
+  {
+    "number": 25,
+    "english": "How did your parents or caregivers discipline you, and what did you learn from it?",
+    "translated": "당신의 부모님이나 보호자는 당신을 어떻게 징계했으며, 그로부터 무엇을 배웠습니까?"
+  },
+  {
+    "number": 26,
+    "english": "Did your family talk openly about feelings and conflicts, or was it avoided?",
+    "translated": "당신의 가족은 감정과 갈등에 대해 공개적으로 이야기했습니까, 아니면 회피했습니까?"
+  },
+  {
+    "number": 27,
+    "english": "When did you first feel truly independent or “grown up”?",
+    "translated": "언제 처음으로 진정으로 독립했거나 \"성장했다\"고 느꼈습니까?"
+  },
+  {
+    "number": 28,
+    "english": "In what ways do you see your childhood self reflected in who you are today?",
+    "translated": "당신의 어린 시절의 자아가 현재의 당신에게 어떻게 반영되어 있다고 생각하시나요?"
+  },
+  {
+    "number": 29,
+    "english": "If you could preserve one childhood experience in a time capsule, what would it be?",
+    "translated": "어린 시절의 경험 하나를 타임캡슐에 담을 수 있다면 그것은 무엇일까요?"
+  },
+  {
+    "number": 30,
+    "english": "How did you handle disappointment or rejection as a child?",
+    "translated": "어렸을 때 실망이나 거절을 어떻게 처리하셨나요?"
+  },
+  {
+    "number": 31,
+    "english": "Were there major family hardships that shaped your resilience?",
+    "translated": "당신의 회복력을 형성하는 데 큰 가족의 어려움이 있었습니까?"
+  },
+  {
+    "number": 32,
+    "english": "What messages about love did you learn from observing your parents’ relationship?",
+    "translated": "부모님의 관계를 관찰하면서 사랑에 대한 어떤 메시지를 배웠나요?"
+  },
+  {
+    "number": 33,
+    "english": "Did you have any mentors or teachers who deeply influenced you in your youth?",
+    "translated": "어린 시절 당신에게 깊은 영향을 준 멘토나 선생님이 있었나요?"
+  },
+  {
+    "number": 34,
+    "english": "What’s your earliest memory of feeling proud of yourself?",
+    "translated": "자신에 대해 자부심을 느꼈던 가장 초기의 기억은 무엇입니까?"
+  },
+  {
+    "number": 35,
+    "english": "How did your cultural or religious background inform your childhood experiences?",
+    "translated": "귀하의 문화적 또는 종교적 배경이 귀하의 어린 시절 경험에 어떤 영향을 미쳤습니까?"
+  },
+  {
+    "number": 36,
+    "english": "What hobby or activity brought you the most joy when you were young?",
+    "translated": "어렸을 때 가장 즐거웠던 취미나 활동은 무엇입니까?"
+  },
+  {
+    "number": 37,
+    "english": "Did you ever feel misunderstood by adults when you were growing up? About what?",
+    "translated": "여러분은 자라면서 어른들로부터 오해를 받은 적이 있나요?무엇에 대해서?"
+  },
+  {
+    "number": 38,
+    "english": "What childhood fears did you eventually outgrow, and how?",
+    "translated": "당신은 어린 시절 어떤 두려움을 결국 극복했으며, 어떻게 극복했습니까?"
+  },
+  {
+    "number": 39,
+    "english": "How did you navigate conflicts with siblings or neighborhood friends?",
+    "translated": "형제자매나 동네 친구와의 갈등은 어떻게 해결하셨나요?"
+  },
+  {
+    "number": 40,
+    "english": "What is something about your childhood you never fully appreciated until adulthood?",
+    "translated": "성인이 될 때까지 충분히 이해하지 못한 어린 시절의 어떤 점이 있습니까?"
+  },
+  {
+    "number": 41,
+    "english": "How has your perspective on your parents changed as you became an adult?",
+    "translated": "어른이 되면서 부모님을 바라보는 관점이 어떻게 바뀌었나요?"
+  },
+  {
+    "number": 42,
+    "english": "What was a defining moment of your adolescence that shaped your identity?",
+    "translated": "당신의 정체성을 형성한 청소년기의 결정적인 순간은 언제였나요?"
+  },
+  {
+    "number": 43,
+    "english": "How did you respond to peer pressure as a teenager?",
+    "translated": "십대 시절에 친구들의 압력에 어떻게 반응했습니까?"
+  },
+  {
+    "number": 44,
+    "english": "Were you free to explore your interests, or were there constraints?",
+    "translated": "관심분야를 자유롭게 탐색할 수 있었나요, 아니면 제약이 있었나요?"
+  },
+  {
+    "number": 45,
+    "english": "How important were grades or achievement in your household?",
+    "translated": "귀하의 가정에서는 성적이나 성취가 얼마나 중요했습니까?"
+  },
+  {
+    "number": 46,
+    "english": "How did your family handle money or financial discussions growing up?",
+    "translated": "당신의 가족은 자라면서 돈이나 재정적 논의를 어떻게 처리했습니까?"
+  },
+  {
+    "number": 47,
+    "english": "What family traditions or holiday customs were most meaningful to you?",
+    "translated": "어떤 가족 전통이나 명절 풍습이 당신에게 가장 의미가 있었나요?"
+  },
+  {
+    "number": 48,
+    "english": "Did you ever rebel against your parents? In what way?",
+    "translated": "부모님에게 반항한 적 있나요?어떤 방법으로?"
+  },
+  {
+    "number": 49,
+    "english": "What was your biggest insecurity during adolescence?",
+    "translated": "청소년기 동안 가장 큰 불안감은 무엇이었나요?"
+  },
+  {
+    "number": 50,
+    "english": "How do you think your childhood shaped your approach to conflict resolution?",
+    "translated": "당신의 어린 시절이 갈등 해결에 대한 접근 방식에 어떤 영향을 미쳤다고 생각하시나요?"
+  },
+  {
+    "number": 51,
+    "english": "What was the funniest or strangest childhood misunderstanding you recall?",
+    "translated": "당신이 기억하는 가장 재미있거나 이상한 어린 시절의 오해는 무엇이었나요?"
+  },
+  {
+    "number": 52,
+    "english": "Were you encouraged to express your emotions openly, or taught to keep them private?",
+    "translated": "자신의 감정을 공개적으로 표현하도록 격려받았나요, 아니면 감정을 비공개로 유지하도록 배웠나요?"
+  },
+  {
+    "number": 53,
+    "english": "What was the most difficult conversation you ever had with a parent or caregiver?",
+    "translated": "부모나 보호자와 나눈 대화 중 가장 어려웠던 대화는 무엇이었습니까?"
+  },
+  {
+    "number": 54,
+    "english": "How did you handle transitions like moving or changing schools as a kid?",
+    "translated": "어렸을 때 학교를 옮기거나 옮기는 등의 전환기를 어떻게 처리하셨나요?"
+  },
+  {
+    "number": 55,
+    "english": "What role did grandparents or extended family play in your early life?",
+    "translated": "당신의 어린 시절에 조부모나 대가족은 어떤 역할을 했습니까?"
+  },
+  {
+    "number": 56,
+    "english": "Did you ever witness acts of kindness in your family that shaped your moral compass?",
+    "translated": "당신의 도덕적 기준을 형성한 가족의 친절한 행동을 본 적이 있습니까?"
+  },
+  {
+    "number": 57,
+    "english": "What is something your parents did that you swore never to repeat, and why?",
+    "translated": "부모님이 다시는 반복하지 않겠다고 맹세했던 일이 무엇이며, 그 이유는 무엇입니까?"
+  },
+  {
+    "number": 58,
+    "english": "How did you define success as a child, and how has it evolved?",
+    "translated": "어렸을 때 성공을 어떻게 정의했으며, 그것이 어떻게 발전해 왔나요?"
+  },
+  {
+    "number": 59,
+    "english": "Which childhood friend do you most wish you could reconnect with, and why?",
+    "translated": "가장 다시 만나고 싶은 어린 시절 친구는 누구이며, 그 이유는 무엇입니까?"
+  },
+  {
+    "number": 60,
+    "english": "How did you navigate bullying or teasing, if it occurred?",
+    "translated": "괴롭힘이나 놀림이 발생했다면 어떻게 대처했습니까?"
+  },
+  {
+    "number": 61,
+    "english": "What’s your earliest memory of feeling creative or imaginative?",
+    "translated": "창의적이거나 상상력이 풍부하다고 느꼈던 가장 초기의 기억은 무엇입니까?"
+  },
+  {
+    "number": 62,
+    "english": "How did you use storytelling or pretend play to make sense of the world?",
+    "translated": "세상을 이해하기 위해 스토리텔링이나 가상 놀이를 어떻게 사용하셨나요?"
+  },
+  {
+    "number": 63,
+    "english": "Did you move often or stay in one place? How did that impact you?",
+    "translated": "자주 이사했거나 한 곳에 머물렀습니까?그것이 당신에게 어떤 영향을 미쳤나요?"
+  },
+  {
+    "number": 64,
+    "english": "How did your relationship with your body develop during your youth?",
+    "translated": "젊었을 때 신체와의 관계는 어떻게 발전했습니까?"
+  },
+  {
+    "number": 65,
+    "english": "What misconceptions did you have about adulthood when you were little?",
+    "translated": "어렸을 때 어른이 되는 것에 대해 어떤 오해를 갖고 있었나요?"
+  },
+  {
+    "number": 66,
+    "english": "If you could relive one day from your childhood, which day would it be and why?",
+    "translated": "어린 시절의 어느 날을 다시 경험할 수 있다면, 그 날은 언제이고 그 이유는 무엇입니까?"
+  },
+  {
+    "number": 67,
+    "english": "What lessons did you learn from any childhood pets you had?",
+    "translated": "어린 시절 키웠던 애완동물로부터 어떤 교훈을 얻었나요?"
+  },
+  {
+    "number": 68,
+    "english": "Did your family emphasize independence or closeness? How did that shape you?",
+    "translated": "당신의 가족은 독립성이나 친밀감을 강조했습니까?그것이 당신을 어떻게 만들었나요?"
+  },
+  {
+    "number": 69,
+    "english": "What responsibilities or chores were you given, and how did you feel about them?",
+    "translated": "어떤 책임이나 집안일을 맡았으며, 그에 대해 어떻게 느꼈나요?"
+  },
+  {
+    "number": 70,
+    "english": "How did you react to big world events you heard about as a child?",
+    "translated": "어렸을 때 들었던 큰 세계 사건에 어떻게 반응했습니까?"
+  },
+  {
+    "number": 71,
+    "english": "What’s a skill you learned at a young age that you still use today?",
+    "translated": "어렸을 때 배운 기술 중 오늘날에도 여전히 사용하고 있는 기술은 무엇입니까?"
+  },
+  {
+    "number": 72,
+    "english": "Who were your childhood heroes outside of your family?",
+    "translated": "가족 외에 어린 시절 영웅은 누구였습니까?"
+  },
+  {
+    "number": 73,
+    "english": "What do you wish adults had explained more honestly when you were young?",
+    "translated": "어렸을 때 어른들이 무엇을 좀 더 솔직하게 설명했으면 좋았을 까요?"
+  },
+  {
+    "number": 74,
+    "english": "How did you handle disagreements with adults when you believed you were right?",
+    "translated": "자신이 옳다고 믿었을 때 어른들과의 의견 차이를 어떻게 처리했습니까?"
+  },
+  {
+    "number": 75,
+    "english": "Did you have enough unstructured playtime, and how did it affect your imagination?",
+    "translated": "체계화되지 않은 놀이 시간을 충분히 가졌고, 그것이 당신의 상상력에 어떤 영향을 미쳤나요?"
+  },
+  {
+    "number": 76,
+    "english": "When did you first learn about mortality or the idea that people die?",
+    "translated": "인간이 죽는다는 생각이나 죽음에 대해 처음 알게 된 때는 언제였나요?"
+  },
+  {
+    "number": 77,
+    "english": "What was your greatest fear growing up, and how did you cope with it?",
+    "translated": "자라면서 가장 두려웠던 점은 무엇이었고, 그것에 어떻게 대처하셨나요?"
+  },
+  {
+    "number": 78,
+    "english": "What is a childhood accomplishment you still feel proud of?",
+    "translated": "아직도 자랑스러워하는 어린 시절의 성취는 무엇입니까?"
+  },
+  {
+    "number": 79,
+    "english": "How did you typically spend long breaks like summer vacation?",
+    "translated": "여름방학 등 긴 휴가는 주로 어떻게 보내셨나요?"
+  },
+  {
+    "number": 80,
+    "english": "Which movie, TV show, or book strongly influenced your childhood outlook?",
+    "translated": "어떤 영화, TV 프로그램 또는 책이 당신의 어린 시절 전망에 큰 영향을 미쳤습니까?"
+  },
+  {
+    "number": 81,
+    "english": "Which teacher’s praise or critique stuck with you the most, and why?",
+    "translated": "어떤 선생님의 칭찬이나 비평이 가장 마음에 와닿나요? 그리고 그 이유는 무엇인가요?"
+  },
+  {
+    "number": 82,
+    "english": "How did your family show compassion in everyday life?",
+    "translated": "당신의 가족은 일상생활에서 어떻게 동정심을 나타냈나요?"
+  },
+  {
+    "number": 83,
+    "english": "Did you naturally gravitate toward leadership or group activities as a kid?",
+    "translated": "어렸을 때 자연스럽게 리더십이나 그룹 활동에 끌렸나요?"
+  },
+  {
+    "number": 84,
+    "english": "What was your favorite family meal or recipe, and why do you remember it so fondly?",
+    "translated": "가장 좋아하는 가족 식사나 요리법은 무엇이었으며, 왜 그렇게 다정하게 기억하시나요?"
+  },
+  {
+    "number": 85,
+    "english": "How did you navigate friendships across social or cultural differences as a child?",
+    "translated": "어렸을 때 사회적, 문화적 차이를 뛰어넘어 어떻게 우정을 쌓았나요?"
+  },
+  {
+    "number": 86,
+    "english": "When did you first become aware of your family’s social or economic status?",
+    "translated": "귀하는 귀하의 가족의 사회적, 경제적 지위를 언제 처음 알게 되었습니까?"
+  },
+  {
+    "number": 87,
+    "english": "How were milestones like birthdays or graduations celebrated in your household?",
+    "translated": "귀하의 가정에서는 생일이나 졸업식과 같은 기념일을 어떻게 기념했습니까?"
+  },
+  {
+    "number": 88,
+    "english": "Did you have a bedtime ritual or routine that comforted you?",
+    "translated": "당신에게 위안이 되는 취침 시간 의식이나 루틴이 있었나요?"
+  },
+  {
+    "number": 89,
+    "english": "Was there a subject in school where you felt either especially gifted or very behind?",
+    "translated": "학교에서 특별히 재능이 있거나 매우 뒤처졌다고 느꼈던 과목이 있었나요?"
+  },
+  {
+    "number": 90,
+    "english": "How did your childhood shape your sense of fairness and justice?",
+    "translated": "당신의 어린 시절은 당신의 공정성과 정의에 대한 감각을 어떻게 형성했습니까?"
+  },
+  {
+    "number": 91,
+    "english": "If you have siblings, how did birth order affect your responsibilities or identity?",
+    "translated": "형제자매가 있는 경우, 출생 순서가 귀하의 책임이나 정체성에 어떤 영향을 미쳤습니까?"
+  },
+  {
+    "number": 92,
+    "english": "What was your favorite way to spend alone time as a kid?",
+    "translated": "어렸을 때 혼자 시간을 보내는 가장 좋아하는 방법은 무엇이었나요?"
+  },
+  {
+    "number": 93,
+    "english": "In what ways did you seek acceptance or validation from your family members?",
+    "translated": "어떤 방법으로 가족으로부터 인정이나 확인을 구했습니까?"
+  },
+  {
+    "number": 94,
+    "english": "How did you handle secrets or personal information with childhood friends?",
+    "translated": "소꿉친구와의 비밀이나 개인정보는 어떻게 처리하셨나요?"
+  },
+  {
+    "number": 95,
+    "english": "What was the biggest conflict you remember among siblings or family, and how was it resolved?",
+    "translated": "귀하가 기억하는 형제자매, 가족간 갈등 중 가장 큰 갈등은 무엇이며, 어떻게 해결하였습니까?"
+  },
+  {
+    "number": 96,
+    "english": "How did you imagine adult life, and what’s different now that you’re older?",
+    "translated": "어른의 삶을 어떻게 상상하셨나요? 그리고 나이가 들수록 달라진 점은 무엇인가요?"
+  },
+  {
+    "number": 97,
+    "english": "What do you wish you had asked an older relative before they passed away?",
+    "translated": "나이 많은 친척이 세상을 떠나기 전에 무엇을 물어봤더라면 좋았을 까요?"
+  },
+  {
+    "number": 98,
+    "english": "How did your parents’ or caregivers’ work ethics shape your own?",
+    "translated": "당신의 부모님이나 보호자의 직업 윤리가 당신의 직업 윤리를 어떻게 형성했습니까?"
+  },
+  {
+    "number": 99,
+    "english": "What lessons about love and boundaries did you learn from your family environment?",
+    "translated": "가족 환경에서 사랑과 경계에 대해 어떤 교훈을 배웠습니까?"
+  },
+  {
+    "number": 100,
+    "english": "If you are a parent, how has your own childhood influenced your parenting style?",
+    "translated": "당신이 부모라면, 당신의 어린 시절이 당신의 양육 스타일에 어떤 영향을 미쳤습니까?"
+  },
+  {
+    "number": 101,
+    "english": "How would you define your core values at this stage in life?",
+    "translated": "인생의 이 단계에서 당신의 핵심 가치를 어떻게 정의하시겠습니까?"
+  },
+  {
+    "number": 102,
+    "english": "Which personal beliefs anchor the way you make everyday decisions?",
+    "translated": "일상적인 결정을 내리는 방식에 영향을 미치는 개인적 신념은 무엇입니까?"
+  },
+  {
+    "number": 103,
+    "english": "How have your values evolved since you were a teenager?",
+    "translated": "십대 시절 이후로 당신의 가치관은 어떻게 발전해 왔나요?"
+  },
+  {
+    "number": 104,
+    "english": "What’s one belief you once held that you’ve since had to unlearn or revise?",
+    "translated": "당신이 한때 믿었으나 그 이후로 배우지 않거나 수정해야 했던 믿음 한 가지는 무엇입니까?"
+  },
+  {
+    "number": 105,
+    "english": "Do you feel your beliefs align with your daily actions? Why or why not?",
+    "translated": "당신의 신념이 일상적인 행동과 일치한다고 생각하시나요?왜 아니면 안되나요?"
+  },
+  {
+    "number": 106,
+    "english": "How do you decide what is fundamentally “right” or “wrong”?",
+    "translated": "근본적으로 \"옳은 것\"과 \"그른 것\"이 무엇인지 어떻게 결정합니까?"
+  },
+  {
+    "number": 107,
+    "english": "Which life events most significantly challenged your personal values?",
+    "translated": "귀하의 개인적인 가치관에 가장 큰 영향을 미친 인생 사건은 무엇입니까?"
+  },
+  {
+    "number": 108,
+    "english": "Who or what influenced your moral compass the most when you were growing up?",
+    "translated": "당신이 성장할 때 도덕적 나침반에 가장 큰 영향을 준 사람은 누구입니까?"
+  },
+  {
+    "number": 109,
+    "english": "Do you believe people can hold completely opposite values yet still respect each other?",
+    "translated": "사람들이 완전히 반대되는 가치관을 갖고 있으면서도 여전히 서로를 존중할 수 있다고 생각하시나요?"
+  },
+  {
+    "number": 110,
+    "english": "How do you respond internally when your values are challenged by someone you respect?",
+    "translated": "당신이 존경하는 사람이 당신의 가치관에 도전할 때 내부적으로 어떻게 대응하시나요?"
+  },
+  {
+    "number": 111,
+    "english": "Have you ever compromised your values under pressure? What did you learn from that?",
+    "translated": "압력을 받아 가치관을 타협한 적이 있습니까?그로부터 무엇을 배웠나요?"
+  },
+  {
+    "number": 112,
+    "english": "What role does integrity play in how you define success?",
+    "translated": "성공을 정의하는 데 있어서 정직성은 어떤 역할을 합니까?"
+  },
+  {
+    "number": 113,
+    "english": "How do you balance self-interest with concern for the greater good?",
+    "translated": "더 큰 이익을 위한 관심과 자기 이익 사이의 균형을 어떻게 유지합니까?"
+  },
+  {
+    "number": 114,
+    "english": "In what ways do your values shape your approach to friendship and loyalty?",
+    "translated": "당신의 가치관은 우정과 충성심에 대한 접근 방식을 어떤 방식으로 형성합니까?"
+  },
+  {
+    "number": 115,
+    "english": "What personal principle would you never be willing to abandon?",
+    "translated": "당신이 결코 포기하고 싶지 않은 개인적인 원칙은 무엇입니까?"
+  },
+  {
+    "number": 116,
+    "english": "How do you differentiate between a preference and a core value?",
+    "translated": "선호도와 핵심가치를 어떻게 구별하나요?"
+  },
+  {
+    "number": 117,
+    "english": "When was the last time you had to stand up for a moral principle, despite discomfort?",
+    "translated": "불편함에도 불구하고 마지막으로 도덕적 원칙을 옹호해야 했던 때는 언제였습니까?"
+  },
+  {
+    "number": 118,
+    "english": "How do you handle value conflicts within your family or community?",
+    "translated": "가족이나 지역 사회 내에서 가치 갈등을 어떻게 처리합니까?"
+  },
+  {
+    "number": 119,
+    "english": "Do you believe that values must remain fixed, or can they evolve over time?",
+    "translated": "가치는 고정되어 있어야 한다고 생각하시나요, 아니면 시간이 지남에 따라 진화할 수 있다고 생각하시나요?"
+  },
+  {
+    "number": 120,
+    "english": "Which of your values have been tested the most in romantic relationships?",
+    "translated": "당신의 가치 중 어떤 가치가 연애 관계에서 가장 많이 테스트되었습니까?"
+  },
+  {
+    "number": 121,
+    "english": "How do you decide when to forgive versus when to protect yourself?",
+    "translated": "용서해야 할 때와 자신을 보호해야 할 때를 어떻게 결정합니까?"
+  },
+  {
+    "number": 122,
+    "english": "What does authenticity look like in living out your values every day?",
+    "translated": "매일 당신의 가치를 실천하는 데 있어 진정성은 어떤 모습일까요?"
+  },
+  {
+    "number": 123,
+    "english": "How do you recognize when your values are shifting or growing?",
+    "translated": "당신의 가치관이 변화하거나 성장하는 것을 어떻게 인식합니까?"
+  },
+  {
+    "number": 124,
+    "english": "In what ways do your values inform your sense of purpose in life?",
+    "translated": "당신의 가치관은 어떤 방식으로 인생의 목적에 영향을 미치나요?"
+  },
+  {
+    "number": 125,
+    "english": "How do you reconcile differences between your personal beliefs and societal norms?",
+    "translated": "개인적인 신념과 사회적 규범 사이의 차이점을 어떻게 조정합니까?"
+  },
+  {
+    "number": 126,
+    "english": "What role does empathy play in forming your moral and ethical worldview?",
+    "translated": "당신의 도덕적, 윤리적 세계관을 형성하는 데 공감은 어떤 역할을 합니까?"
+  },
+  {
+    "number": 127,
+    "english": "Which historical figures do you admire for their values-based leadership?",
+    "translated": "가치 기반 리더십으로 존경하는 역사적 인물은 누구입니까?"
+  },
+  {
+    "number": 128,
+    "english": "How do you ensure that your actions reflect compassion as one of your values?",
+    "translated": "당신의 행동이 당신의 가치 중 하나로 연민을 반영하도록 어떻게 보장합니까?"
+  },
+  {
+    "number": 129,
+    "english": "When faced with a tough choice, do you rely more on logic or on gut feeling?",
+    "translated": "어려운 선택에 직면했을 때 논리에 더 의존하시나요, 아니면 직감에 더 의존하시나요?"
+  },
+  {
+    "number": 130,
+    "english": "What are the top three values that guide your major life decisions?",
+    "translated": "당신의 주요 인생 결정을 이끄는 세 가지 주요 가치는 무엇입니까?"
+  },
+  {
+    "number": 131,
+    "english": "Have you ever felt torn between duty to others and duty to yourself?",
+    "translated": "다른 사람에 대한 의무와 자신에 대한 의무 사이에서 갈등을 느낀 적이 있습니까?"
+  },
+  {
+    "number": 132,
+    "english": "Do you believe moral absolutes exist, or is everything context-dependent?",
+    "translated": "도덕적 절대성이 존재한다고 생각하시나요, 아니면 모든 것이 상황에 따라 다르다고 생각하시나요?"
+  },
+  {
+    "number": 133,
+    "english": "When have you had to speak out against an injustice, and what motivated you to do so?",
+    "translated": "불의에 맞서 목소리를 높여야 했던 때는 언제였으며, 그렇게 하게 된 동기는 무엇입니까?"
+  },
+  {
+    "number": 134,
+    "english": "Which value do you find most challenging to practice consistently?",
+    "translated": "지속적으로 실천하기 가장 어려운 가치는 무엇입니까?"
+  },
+  {
+    "number": 135,
+    "english": "How do you define personal integrity in practical, day-to-day terms?",
+    "translated": "실제적이고 일상적인 용어로 개인의 성실성을 어떻게 정의하십니까?"
+  },
+  {
+    "number": 136,
+    "english": "What boundaries do you set to protect the values you hold dear?",
+    "translated": "당신이 소중히 여기는 가치를 보호하기 위해 어떤 경계를 설정합니까?"
+  },
+  {
+    "number": 137,
+    "english": "How do you communicate your core beliefs in conflicts without alienating others?",
+    "translated": "다른 사람을 소외시키지 않고 갈등에 대한 핵심 신념을 어떻게 전달합니까?"
+  },
+  {
+    "number": 138,
+    "english": "Have your values ever alienated you from a group or community you once belonged to?",
+    "translated": "당신의 가치관이 당신이 한때 속했던 그룹이나 공동체로부터 멀어진 적이 있습니까?"
+  },
+  {
+    "number": 139,
+    "english": "Is there a belief you inherited from family that you’ve consciously worked to reshape?",
+    "translated": "가족으로부터 물려받은 믿음 중 의식적으로 변화시키려고 노력한 것이 있습니까?"
+  },
+  {
+    "number": 140,
+    "english": "What role does honesty play in your closest relationships?",
+    "translated": "정직은 가장 가까운 관계에서 어떤 역할을 합니까?"
+  },
+  {
+    "number": 141,
+    "english": "How do you determine whether a cause or social movement aligns with your values?",
+    "translated": "대의명분이나 사회 운동이 귀하의 가치와 일치하는지 어떻게 판단합니까?"
+  },
+  {
+    "number": 142,
+    "english": "Which teachings or spiritual practices have shaped your ethical framework?",
+    "translated": "어떤 가르침이나 영적 실천이 당신의 윤리적 틀을 형성했습니까?"
+  },
+  {
+    "number": 143,
+    "english": "Do you consider humility a core value? What does humility mean to you in practice?",
+    "translated": "겸손을 핵심 가치로 생각하시나요?실제로 겸손은 당신에게 무엇을 의미합니까?"
+  },
+  {
+    "number": 144,
+    "english": "How do you gauge whether you’re living in alignment with your highest principles?",
+    "translated": "당신이 가장 높은 원칙에 따라 생활하고 있는지 어떻게 측정합니까?"
+  },
+  {
+    "number": 145,
+    "english": "Have your values around work and career changed with different life stages?",
+    "translated": "삶의 단계에 따라 일과 직업에 대한 가치관이 바뀌었나요?"
+  },
+  {
+    "number": 146,
+    "english": "What is your philosophy about sharing resources, like time or money, with those in need?",
+    "translated": "시간이나 돈 같은 자원을 도움이 필요한 사람들과 공유하는 것에 대한 당신의 철학은 무엇입니까?"
+  },
+  {
+    "number": 147,
+    "english": "How do you stay true to yourself in environments that seem to reward compromise?",
+    "translated": "타협을 보상하는 것처럼 보이는 환경에서 어떻게 자신에게 진실을 유지합니까?"
+  },
+  {
+    "number": 148,
+    "english": "Is there a value you’ve discovered only after experiencing failure or regret?",
+    "translated": "실패나 후회를 겪고 나서야 발견한 가치가 있나요?"
+  },
+  {
+    "number": 149,
+    "english": "How have cross-cultural interactions broadened or challenged your beliefs?",
+    "translated": "문화 간 상호 작용이 어떻게 당신의 믿음을 확장하거나 도전했습니까?"
+  },
+  {
+    "number": 150,
+    "english": "When you’re uncertain in a moral dilemma, whose counsel do you trust the most?",
+    "translated": "도덕적 딜레마에 빠졌을 때 누구의 조언을 가장 신뢰합니까?"
+  },
+  {
+    "number": 151,
+    "english": "Do you believe that your beliefs about human nature shape the way you treat people?",
+    "translated": "인간 본성에 대한 당신의 믿음이 당신이 사람들을 대하는 방식을 결정한다고 믿습니까?"
+  },
+  {
+    "number": 152,
+    "english": "What experiences have made you question your assumptions about life?",
+    "translated": "어떤 경험으로 인해 인생에 대한 가정에 의문이 생겼나요?"
+  },
+  {
+    "number": 153,
+    "english": "How does gratitude factor into your sense of right and wrong?",
+    "translated": "감사는 당신의 옳고 그름에 대한 감각에 어떤 영향을 미치나요?"
+  },
+  {
+    "number": 154,
+    "english": "What personal sacrifices are you willing to make for a cause you believe in strongly?",
+    "translated": "당신이 굳게 믿는 대의명분을 위해 개인적으로 어떤 희생을 하시겠습니까?"
+  },
+  {
+    "number": 155,
+    "english": "When have you changed someone else’s perspective, or they changed yours, through discussion?",
+    "translated": "토론을 통해 다른 사람의 관점을 바꾸었거나 다른 사람이 당신의 관점을 바꾸었던 때는 언제입니까?"
+  },
+  {
+    "number": 156,
+    "english": "Do you differentiate between morals, ethics, and values? How so?",
+    "translated": "도덕, 윤리, 가치를 구별합니까?어떻게요?"
+  },
+  {
+    "number": 157,
+    "english": "What role does accountability play in sustaining your core beliefs?",
+    "translated": "귀하의 핵심 신념을 유지하는 데 책임은 어떤 역할을 합니까?"
+  },
+  {
+    "number": 158,
+    "english": "How do you practice self-compassion when you fall short of your own moral standards?",
+    "translated": "자신의 도덕적 기준에 미치지 못할 때 어떻게 자기 연민을 실천합니까?"
+  },
+  {
+    "number": 159,
+    "english": "Are there any contradictions in your values that you’re still working to resolve?",
+    "translated": "당신의 가치관에 아직도 해결하기 위해 노력하고 있는 모순이 있나요?"
+  },
+  {
+    "number": 160,
+    "english": "How do you keep from moralizing or judging others whose values differ from yours?",
+    "translated": "당신과 가치관이 다른 다른 사람들을 도덕적으로 평가하거나 판단하지 않으려면 어떻게 해야 합니까?"
+  },
+  {
+    "number": 161,
+    "english": "In which areas of your life do you feel most at peace with your core values?",
+    "translated": "당신의 삶의 어떤 영역에서 당신의 핵심 가치에 대해 가장 평화로움을 느끼십니까?"
+  },
+  {
+    "number": 162,
+    "english": "How do you stay grounded in who you are when faced with societal or peer pressure?",
+    "translated": "사회적 또는 동료의 압력에 직면했을 때 자신이 누구인지에 대한 확신을 어떻게 유지합니까?"
+  },
+  {
+    "number": 163,
+    "english": "Have you ever completely reinvented your belief system due to a profound life event?",
+    "translated": "당신은 삶의 중대한 사건으로 인해 당신의 신념 체계를 완전히 재창조한 적이 있습니까?"
+  },
+  {
+    "number": 164,
+    "english": "Is there a quote or mantra that encapsulates your personal ethos?",
+    "translated": "당신의 개인적인 정신을 요약한 인용문이나 주문이 있습니까?"
+  },
+  {
+    "number": 165,
+    "english": "How do your values inform your definition of success and achievement?",
+    "translated": "당신의 가치관은 성공과 성취에 대한 정의에 어떻게 영향을 미치나요?"
+  },
+  {
+    "number": 166,
+    "english": "What does “leading by example” mean to you, and how do you strive to do it?",
+    "translated": "“모범을 보인다”는 것은 당신에게 무엇을 의미하며, 이를 위해 어떻게 노력하고 있습니까?"
+  },
+  {
+    "number": 167,
+    "english": "Which of your personal beliefs do you think would surprise your younger self?",
+    "translated": "당신의 개인적인 신념 중 어떤 것이 당신의 어린 시절을 놀라게 할 것이라고 생각합니까?"
+  },
+  {
+    "number": 168,
+    "english": "How important is it to you that your friends share your core values?",
+    "translated": "친구들이 당신의 핵심 가치를 공유하는 것이 당신에게 얼마나 중요합니까?"
+  },
+  {
+    "number": 169,
+    "english": "Do you believe that moral clarity is something one can ever fully achieve?",
+    "translated": "도덕적 명확성은 사람이 완전히 달성할 수 있는 것이라고 믿습니까?"
+  },
+  {
+    "number": 170,
+    "english": "In what ways do your beliefs about spirituality or religion shape your daily actions?",
+    "translated": "영성이나 종교에 대한 당신의 믿음은 어떤 방식으로 당신의 일상 행동을 형성합니까?"
+  },
+  {
+    "number": 171,
+    "english": "When is compromise a virtue, and when is it a betrayal of principle?",
+    "translated": "타협은 언제 미덕이고, 언제 원칙을 배반하는 것입니까?"
+  },
+  {
+    "number": 172,
+    "english": "How do you discern the difference between healthy self-interest and selfishness?",
+    "translated": "건전한 이기심과 이기심의 차이를 어떻게 구별합니까?"
+  },
+  {
+    "number": 173,
+    "english": "Which personal experiences have taught you the value of humility and open-mindedness?",
+    "translated": "겸손과 열린 마음의 가치를 가르쳐 준 개인적인 경험은 무엇입니까?"
+  },
+  {
+    "number": 174,
+    "english": "How do you navigate conflicting advice from people you respect?",
+    "translated": "존경하는 사람들의 상충되는 조언을 어떻게 탐색합니까?"
+  },
+  {
+    "number": 175,
+    "english": "Do you find it easy or difficult to admit when you’ve acted against your values?",
+    "translated": "자신의 가치관에 반하는 행동을 했을 때 인정하기가 쉽나요, 아니면 어렵나요?"
+  },
+  {
+    "number": 176,
+    "english": "In a morally gray situation, how do you find clarity?",
+    "translated": "도덕적으로 암울한 상황에서 명확성을 어떻게 찾을 수 있습니까?"
+  },
+  {
+    "number": 177,
+    "english": "How do you encourage others to stand by their principles without becoming dogmatic?",
+    "translated": "다른 사람들이 독단적이 되지 않고 원칙을 지키도록 어떻게 격려합니까?"
+  },
+  {
+    "number": 178,
+    "english": "What is your process for reevaluating your beliefs when you gain new information?",
+    "translated": "새로운 정보를 얻었을 때 당신의 믿음을 재평가하는 과정은 무엇입니까?"
+  },
+  {
+    "number": 179,
+    "english": "Do you believe that your values should guide every aspect of your life, or can you compartmentalize?",
+    "translated": "당신의 가치관이 삶의 모든 측면을 이끌어야 한다고 생각하시나요, 아니면 분류할 수 있습니까?"
+  },
+  {
+    "number": 180,
+    "english": "How does forgiveness (of yourself or others) factor into living by your values?",
+    "translated": "(자신이나 다른 사람에 대한) 용서는 당신의 가치관에 따라 생활하는 데 어떻게 영향을 미치나요?"
+  },
+  {
+    "number": 181,
+    "english": "How do you react internally when someone misconstrues your beliefs or questions your character?",
+    "translated": "누군가가 당신의 믿음을 오해하거나 당신의 성격에 의문을 제기할 때 내부적으로 어떻게 반응합니까?"
+  },
+  {
+    "number": 182,
+    "english": "When do you find it hardest to be truthful?",
+    "translated": "솔직해지는 것이 가장 어렵다고 생각하는 때는 언제인가요?"
+  },
+  {
+    "number": 183,
+    "english": "How do you handle it when fulfilling a promise to someone else conflicts with your own needs?",
+    "translated": "다른 사람과의 약속을 이행하는 것이 자신의 필요와 충돌할 때 어떻게 처리합니까?"
+  },
+  {
+    "number": 184,
+    "english": "Which virtue—courage, integrity, compassion, or honesty—do you find hardest to uphold?",
+    "translated": "용기, 진실성, 연민, 정직 중 어떤 미덕을 지키기가 가장 어렵습니까?"
+  },
+  {
+    "number": 185,
+    "english": "How do you approach ethical consumerism (e.g., fair trade, sustainability)?",
+    "translated": "윤리적 소비주의(예: 공정 무역, 지속 가능성)에 어떻게 접근하시나요?"
+  },
+  {
+    "number": 186,
+    "english": "Is it possible to remain unbiased while still passionately holding your beliefs?",
+    "translated": "자신의 신념을 열정적으로 지키면서 편견을 갖지 않는 것이 가능합니까?"
+  },
+  {
+    "number": 187,
+    "english": "Have you ever discovered that a core belief was rooted in fear rather than truth?",
+    "translated": "핵심 신념이 진실보다는 두려움에 뿌리를 두고 있다는 사실을 발견한 적이 있습니까?"
+  },
+  {
+    "number": 188,
+    "english": "How do you incorporate reflection or introspection to keep your values front and center?",
+    "translated": "당신의 가치를 최우선으로 유지하기 위해 성찰이나 성찰을 어떻게 통합합니까?"
+  },
+  {
+    "number": 189,
+    "english": "When you fail to live up to your ideals, how do you course-correct?",
+    "translated": "자신의 이상에 부응하지 못할 때 어떻게 진로를 수정합니까?"
+  },
+  {
+    "number": 190,
+    "english": "Do you believe that a shared faith or worldview is crucial in close relationships? Why or why not?",
+    "translated": "긴밀한 관계에서 공유된 신앙이나 세계관이 중요하다고 생각하시나요?왜 아니면 안되나요?"
+  },
+  {
+    "number": 191,
+    "english": "How do you integrate scientific perspectives with moral or spiritual beliefs you hold?",
+    "translated": "과학적 관점을 당신이 갖고 있는 도덕적 또는 영적 신념과 어떻게 통합합니까?"
+  },
+  {
+    "number": 192,
+    "english": "If you had to choose one guiding principle above all others, what would it be and why?",
+    "translated": "다른 모든 것보다 하나의 지침 원칙을 선택해야 한다면 그것은 무엇이며 그 이유는 무엇입니까?"
+  },
+  {
+    "number": 193,
+    "english": "How do you stay open to revising your viewpoints without losing your moral grounding?",
+    "translated": "도덕적 근거를 잃지 않으면서 어떻게 자신의 관점을 수정하는 데 열린 자세를 유지합니까?"
+  },
+  {
+    "number": 194,
+    "english": "Have you found it difficult to maintain your convictions when the cost is high?",
+    "translated": "비용이 많이 들 때 신념을 유지하는 것이 어렵다는 것을 알았습니까?"
+  },
+  {
+    "number": 195,
+    "english": "What’s a moral gray area you used to see as black-and-white, and what changed?",
+    "translated": "흑백으로만 보이던 도덕적 회색지대는 무엇이며, 무엇이 바뀌었나요?"
+  },
+  {
+    "number": 196,
+    "english": "How do you differentiate external influence from your own authentic moral stance?",
+    "translated": "외부 영향과 자신의 진정한 도덕적 입장을 어떻게 구별합니까?"
+  },
+  {
+    "number": 197,
+    "english": "What personal experiences have made you more tolerant or inclusive of opposing views?",
+    "translated": "어떤 개인적인 경험으로 인해 반대 견해에 대해 더 관대해지고 포용적이게 되었습니까?"
+  },
+  {
+    "number": 198,
+    "english": "Do you believe that deep empathy can exist even when values clash significantly?",
+    "translated": "가치관이 심각하게 충돌하는 경우에도 깊은 공감이 존재할 수 있다고 믿습니까?"
+  },
+  {
+    "number": 199,
+    "english": "How have your values about love, family, or community changed over the years?",
+    "translated": "지난 몇 년간 사랑, 가족, 공동체에 대한 당신의 가치관은 어떻게 변했나요?"
+  },
+  {
+    "number": 200,
+    "english": "Looking back, in which moments are you proudest of living up to your core beliefs?",
+    "translated": "돌이켜보면, 핵심 신념에 따라 생활한 것이 가장 자랑스러웠던 순간은 언제입니까?"
+  },
+  {
+    "number": 201,
+    "english": "How do you define a healthy and satisfying relationship?",
+    "translated": "건강하고 만족스러운 관계를 어떻게 정의합니까?"
+  },
+  {
+    "number": 202,
+    "english": "Which qualities do you most value in close friends or romantic partners?",
+    "translated": "가까운 친구나 연애 파트너의 어떤 특성을 가장 중요하게 생각하시나요?"
+  },
+  {
+    "number": 203,
+    "english": "When have you felt most deeply connected to a romantic partner?",
+    "translated": "로맨틱한 파트너와 가장 깊은 유대감을 느꼈던 때는 언제였습니까?"
+  },
+  {
+    "number": 204,
+    "english": "How do you balance your individuality with intimacy in a committed relationship?",
+    "translated": "헌신적인 관계에서 개성과 친밀감의 균형을 어떻게 유지합니까?"
+  },
+  {
+    "number": 205,
+    "english": "What does trust mean to you, and how do you build it with someone new?",
+    "translated": "신뢰는 당신에게 무엇을 의미하며, 새로운 사람과 어떻게 신뢰를 구축합니까?"
+  },
+  {
+    "number": 206,
+    "english": "How do you handle disagreements in a relationship without damaging respect or closeness?",
+    "translated": "존중이나 친밀감을 훼손하지 않고 관계에서 의견 차이를 어떻게 처리합니까?"
+  },
+  {
+    "number": 207,
+    "english": "Do you believe in soulmates or “the one,” or is love about conscious choice?",
+    "translated": "당신은 소울메이트나 \"하나\"를 믿습니까, 아니면 의식적인 선택에 대한 사랑입니까?"
+  },
+  {
+    "number": 208,
+    "english": "How has heartbreak shaped the way you approach love now?",
+    "translated": "상심이 당신이 지금 사랑에 접근하는 방식에 어떤 영향을 미쳤나요?"
+  },
+  {
+    "number": 209,
+    "english": "What are your top emotional needs in a romantic relationship?",
+    "translated": "연애 관계에서 가장 필요한 정서적 욕구는 무엇입니까?"
+  },
+  {
+    "number": 210,
+    "english": "Which past relationship taught you the most about yourself?",
+    "translated": "과거의 어떤 관계가 자신에 대해 가장 많은 것을 가르쳐 주었나요?"
+  },
+  {
+    "number": 211,
+    "english": "How do you express affection or love to a partner?",
+    "translated": "파트너에게 애정이나 사랑을 어떻게 표현합니까?"
+  },
+  {
+    "number": 212,
+    "english": "How do you maintain strong friendships when life pulls people in different directions?",
+    "translated": "인생이 사람들을 다른 방향으로 이끌 때 어떻게 강한 우정을 유지합니까?"
+  },
+  {
+    "number": 213,
+    "english": "What personal boundaries are nonnegotiable for you in intimate relationships?",
+    "translated": "친밀한 관계에서 협상할 수 없는 개인적인 경계는 무엇입니까?"
+  },
+  {
+    "number": 214,
+    "english": "When have you struggled with jealousy, and how did you overcome it?",
+    "translated": "언제 질투심에 시달렸으며, 그것을 어떻게 극복했나요?"
+  },
+  {
+    "number": 215,
+    "english": "How do you rebuild trust once it’s broken in a relationship?",
+    "translated": "관계가 깨졌을 때 어떻게 신뢰를 회복할 수 있나요?"
+  },
+  {
+    "number": 216,
+    "english": "Which communication styles foster deeper understanding and closeness?",
+    "translated": "어떤 의사소통 스타일이 더 깊은 이해와 친밀감을 조성합니까?"
+  },
+  {
+    "number": 217,
+    "english": "How have you navigated cultural or religious differences with someone you loved?",
+    "translated": "사랑하는 사람과의 문화적, 종교적 차이를 어떻게 극복해 보셨나요?"
+  },
+  {
+    "number": 218,
+    "english": "Do you think unconditional love exists? Have you experienced it firsthand?",
+    "translated": "무조건적인 사랑이 존재한다고 생각하시나요?직접 경험해보셨나요?"
+  },
+  {
+    "number": 219,
+    "english": "What role does forgiveness play in long-term relationships?",
+    "translated": "용서는 장기적인 관계에서 어떤 역할을 합니까?"
+  },
+  {
+    "number": 220,
+    "english": "When do you know it’s time to end a relationship or friendship?",
+    "translated": "관계나 우정을 끝내야 할 때라는 것을 언제 아시나요?"
+  },
+  {
+    "number": 221,
+    "english": "How do you show compassion when a loved one is going through a personal crisis?",
+    "translated": "사랑하는 사람이 개인적인 위기를 겪고 있을 때 어떻게 동정심을 나타내나요?"
+  },
+  {
+    "number": 222,
+    "english": "Which romantic gestures make you feel most valued?",
+    "translated": "어떤 로맨틱한 몸짓이 당신을 가장 소중하게 생각하게 만드나요?"
+  },
+  {
+    "number": 223,
+    "english": "How do you keep the romance alive in a long-term partnership?",
+    "translated": "장기적인 파트너십을 통해 로맨스를 어떻게 유지합니까?"
+  },
+  {
+    "number": 224,
+    "english": "How do you approach commitment if you fear losing personal freedom?",
+    "translated": "개인적인 자유를 잃을까 두렵다면 헌신에 어떻게 접근합니까?"
+  },
+  {
+    "number": 225,
+    "english": "Do you believe shared faith or worldview is crucial in romantic partnerships? Why or why not?",
+    "translated": "공유된 믿음이나 세계관이 낭만적인 파트너십에 중요하다고 생각하시나요?왜 아니면 안되나요?"
+  },
+  {
+    "number": 226,
+    "english": "When have you put someone else’s needs above your own for the sake of love?",
+    "translated": "사랑을 위해 다른 사람의 필요를 자신보다 먼저 생각한 적이 언제입니까?"
+  },
+  {
+    "number": 227,
+    "english": "How do you handle mismatched expectations with a partner or friend?",
+    "translated": "파트너나 친구와의 불일치하는 기대를 어떻게 처리합니까?"
+  },
+  {
+    "number": 228,
+    "english": "In relationships, do you find it harder to give or receive love? Why?",
+    "translated": "관계에서 사랑을 주고받는 것이 더 어렵다고 생각하시나요?왜?"
+  },
+  {
+    "number": 229,
+    "english": "What lessons about love did you learn from observing your parents?",
+    "translated": "부모님을 관찰하면서 사랑에 관해 어떤 교훈을 배웠나요?"
+  },
+  {
+    "number": 230,
+    "english": "When you feel lonely in a relationship, how do you address that gap?",
+    "translated": "인간관계에서 외로움을 느낄 때 그 격차를 어떻게 해소합니까?"
+  },
+  {
+    "number": 231,
+    "english": "How do you express empathy when someone shares painful experiences with you?",
+    "translated": "누군가가 당신과 고통스러운 경험을 공유할 때 어떻게 공감을 표현합니까?"
+  },
+  {
+    "number": 232,
+    "english": "Which love languages resonate most with you, and how do you communicate them?",
+    "translated": "당신에게 가장 공감되는 사랑의 언어는 무엇이며, 그것을 어떻게 전달합니까?"
+  },
+  {
+    "number": 233,
+    "english": "What are your top priorities when looking for a life partner?",
+    "translated": "인생의 동반자를 찾을 때 가장 우선순위는 무엇입니까?"
+  },
+  {
+    "number": 234,
+    "english": "How do you maintain healthy friendships with people whose beliefs differ significantly from yours?",
+    "translated": "당신과 신앙이 크게 다른 사람들과 건전한 우정을 유지하려면 어떻게 해야 합니까?"
+  },
+  {
+    "number": 235,
+    "english": "When is it most difficult for you to be vulnerable with someone you love?",
+    "translated": "사랑하는 사람과 함께 취약해질 때 가장 힘든 때는 언제입니까?"
+  },
+  {
+    "number": 236,
+    "english": "Have you ever regretted ending a relationship? What did you learn about that regret?",
+    "translated": "연애를 끝내고 후회한 적 있나요?그 후회에 대해 무엇을 배웠나요?"
+  },
+  {
+    "number": 237,
+    "english": "How do you approach conflict with loved ones if you dislike confrontation?",
+    "translated": "대결을 싫어한다면 사랑하는 사람과의 갈등에 어떻게 접근합니까?"
+  },
+  {
+    "number": 238,
+    "english": "What friendships have shaped your view of loyalty and support?",
+    "translated": "어떤 우정이 충성심과 지지에 대한 당신의 견해를 형성했습니까?"
+  },
+  {
+    "number": 239,
+    "english": "How do you handle it when a friend or partner needs emotional support you’re not sure you can give?",
+    "translated": "당신이 줄 수 있을지 확신할 수 없는 친구나 파트너가 정서적 지원을 필요로 할 때 어떻게 처리합니까?"
+  },
+  {
+    "number": 240,
+    "english": "Which experiences taught you to be more open-minded about who you choose to love?",
+    "translated": "어떤 경험을 통해 당신이 누구를 사랑하기로 선택했는지에 대해 좀 더 열린 마음을 갖게 되었나요?"
+  },
+  {
+    "number": 241,
+    "english": "When has a friendship blossomed into something deeper?",
+    "translated": "언제 우정이 더 깊어졌나요?"
+  },
+  {
+    "number": 242,
+    "english": "How do you nurture closeness with friends who live far away?",
+    "translated": "멀리 사는 친구들과 어떻게 친밀감을 키우나요?"
+  },
+  {
+    "number": 243,
+    "english": "What do you find most challenging about maintaining long-distance relationships?",
+    "translated": "장거리 관계를 유지하는 데 있어서 가장 어려운 점은 무엇입니까?"
+  },
+  {
+    "number": 244,
+    "english": "When do you feel safest opening up about your struggles or insecurities?",
+    "translated": "당신의 어려움이나 불안감을 털어놓는 것이 가장 안전하다고 느끼는 때는 언제입니까?"
+  },
+  {
+    "number": 245,
+    "english": "In what ways can conflict, when handled well, strengthen a relationship?",
+    "translated": "갈등을 잘 처리하면 어떤 방식으로 관계가 강화될 수 있습니까?"
+  },
+  {
+    "number": 246,
+    "english": "How do you identify “red flags” early in a relationship or friendship?",
+    "translated": "관계나 우정 초기에 \"위험 신호\"를 어떻게 식별합니까?"
+  },
+  {
+    "number": 247,
+    "english": "Do you believe relationships should be easy, or do they inherently require work?",
+    "translated": "관계가 쉬워야 한다고 생각하시나요, 아니면 본질적으로 노력이 필요하다고 생각하시나요?"
+  },
+  {
+    "number": 248,
+    "english": "How do you make time for friendships and romance in a busy life?",
+    "translated": "바쁜 생활 속에서 우정과 로맨스를 위한 시간을 어떻게 만드나요?"
+  },
+  {
+    "number": 249,
+    "english": "What does loyalty look like in modern relationships and friendships?",
+    "translated": "현대의 관계와 우정에서 충성심은 어떤 모습입니까?"
+  },
+  {
+    "number": 250,
+    "english": "When have you chosen to end a toxic friendship or partnership, and how did you heal?",
+    "translated": "해로운 우정이나 파트너십을 끝내기로 결정한 때는 언제였으며 어떻게 치유했습니까?"
+  },
+  {
+    "number": 251,
+    "english": "Do you prefer to talk things out immediately or take space before resolving conflict?",
+    "translated": "즉시 문제를 이야기하는 것을 선호합니까, 아니면 갈등을 해결하기 전에 잠시 시간을 갖는 것을 선호합니까?"
+  },
+  {
+    "number": 252,
+    "english": "What small, everyday gestures help you feel truly loved?",
+    "translated": "어떤 작은 일상의 몸짓이 당신이 진정으로 사랑받고 있다는 느낌을 받는 데 도움이 됩니까?"
+  },
+  {
+    "number": 253,
+    "english": "How do you respond when a loved one is upset with you?",
+    "translated": "사랑하는 사람이 당신에게 화를 냈을 때 당신은 어떻게 반응합니까?"
+  },
+  {
+    "number": 254,
+    "english": "Which life transitions (moving, new job, loss, etc.) have tested your relationships the most?",
+    "translated": "인생의 전환기(이사, 새 직장, 상실 등)가 당신의 관계를 가장 많이 시험했습니까?"
+  },
+  {
+    "number": 255,
+    "english": "Do you tend to mirror the communication styles of those you love, or keep your own?",
+    "translated": "당신은 당신이 사랑하는 사람들의 의사소통 스타일을 그대로 따르는 경향이 있습니까, 아니면 자신만의 의사소통 스타일을 유지하는 경향이 있습니까?"
+  },
+  {
+    "number": 256,
+    "english": "How do you manage your emotional triggers to avoid lashing out at a partner or friend?",
+    "translated": "파트너나 친구에게 화를 내지 않기 위해 감정적 요인을 어떻게 관리합니까?"
+  },
+  {
+    "number": 257,
+    "english": "When has someone’s patience and compassion deeply impacted your life?",
+    "translated": "누군가의 인내와 연민이 당신의 삶에 깊은 영향을 미친 때는 언제였나요?"
+  },
+  {
+    "number": 258,
+    "english": "Which qualities do you look for in friendships that you don’t necessarily need in romance?",
+    "translated": "로맨스에는 꼭 필요하지 않지만 우정에서는 어떤 자질을 찾나요?"
+  },
+  {
+    "number": 259,
+    "english": "Do you think relationships are more about growth or comfort? Why?",
+    "translated": "관계가 성장이나 편안함에 더 중요하다고 생각하시나요?왜?"
+  },
+  {
+    "number": 260,
+    "english": "When have you had to offer tough love or receive it from someone who cares?",
+    "translated": "힘든 사랑을 주거나 관심을 가져주는 사람으로부터 사랑을 받아야 했던 때는 언제였나요?"
+  },
+  {
+    "number": 261,
+    "english": "How do you decide whether to give someone a second chance?",
+    "translated": "누군가에게 두 번째 기회를 줄지 여부를 어떻게 결정합니까?"
+  },
+  {
+    "number": 262,
+    "english": "What do you do to nurture the longevity of a friendship over many years?",
+    "translated": "오랫동안 우정을 이어가려면 어떻게 해야 합니까?"
+  },
+  {
+    "number": 263,
+    "english": "How has technology (social media, texting) changed your approach to relationships?",
+    "translated": "기술(소셜 미디어, 문자 메시지)이 관계에 대한 접근 방식을 어떻게 바꾸었나요?"
+  },
+  {
+    "number": 264,
+    "english": "When has a relationship helped you heal from past trauma or insecurities?",
+    "translated": "관계가 과거 트라우마나 불안감을 치유하는 데 언제 도움이 되었습니까?"
+  },
+  {
+    "number": 265,
+    "english": "How do you talk about your emotional needs without feeling guilty or needy?",
+    "translated": "죄책감이나 궁핍함을 느끼지 않고 감정적 필요에 대해 어떻게 이야기합니까?"
+  },
+  {
+    "number": 266,
+    "english": "What forms of affection do you find most reassuring in difficult times?",
+    "translated": "어려운 시기에 어떤 형태의 애정이 가장 큰 위안이 된다고 생각하시나요?"
+  },
+  {
+    "number": 267,
+    "english": "In what ways can humor defuse tension or bring people closer?",
+    "translated": "유머는 어떤 방법으로 긴장을 완화하거나 사람들을 더 가깝게 만들 수 있습니까?"
+  },
+  {
+    "number": 268,
+    "english": "How do you handle a friend’s criticism when it feels unwarranted?",
+    "translated": "친구의 비판이 부당하다고 느껴질 때 어떻게 대처합니까?"
+  },
+  {
+    "number": 269,
+    "english": "Which emotional boundaries do you respect the most in romantic connections?",
+    "translated": "낭만적인 관계에서 어떤 감정적 경계를 가장 존중합니까?"
+  },
+  {
+    "number": 270,
+    "english": "Have you ever rekindled a friendship or romance after drifting apart?",
+    "translated": "헤어진 후 우정이나 로맨스를 다시 불러일으킨 적이 있나요?"
+  },
+  {
+    "number": 271,
+    "english": "How do you navigate desire for closeness when someone else needs more space?",
+    "translated": "다른 사람이 더 많은 공간을 필요로 할 때 친밀감에 대한 욕구를 어떻게 탐색합니까?"
+  },
+  {
+    "number": 272,
+    "english": "What personal habits or traits sometimes hinder your relationships?",
+    "translated": "때때로 어떤 개인적인 습관이나 특성이 관계를 방해합니까?"
+  },
+  {
+    "number": 273,
+    "english": "Do you believe “opposites attract,” or is similarity key to long-term harmony?",
+    "translated": "당신은 \"반대되는 것이 끌린다\"고 믿습니까, 아니면 유사성이 장기적인 조화의 열쇠라고 믿습니까?"
+  },
+  {
+    "number": 274,
+    "english": "What was the hardest lesson in love you’ve had to learn so far?",
+    "translated": "지금까지 사랑에 관해 가장 힘들었던 교훈은 무엇이었나요?"
+  },
+  {
+    "number": 275,
+    "english": "How do you handle third-party interference in a close relationship (e.g., family opinions)?",
+    "translated": "긴밀한 관계(예: 가족 의견)에서 제3자의 간섭을 어떻게 처리합니까?"
+  },
+  {
+    "number": 276,
+    "english": "What changes have you noticed in your love life as you’ve aged or matured?",
+    "translated": "나이가 들거나 성숙해지면서 연애 생활에 어떤 변화가 생겼나요?"
+  },
+  {
+    "number": 277,
+    "english": "When do you most crave reassurance or validation from loved ones?",
+    "translated": "사랑하는 사람으로부터 안심이나 확인을 가장 받고 싶은 때는 언제입니까?"
+  },
+  {
+    "number": 278,
+    "english": "How do you practice emotional self-care while meeting someone else’s needs?",
+    "translated": "다른 사람의 필요를 충족시키면서 정서적 자기 관리를 어떻게 실천합니까?"
+  },
+  {
+    "number": 279,
+    "english": "Do you think friendship is the foundation of enduring romantic love?",
+    "translated": "우정이 지속적인 낭만적인 사랑의 기초라고 생각하시나요?"
+  },
+  {
+    "number": 280,
+    "english": "When have you sacrificed something important for the sake of a relationship?",
+    "translated": "관계를 위해 중요한 것을 희생한 적이 언제입니까?"
+  },
+  {
+    "number": 281,
+    "english": "How do you respond if you sense a friend drifting away from you?",
+    "translated": "친구가 당신에게서 멀어지는 것을 느끼면 어떻게 반응합니까?"
+  },
+  {
+    "number": 282,
+    "english": "In which relationship roles (friend, sibling, partner) do you feel most at ease?",
+    "translated": "어떤 관계 역할(친구, 형제자매, 파트너)에서 가장 편안함을 느끼나요?"
+  },
+  {
+    "number": 283,
+    "english": "What does “fighting fair” mean to you in romantic or family arguments?",
+    "translated": "낭만적인 논쟁이나 가족 논쟁에서 \"박람회 싸움\"은 당신에게 무엇을 의미합니까?"
+  },
+  {
+    "number": 284,
+    "english": "How do you keep from losing yourself in a relationship?",
+    "translated": "관계에서 자신을 잃지 않으려면 어떻게 해야 합니까?"
+  },
+  {
+    "number": 285,
+    "english": "Do you usually prefer directness or gentle approaches in feedback from loved ones?",
+    "translated": "당신은 사랑하는 사람의 피드백에 대해 일반적으로 직접적 접근 방식을 선호합니까, 아니면 부드러운 접근 방식을 선호합니까?"
+  },
+  {
+    "number": 286,
+    "english": "What old patterns or mistakes do you consistently work to avoid repeating in relationships?",
+    "translated": "관계에서 반복되지 않기 위해 어떤 오래된 패턴이나 실수를 지속적으로 노력하고 있습니까?"
+  },
+  {
+    "number": 287,
+    "english": "When have you been surprised by your capacity to love someone despite big differences?",
+    "translated": "큰 차이에도 불구하고 누군가를 사랑하는 능력에 놀랐던 적은 언제입니까?"
+  },
+  {
+    "number": 288,
+    "english": "What daily routines or rituals help deepen intimacy with a partner or friend?",
+    "translated": "파트너나 친구와의 친밀감을 높이는 데 도움이 되는 일상 생활이나 의식은 무엇입니까?"
+  },
+  {
+    "number": 289,
+    "english": "How do you respond if someone you love doesn’t support a dream you’re pursuing?",
+    "translated": "당신이 사랑하는 사람이 당신이 추구하는 꿈을 지지하지 않는다면 어떻게 대응하나요?"
+  },
+  {
+    "number": 290,
+    "english": "Which boundaries protect your mental health in close relationships?",
+    "translated": "가까운 관계에서 정신 건강을 보호하는 경계는 무엇입니까?"
+  },
+  {
+    "number": 291,
+    "english": "How do you combine finances or resources with a long-term partner?",
+    "translated": "장기적인 파트너와 재정이나 자원을 어떻게 결합합니까?"
+  },
+  {
+    "number": 292,
+    "english": "Do you believe passion inevitably fades over time, or can it be revitalized?",
+    "translated": "열정은 시간이 지나면 필연적으로 사라질 것이라고 생각하시나요, 아니면 다시 활성화될 수 있다고 생각하시나요?"
+  },
+  {
+    "number": 293,
+    "english": "When has a friend or partner made you rethink your approach to life?",
+    "translated": "친구나 파트너가 당신의 삶에 대한 접근 방식을 다시 생각하게 만든 적이 언제였습니까?"
+  },
+  {
+    "number": 294,
+    "english": "How do you handle falling in love with someone who isn’t ready or able to reciprocate?",
+    "translated": "준비가 되지 않았거나 보답할 수 없는 사람과 사랑에 빠지는 것을 어떻게 처리합니까?"
+  },
+  {
+    "number": 295,
+    "english": "In what ways does your sense of humor bring you closer to loved ones?",
+    "translated": "당신의 유머 감각은 어떤 방식으로 사랑하는 사람들과 더 가까워지도록 합니까?"
+  },
+  {
+    "number": 296,
+    "english": "How do you gracefully navigate “gray areas” like casual dating or undefined relationships?",
+    "translated": "일상적인 데이트나 정의되지 않은 관계와 같은 \"회색 영역\"을 우아하게 탐색하려면 어떻게 해야 합니까?"
+  },
+  {
+    "number": 297,
+    "english": "What do you find most rewarding about supporting a partner’s personal growth?",
+    "translated": "파트너의 개인적인 성장을 지원하면서 가장 보람을 느끼는 것은 무엇입니까?"
+  },
+  {
+    "number": 298,
+    "english": "How do you keep resentment from building up over minor day-to-day conflicts?",
+    "translated": "일상의 사소한 갈등으로 인해 분노가 쌓이지 않도록 하려면 어떻게 해야 합니까?"
+  },
+  {
+    "number": 299,
+    "english": "Which relationship in your life best exemplifies mutual respect and understanding?",
+    "translated": "당신의 삶에서 상호 존중과 이해를 가장 잘 보여주는 관계는 무엇입니까?"
+  },
+  {
+    "number": 300,
+    "english": "What is one piece of relationship advice you wish everyone would take to heart?",
+    "translated": "모든 사람이 마음에 새겼으면 하는 관계 조언 한 가지는 무엇입니까?"
+  },
+  {
+    "number": 301,
+    "english": "What is your greatest fear, and how do you manage it?",
+    "translated": "당신의 가장 큰 두려움은 무엇이며, 그것을 어떻게 관리합니까?"
+  },
+  {
+    "number": 302,
+    "english": "How do you usually respond to failure or disappointment?",
+    "translated": "당신은 실패나 실망에 대해 보통 어떻게 반응합니까?"
+  },
+  {
+    "number": 303,
+    "english": "When has a harsh life lesson ended up being your greatest teacher?",
+    "translated": "가혹한 삶의 교훈이 당신의 가장 위대한 스승이 된 때는 언제였나요?"
+  },
+  {
+    "number": 304,
+    "english": "Which personal trait has gotten you into trouble, and how have you worked on it?",
+    "translated": "어떤 개인적인 특성으로 인해 문제가 발생했으며, 이를 어떻게 해결했습니까?"
+  },
+  {
+    "number": 305,
+    "english": "How do you handle stress, and has that changed over time?",
+    "translated": "스트레스를 어떻게 처리하시나요? 시간이 지나면서 스트레스에 변화가 생겼나요?"
+  },
+  {
+    "number": 306,
+    "english": "What event first made you realize your own mortality, and how did you react?",
+    "translated": "자신의 죽음을 처음으로 깨닫게 된 사건은 무엇이며, 어떻게 반응했습니까?"
+  },
+  {
+    "number": 307,
+    "english": "Which behaviors or traits do you find most toxic, and how do you address them?",
+    "translated": "어떤 행동이나 특성이 가장 해롭다고 생각하며, 이를 어떻게 해결합니까?"
+  },
+  {
+    "number": 308,
+    "english": "How do you cope when a once-close relationship changes or ends?",
+    "translated": "한때 친밀했던 관계가 바뀌거나 끝날 때 어떻게 대처합니까?"
+  },
+  {
+    "number": 309,
+    "english": "What strategies help you manage overwhelming anxiety or self-doubt?",
+    "translated": "압도적인 불안이나 자기 의심을 관리하는 데 도움이 되는 전략은 무엇입니까?"
+  },
+  {
+    "number": 310,
+    "english": "How have you navigated a personal crisis that felt impossible at the time?",
+    "translated": "당시에는 불가능하다고 느꼈던 개인적 위기를 어떻게 헤쳐나갔나요?"
+  },
+  {
+    "number": 311,
+    "english": "What gives you the courage to keep going in the face of repeated setbacks?",
+    "translated": "반복되는 좌절에도 불구하고 계속 전진할 수 있는 용기를 주는 것은 무엇입니까?"
+  },
+  {
+    "number": 312,
+    "english": "Which failures or mistakes turned out to be blessings in disguise?",
+    "translated": "어떤 실패나 실수가 변장된 축복으로 드러났나요?"
+  },
+  {
+    "number": 313,
+    "english": "How do you stay hopeful during prolonged uncertainty or dark times?",
+    "translated": "장기간의 불확실성이나 암울한 시기 동안 어떻게 희망을 유지합니까?"
+  },
+  {
+    "number": 314,
+    "english": "What’s the most vulnerable challenge you’ve opened up to others about?",
+    "translated": "다른 사람들에게 공개한 가장 취약한 문제는 무엇입니까?"
+  },
+  {
+    "number": 315,
+    "english": "Do you believe everything happens for a reason, or do we create our own meaning in hardship?",
+    "translated": "모든 일에는 이유가 있다고 믿습니까, 아니면 고난 속에서 우리 자신의 의미를 만들어 냅니까?"
+  },
+  {
+    "number": 316,
+    "english": "When have you taken a leap of faith despite fear or high stakes?",
+    "translated": "두려움이나 큰 위험에도 불구하고 믿음의 도약을 해본 적이 있습니까?"
+  },
+  {
+    "number": 317,
+    "english": "How did a major health scare or injury impact your outlook on life?",
+    "translated": "심각한 건강상의 두려움이나 부상이 인생관에 어떤 영향을 미쳤나요?"
+  },
+  {
+    "number": 318,
+    "english": "What daily habit or mindset shift has been most helpful in building resilience?",
+    "translated": "회복탄력성을 키우는 데 가장 도움이 된 일상 습관이나 사고방식의 변화는 무엇입니까?"
+  },
+  {
+    "number": 319,
+    "english": "How do you handle guilt or shame about a past action you can’t undo?",
+    "translated": "되돌릴 수 없는 과거 행동에 대한 죄책감이나 수치심을 어떻게 처리합니까?"
+  },
+  {
+    "number": 320,
+    "english": "In what ways has adversity taught you to be more resourceful?",
+    "translated": "역경은 어떤 면에서 여러분이 더 지혜롭게 행동하도록 가르쳐 주었습니까?"
+  },
+  {
+    "number": 321,
+    "english": "Do you have a motto or affirmation for getting through tough days?",
+    "translated": "힘든 하루를 이겨내기 위한 모토나 다짐이 있나요?"
+  },
+  {
+    "number": 322,
+    "english": "What role do humor and lightheartedness play in your coping strategies?",
+    "translated": "당신의 대처 전략에서 유머와 경쾌함은 어떤 역할을 합니까?"
+  },
+  {
+    "number": 323,
+    "english": "When have you had to let go of perfectionism in order to move forward?",
+    "translated": "앞으로 나아가기 위해 완벽주의를 버려야 했던 때는 언제였나요?"
+  },
+  {
+    "number": 324,
+    "english": "Which self-limiting beliefs have you confronted head-on?",
+    "translated": "당신은 어떤 자기 제한적 신념에 정면으로 직면했습니까?"
+  },
+  {
+    "number": 325,
+    "english": "How do you manage anger productively instead of letting it consume you?",
+    "translated": "분노가 당신을 사로잡게 두는 대신 생산적으로 분노를 관리하는 방법은 무엇입니까?"
+  },
+  {
+    "number": 326,
+    "english": "Who or what typically motivates you to persevere when you feel like giving up?",
+    "translated": "포기하고 싶을 때 일반적으로 인내하도록 동기를 부여하는 사람 또는 무엇이 있습니까?"
+  },
+  {
+    "number": 327,
+    "english": "Which external resources (therapy, mentors, support groups) have helped you endure hard times?",
+    "translated": "어려운 시기를 견디는 데 도움이 된 외부 자원(치료, 멘토, 지원 그룹)은 무엇입니까?"
+  },
+  {
+    "number": 328,
+    "english": "How do you protect your mental health when life throws you unexpected curveballs?",
+    "translated": "인생이 예상치 못한 변화를 가져올 때 정신 건강을 어떻게 보호합니까?"
+  },
+  {
+    "number": 329,
+    "english": "What is one challenge you haven’t overcome yet, and how are you approaching it?",
+    "translated": "아직 극복하지 못한 과제는 무엇이며, 이에 어떻게 접근하고 있나요?"
+  },
+  {
+    "number": 330,
+    "english": "How have you adapted your coping methods as you’ve aged or your circumstances changed?",
+    "translated": "나이가 들거나 상황이 바뀌면서 대처 방법을 어떻게 조정하셨나요?"
+  },
+  {
+    "number": 331,
+    "english": "When has your resilience surprised even yourself?",
+    "translated": "당신의 회복력이 당신 자신을 놀라게 한 적은 언제였나요?"
+  },
+  {
+    "number": 332,
+    "english": "How do you recover emotionally from repeated rejection or betrayal?",
+    "translated": "반복되는 거절이나 배신으로부터 감정적으로 어떻게 회복합니까?"
+  },
+  {
+    "number": 333,
+    "english": "What is the hardest kind of pain for you to process—emotional, physical, or spiritual?",
+    "translated": "감정적, 육체적, 영적인 고통 중 당신이 처리하기 가장 힘든 고통은 무엇입니까?"
+  },
+  {
+    "number": 334,
+    "english": "How do you find the balance between pushing through adversity and allowing yourself to rest?",
+    "translated": "역경을 헤쳐나가는 것과 휴식을 취하는 것 사이의 균형을 어떻게 찾나요?"
+  },
+  {
+    "number": 335,
+    "english": "When do you lean on others, and when do you rely on self-soothing methods?",
+    "translated": "당신은 언제 남에게 의지하고, 언제 자기 위안의 방법에 의지합니까?"
+  },
+  {
+    "number": 336,
+    "english": "Which personal weakness have you transformed into a strength over time?",
+    "translated": "시간이 지나면서 당신의 개인적 약점이 강점으로 바뀌었나요?"
+  },
+  {
+    "number": 337,
+    "english": "What’s one form of self-care you once thought was trivial but now find essential?",
+    "translated": "한때 사소하다고 생각했지만 지금은 필수적이라고 생각하는 자기 관리의 한 가지 형태는 무엇입니까?"
+  },
+  {
+    "number": 338,
+    "english": "How do you handle the uncertainty of not knowing when or if things will get better?",
+    "translated": "언제 상황이 나아질지, 언제 나아질지 알 수 없는 불확실성을 어떻게 처리합니까?"
+  },
+  {
+    "number": 339,
+    "english": "What are your warning signs that your mental health is deteriorating?",
+    "translated": "당신의 정신 건강이 악화되고 있다는 경고 신호는 무엇입니까?"
+  },
+  {
+    "number": 340,
+    "english": "Has overcoming a challenge ever led you to reevaluate your life’s direction?",
+    "translated": "어려움을 극복하면서 인생의 방향을 재평가하게 된 적이 있습니까?"
+  },
+  {
+    "number": 341,
+    "english": "When do you choose acceptance over resistance, and how does that feel?",
+    "translated": "저항 대신 수용을 선택하는 경우는 언제이며, 어떤 느낌이 드나요?"
+  },
+  {
+    "number": 342,
+    "english": "How do you keep perspective on problems that initially seem catastrophic?",
+    "translated": "처음에는 심각해 보이는 문제에 대해 어떻게 관점을 유지합니까?"
+  },
+  {
+    "number": 343,
+    "english": "Which negative coping strategies do you consciously avoid, and why?",
+    "translated": "당신은 어떤 부정적인 대처 전략을 의식적으로 피하고 있으며, 그 이유는 무엇입니까?"
+  },
+  {
+    "number": 344,
+    "english": "When have you faced a fear head-on and found it wasn’t as bad as you imagined?",
+    "translated": "두려움을 정면으로 직면하고 그것이 상상했던 것만큼 나쁘지 않았다는 것을 알게 된 때는 언제입니까?"
+  },
+  {
+    "number": 345,
+    "english": "How do you practice self-forgiveness for mistakes you made under stress?",
+    "translated": "스트레스를 받으면서 저지른 실수에 대해 어떻게 자기 용서를 실천합니까?"
+  },
+  {
+    "number": 346,
+    "english": "Which personal mantras remind you of your resilience?",
+    "translated": "당신의 회복력을 상기시켜주는 개인적인 주문은 무엇입니까?"
+  },
+  {
+    "number": 347,
+    "english": "Who in your life models grace under pressure, and what have you learned from them?",
+    "translated": "당신의 삶에서 압력을 받을 때 은혜의 모델이 되는 사람은 누구이며, 당신은 그들로부터 무엇을 배웠습니까?"
+  },
+  {
+    "number": 348,
+    "english": "When adversity hits, how do you maintain hope without falling into denial?",
+    "translated": "역경이 닥쳤을 때, 부정에 빠지지 않고 어떻게 희망을 유지할 수 있습니까?"
+  },
+  {
+    "number": 349,
+    "english": "What have you found to be the biggest barrier to your own resilience?",
+    "translated": "당신의 회복력을 가로막는 가장 큰 장애물은 무엇이라고 생각하시나요?"
+  },
+  {
+    "number": 350,
+    "english": "How do you approach rebuilding trust in yourself after a severe setback?",
+    "translated": "심각한 좌절을 겪은 후 자신에 대한 신뢰를 회복하는 방법은 무엇입니까?"
+  },
+  {
+    "number": 351,
+    "english": "In what ways do you see resilience as a collective or community effort?",
+    "translated": "어떤 면에서 회복탄력성을 집단적 또는 공동체적 노력으로 보시나요?"
+  },
+  {
+    "number": 352,
+    "english": "Have you ever hit an emotional or spiritual “rock bottom,” and how did you climb out?",
+    "translated": "감정적이거나 영적인 \"바닥\"에 부딪힌 적이 있습니까? 어떻게 극복했습니까?"
+  },
+  {
+    "number": 353,
+    "english": "What kinds of challenges bring out your best qualities?",
+    "translated": "어떤 종류의 도전이 당신의 최고의 자질을 이끌어 내나요?"
+  },
+  {
+    "number": 354,
+    "english": "How do you avoid feeling bitter or jaded after repeated disappointments?",
+    "translated": "반복적으로 실망한 후에 쓰라린 느낌이나 지친 느낌을 피하려면 어떻게 해야 합니까?"
+  },
+  {
+    "number": 355,
+    "english": "What lesson did you learn from a time you gave up too quickly?",
+    "translated": "너무 빨리 포기했을 때 어떤 교훈을 얻었나요?"
+  },
+  {
+    "number": 356,
+    "english": "How have you reconciled feeling fear while still choosing to act courageously?",
+    "translated": "용기 있게 행동하기로 선택하면서도 두려움을 어떻게 극복하셨나요?"
+  },
+  {
+    "number": 357,
+    "english": "Which stories, books, or historical figures remind you that resilience is possible?",
+    "translated": "회복력이 가능하다는 것을 상기시켜주는 이야기, 책, 역사적 인물은 무엇입니까?"
+  },
+  {
+    "number": 358,
+    "english": "How do you encourage or inspire resilience in others?",
+    "translated": "다른 사람들의 회복탄력성을 어떻게 격려하거나 고무합니까?"
+  },
+  {
+    "number": 359,
+    "english": "When has adversity brought you closer to someone unexpected?",
+    "translated": "역경으로 인해 예상치 못한 사람과 더 가까워진 적은 언제였나요?"
+  },
+  {
+    "number": 360,
+    "english": "In what ways do you allow vulnerability to coexist with your strength?",
+    "translated": "당신은 어떤 방법으로 취약성이 당신의 강점과 공존하도록 허용합니까?"
+  },
+  {
+    "number": 361,
+    "english": "How do you typically process grief and mourning?",
+    "translated": "일반적으로 슬픔과 애도를 어떻게 처리합니까?"
+  },
+  {
+    "number": 362,
+    "english": "What role does gratitude play in facing daily challenges?",
+    "translated": "매일의 어려움에 직면할 때 감사는 어떤 역할을 합니까?"
+  },
+  {
+    "number": 363,
+    "english": "How do you discern when to fight for a cause versus when to let go for your peace?",
+    "translated": "대의를 위해 싸워야 할 때와 평화를 위해 포기해야 할 때를 어떻게 식별합니까?"
+  },
+  {
+    "number": 364,
+    "english": "Have you ever grown from comparing your challenges to someone else’s struggles or victories?",
+    "translated": "당신의 도전을 다른 사람의 투쟁이나 승리와 비교하면서 성장한 적이 있습니까?"
+  },
+  {
+    "number": 365,
+    "english": "Which personal crisis taught you the most about your own capabilities?",
+    "translated": "어떤 개인적인 위기가 당신 자신의 능력에 대해 가장 많은 것을 가르쳐 주었나요?"
+  },
+  {
+    "number": 366,
+    "english": "Do you believe resilience can be cultivated intentionally, or is it mostly innate?",
+    "translated": "회복력은 의도적으로 배양될 수 있다고 생각하시나요, 아니면 대부분 타고난 능력이라고 생각하시나요?"
+  },
+  {
+    "number": 367,
+    "english": "When have you turned your pain into a creative outlet or act of service?",
+    "translated": "당신의 고통을 창의적인 표현이나 봉사 활동으로 전환한 적은 언제입니까?"
+  },
+  {
+    "number": 368,
+    "english": "What is the most meaningful lesson failure has taught you?",
+    "translated": "실패가 당신에게 가르쳐준 가장 의미 있는 교훈은 무엇입니까?"
+  },
+  {
+    "number": 369,
+    "english": "How do you set realistic expectations for your healing or progress?",
+    "translated": "치유나 발전에 대한 현실적인 기대치를 어떻게 설정합니까?"
+  },
+  {
+    "number": 370,
+    "english": "Have you experienced a challenge so profound that it altered your worldview permanently?",
+    "translated": "당신의 세계관이 영구적으로 바뀔 정도로 심오한 도전을 경험한 적이 있습니까?"
+  },
+  {
+    "number": 371,
+    "english": "What are some steps you take to maintain momentum when solutions aren’t obvious?",
+    "translated": "해결책이 명확하지 않을 때 추진력을 유지하기 위해 취하는 조치는 무엇입니까?"
+  },
+  {
+    "number": 372,
+    "english": "How did you respond the last time someone told you “you can’t do that”?",
+    "translated": "지난번에 누군가가 당신에게 “너는 그렇게 할 수 없어”라고 말했을 때 어떻게 반응하셨나요?"
+  },
+  {
+    "number": 373,
+    "english": "Which regrets push you to be more resilient in current pursuits?",
+    "translated": "어떤 후회가 현재 추구하는 일에서 더 탄력적이 되도록 만드나요?"
+  },
+  {
+    "number": 374,
+    "english": "Do you see fear as an enemy or as a teacher? Why?",
+    "translated": "두려움을 적으로 보시나요, 아니면 선생님으로 보시나요?왜?"
+  },
+  {
+    "number": 375,
+    "english": "When have you misjudged your own resilience, either overestimating or underestimating it?",
+    "translated": "자신의 탄력성을 과대평가하거나 과소평가하는 등 잘못 판단한 적이 언제였습니까?"
+  },
+  {
+    "number": 376,
+    "english": "How do you handle feeling powerless in situations outside your control?",
+    "translated": "통제할 수 없는 상황에서 무력감을 어떻게 처리합니까?"
+  },
+  {
+    "number": 377,
+    "english": "Which supportive affirmations from loved ones have stayed with you?",
+    "translated": "사랑하는 사람들의 어떤 지지적인 확언이 당신에게 남아 있습니까?"
+  },
+  {
+    "number": 378,
+    "english": "How do you maintain your sense of identity while facing major life challenges?",
+    "translated": "중요한 삶의 어려움에 직면하면서 정체성을 어떻게 유지합니까?"
+  },
+  {
+    "number": 379,
+    "english": "What do you do when you realize a coping mechanism is no longer serving you?",
+    "translated": "대처 메커니즘이 더 이상 도움이 되지 않는다는 것을 알게 되면 어떻게 합니까?"
+  },
+  {
+    "number": 380,
+    "english": "How do you balance caution with the need for risk-taking in growth?",
+    "translated": "성장에 있어서 위험 감수의 필요성과 주의 사이의 균형을 어떻게 맞추나요?"
+  },
+  {
+    "number": 381,
+    "english": "When was the last time you relied on a friend’s resilience to guide you through?",
+    "translated": "마지막으로 친구의 회복력에 의지해 인생을 헤쳐나가던 때는 언제였습니까?"
+  },
+  {
+    "number": 382,
+    "english": "How do you process small, everyday setbacks compared to massive ones?",
+    "translated": "대규모 문제에 비해 일상적인 작은 문제를 어떻게 처리합니까?"
+  },
+  {
+    "number": 383,
+    "english": "What does emotional resilience look like for you on a day-to-day basis?",
+    "translated": "일상적으로 당신의 정서적 탄력성은 어떤 모습입니까?"
+  },
+  {
+    "number": 384,
+    "english": "When do you find it hardest to ask for help in coping with adversity?",
+    "translated": "역경에 대처하는 데 도움을 요청하는 것이 가장 어려울 때는 언제입니까?"
+  },
+  {
+    "number": 385,
+    "english": "How does your spiritual or philosophical viewpoint help you handle trials?",
+    "translated": "당신의 영적, 철학적 관점은 시련을 극복하는 데 어떻게 도움이 됩니까?"
+  },
+  {
+    "number": 386,
+    "english": "Which relationships strengthened the most due to shared adversity?",
+    "translated": "역경을 공유하면서 어떤 관계가 가장 강화되었나요?"
+  },
+  {
+    "number": 387,
+    "english": "When have you had to leave a situation for the sake of your own well-being?",
+    "translated": "자신의 안녕을 위해 상황을 떠나야 했던 때는 언제였습니까?"
+  },
+  {
+    "number": 388,
+    "english": "How do you ensure personal growth after a crisis, instead of remaining stuck?",
+    "translated": "위기 이후에 정체 상태를 유지하는 대신 개인의 성장을 어떻게 보장합니까?"
+  },
+  {
+    "number": 389,
+    "english": "What is your strategy for redirecting negative thoughts and catastrophic thinking?",
+    "translated": "부정적인 생각과 재앙적인 사고를 방향 전환하기 위한 전략은 무엇입니까?"
+  },
+  {
+    "number": 390,
+    "english": "How does self-awareness help you recognize what you can and cannot control?",
+    "translated": "자기 인식은 자신이 통제할 수 있는 것과 통제할 수 없는 것을 인식하는 데 어떻게 도움이 됩니까?"
+  },
+  {
+    "number": 391,
+    "english": "When have you chosen to laugh or find humor amidst chaos or hardship?",
+    "translated": "혼돈이나 고난 속에서 웃거나 유머를 찾기로 선택한 때는 언제입니까?"
+  },
+  {
+    "number": 392,
+    "english": "How do you cope with persistent challenges that don’t resolve quickly?",
+    "translated": "신속하게 해결되지 않는 지속적인 문제에 어떻게 대처합니까?"
+  },
+  {
+    "number": 393,
+    "english": "Which new opportunities have come from a door that slammed shut?",
+    "translated": "쾅 닫혀버린 문에서 어떤 새로운 기회가 찾아왔나요?"
+  },
+  {
+    "number": 394,
+    "english": "When has adversity forced you to discover hidden strengths or resources?",
+    "translated": "역경으로 인해 숨겨진 강점이나 자원을 발견하게 된 때는 언제였습니까?"
+  },
+  {
+    "number": 395,
+    "english": "What’s the most resourceful thing you’ve done in a tough situation?",
+    "translated": "어려운 상황에서 당신이 했던 가장 기발한 일은 무엇입니까?"
+  },
+  {
+    "number": 396,
+    "english": "How do you handle external critics or naysayers during your low points?",
+    "translated": "성적이 좋지 않을 때 외부 비판자나 반대자를 어떻게 대합니까?"
+  },
+  {
+    "number": 397,
+    "english": "Which personal values do you cling to most when the going gets really tough?",
+    "translated": "상황이 정말 힘들어질 때 어떤 개인적 가치를 가장 고수하시나요?"
+  },
+  {
+    "number": 398,
+    "english": "How have you evolved your definition of “strength” over the years?",
+    "translated": "수년에 걸쳐 \"강함\"에 대한 정의를 어떻게 발전시켜 왔습니까?"
+  },
+  {
+    "number": 399,
+    "english": "When has someone else’s story of resilience profoundly impacted your own path?",
+    "translated": "다른 사람의 회복력 이야기가 당신의 길에 큰 영향을 미쳤던 때는 언제였습니까?"
+  },
+  {
+    "number": 400,
+    "english": "What personal victory over adversity are you proudest of?",
+    "translated": "역경을 이겨낸 개인적인 승리 중 가장 자랑스러운 것은 무엇입니까?"
+  },
+  {
+    "number": 401,
+    "english": "When do you feel most authentically yourself?",
+    "translated": "자신이 가장 진실하다고 느낄 때는 언제인가요?"
+  },
+  {
+    "number": 402,
+    "english": "How have you learned to recognize and honor your own emotional needs?",
+    "translated": "자신의 정서적 필요를 인식하고 존중하는 법을 어떻게 배웠습니까?"
+  },
+  {
+    "number": 403,
+    "english": "Which qualities in yourself do you admire the most, and why?",
+    "translated": "자신의 어떤 특성을 가장 존경하며, 그 이유는 무엇입니까?"
+  },
+  {
+    "number": 404,
+    "english": "How do you handle self-doubt or imposter syndrome?",
+    "translated": "자기 의심이나 사기꾼 증후군을 어떻게 처리합니까?"
+  },
+  {
+    "number": 405,
+    "english": "When have you surprised yourself with your own courage?",
+    "translated": "당신의 용기에 스스로 놀랐던 적은 언제였나요?"
+  },
+  {
+    "number": 406,
+    "english": "Which past version of yourself would be most amazed at who you’ve become?",
+    "translated": "당신의 과거 모습 중 당신이 어떤 모습으로 변했을 때 가장 놀라게 될까요?"
+  },
+  {
+    "number": 407,
+    "english": "What patterns do you consistently notice in your thinking or behavior?",
+    "translated": "당신의 생각이나 행동에서 어떤 패턴을 지속적으로 발견합니까?"
+  },
+  {
+    "number": 408,
+    "english": "How do you define self-love, and what does it look like for you in practice?",
+    "translated": "자기애를 어떻게 정의하고, 실제로는 어떤 모습인가요?"
+  },
+  {
+    "number": 409,
+    "english": "What did a major failure teach you about your true strengths?",
+    "translated": "큰 실패를 통해 당신의 진정한 강점에 대해 무엇을 배웠습니까?"
+  },
+  {
+    "number": 410,
+    "english": "How have you cultivated self-awareness around your triggers and emotional reactions?",
+    "translated": "당신의 유발 요인과 감정적 반응에 대한 자기 인식을 어떻게 키워왔습니까?"
+  },
+  {
+    "number": 411,
+    "english": "Do you see yourself as an introvert, extrovert, or ambivert? How does it shape your life?",
+    "translated": "당신은 자신을 내성적인 사람, 외향적인 사람, 양면적인 사람 중 하나로 생각하시나요?그것이 당신의 삶을 어떻게 형성합니까?"
+  },
+  {
+    "number": 412,
+    "english": "In what ways have you developed emotional intelligence over time?",
+    "translated": "시간이 지남에 따라 어떤 방식으로 감성 지능을 발전시켰습니까?"
+  },
+  {
+    "number": 413,
+    "english": "What limiting stories about yourself have you successfully rewritten?",
+    "translated": "자신에 대한 어떤 제한적인 이야기를 성공적으로 다시 썼나요?"
+  },
+  {
+    "number": 414,
+    "english": "How do you nurture your mental and emotional well-being daily?",
+    "translated": "매일 어떻게 정신적, 정서적 웰빙을 키우나요?"
+  },
+  {
+    "number": 415,
+    "english": "When have you taken a risk that helped you discover a new aspect of your identity?",
+    "translated": "당신의 정체성의 새로운 측면을 발견하는 데 도움이 되는 위험을 감수한 적이 언제였습니까?"
+  },
+  {
+    "number": 416,
+    "english": "Which mistakes do you never want to repeat, and how do you keep yourself accountable?",
+    "translated": "결코 반복하고 싶지 않은 실수는 무엇이며, 어떻게 책임을 지게 됩니까?"
+  },
+  {
+    "number": 417,
+    "english": "How do you differentiate between your intuition and your fear?",
+    "translated": "직관과 두려움을 어떻게 구별합니까?"
+  },
+  {
+    "number": 418,
+    "english": "When do you find it hardest to be honest with yourself, and why?",
+    "translated": "자신에게 솔직해지는 것이 가장 어렵다고 생각하는 때는 언제이며, 그 이유는 무엇입니까?"
+  },
+  {
+    "number": 419,
+    "english": "How have you balanced self-acceptance with the drive to improve or grow?",
+    "translated": "자기 수용과 개선 또는 성장을 위한 추진력의 균형을 어떻게 맞추셨나요?"
+  },
+  {
+    "number": 420,
+    "english": "What childhood traits or dreams have you reclaimed as an adult?",
+    "translated": "어른이 되어 되찾은 어린 시절의 특성이나 꿈은 무엇입니까?"
+  },
+  {
+    "number": 421,
+    "english": "In what ways do you self-sabotage, and how do you address it?",
+    "translated": "당신은 어떤 방식으로 자기 파괴를 하고, 어떻게 해결합니까?"
+  },
+  {
+    "number": 422,
+    "english": "Which personal victories can instantly lift your spirits when you recall them?",
+    "translated": "어떤 개인적인 승리를 떠올렸을 때 즉시 기분이 좋아질 수 있습니까?"
+  },
+  {
+    "number": 423,
+    "english": "How do you remain patient with yourself during a learning curve?",
+    "translated": "학습 곡선 동안 어떻게 자신에게 인내심을 유지합니까?"
+  },
+  {
+    "number": 424,
+    "english": "What role does self-compassion play in your daily life?",
+    "translated": "자기연민은 일상생활에서 어떤 역할을 합니까?"
+  },
+  {
+    "number": 425,
+    "english": "How do you incorporate feedback from others without losing your sense of self?",
+    "translated": "자아의식을 잃지 않고 어떻게 다른 사람의 피드백을 통합할 수 있나요?"
+  },
+  {
+    "number": 426,
+    "english": "Which personal habits consistently help you show up as your best self?",
+    "translated": "당신이 최고의 모습을 드러내는 데 지속적으로 도움이 되는 개인적인 습관은 무엇입니까?"
+  },
+  {
+    "number": 427,
+    "english": "When have you been proud of your emotional maturity in a difficult situation?",
+    "translated": "어려운 상황 속에서도 자신의 감정적 성숙을 자랑스러워했던 적은 언제였나요?"
+  },
+  {
+    "number": 428,
+    "english": "How do you identify your true passions versus fleeting interests?",
+    "translated": "당신의 진정한 열정과 순간적인 관심을 어떻게 식별합니까?"
+  },
+  {
+    "number": 429,
+    "english": "What have you learned about yourself through exploring your creative side?",
+    "translated": "창의적인 측면을 탐색하면서 자신에 대해 무엇을 배웠나요?"
+  },
+  {
+    "number": 430,
+    "english": "How have you recognized and healed from perfectionist tendencies?",
+    "translated": "완벽주의 경향을 어떻게 인식하고 치유하셨나요?"
+  },
+  {
+    "number": 431,
+    "english": "Which negative thought patterns do you consciously work to replace?",
+    "translated": "당신은 어떤 부정적인 사고 패턴을 대체하기 위해 의식적으로 노력하고 있습니까?"
+  },
+  {
+    "number": 432,
+    "english": "Do you keep a journal or track your personal growth? Why or why not?",
+    "translated": "일기를 쓰거나 개인적인 성장을 추적하시나요?왜 아니면 안되나요?"
+  },
+  {
+    "number": 433,
+    "english": "When have you felt the deepest sense of purpose or calling?",
+    "translated": "당신은 언제 가장 깊은 목적의식이나 소명감을 느꼈습니까?"
+  },
+  {
+    "number": 434,
+    "english": "How do you encourage yourself when venturing outside your comfort zone?",
+    "translated": "당신의 안전지대를 벗어나 모험을 할 때 어떻게 자신을 격려합니까?"
+  },
+  {
+    "number": 435,
+    "english": "Which daily rituals keep you connected to your inner wisdom or intuition?",
+    "translated": "당신을 내면의 지혜나 직관과 연결시켜 주는 매일의 의식은 무엇입니까?"
+  },
+  {
+    "number": 436,
+    "english": "What are some pivotal moments that changed your self-perception?",
+    "translated": "당신의 자기 인식을 변화시킨 결정적인 순간은 무엇입니까?"
+  },
+  {
+    "number": 437,
+    "english": "How do you show yourself compassion when experiencing heartbreak or loss?",
+    "translated": "비탄이나 상실을 경험할 때 어떻게 동정심을 나타내나요?"
+  },
+  {
+    "number": 438,
+    "english": "Which books or teachings have shifted your perspective on who you are?",
+    "translated": "어떤 책이나 가르침이 당신이 누구인지에 대한 당신의 관점을 바꾸었나요?"
+  },
+  {
+    "number": 439,
+    "english": "When have you had to set boundaries to protect your time, energy, or mental health?",
+    "translated": "시간, 에너지 또는 정신 건강을 보호하기 위해 언제 경계를 설정해야 했습니까?"
+  },
+  {
+    "number": 440,
+    "english": "How do you celebrate your small wins and incremental progress?",
+    "translated": "작은 승리와 점진적인 발전을 어떻게 축하합니까?"
+  },
+  {
+    "number": 441,
+    "english": "In what areas of your life do you still feel like a beginner, and how do you embrace that?",
+    "translated": "당신의 삶의 어떤 부분에서 아직도 초보자처럼 느껴지나요? 그리고 그것을 어떻게 받아들이나요?"
+  },
+  {
+    "number": 442,
+    "english": "Which of your personality traits took the longest for you to accept?",
+    "translated": "당신의 성격 특성 중 어떤 특성을 받아들이는 데 가장 오랜 시간이 걸렸습니까?"
+  },
+  {
+    "number": 443,
+    "english": "Do you view self-discovery as a finite goal or a lifelong journey? Why?",
+    "translated": "자기 발견을 유한한 목표로 보시나요, 아니면 평생의 여정으로 보시나요?왜?"
+  },
+  {
+    "number": 444,
+    "english": "How do you stay authentic when you’re in environments that feel inauthentic?",
+    "translated": "진정성이 없다고 느껴지는 환경에 있을 때 어떻게 진정성을 유지합니까?"
+  },
+  {
+    "number": 445,
+    "english": "Which self-care practices feel most nurturing to your body and mind?",
+    "translated": "어떤 자기 관리 방법이 당신의 몸과 마음에 가장 도움이 된다고 생각하시나요?"
+  },
+  {
+    "number": 446,
+    "english": "How do you reconcile conflicting parts of your identity or desires?",
+    "translated": "당신의 정체성이나 욕구의 상충되는 부분을 어떻게 조정합니까?"
+  },
+  {
+    "number": 447,
+    "english": "When do you most experience “flow,” and what does it teach you about yourself?",
+    "translated": "언제 \"몰입\"을 가장 많이 경험하며, 그것이 당신 자신에 대해 무엇을 가르쳐 주나요?"
+  },
+  {
+    "number": 448,
+    "english": "Who in your life sees you most clearly, and how do they reflect you back to yourself?",
+    "translated": "당신의 인생에서 당신을 가장 분명하게 보는 사람은 누구이며, 그들은 당신을 어떻게 자신에게 반영합니까?"
+  },
+  {
+    "number": 449,
+    "english": "Which personal values have remained constant, and which have changed?",
+    "translated": "어떤 개인적 가치가 변함없이 유지되고 어떤 가치가 변했습니까?"
+  },
+  {
+    "number": 450,
+    "english": "How has therapy, coaching, or personal development helped shape the person you are now?",
+    "translated": "치료, 코칭 또는 개인 개발이 현재의 사람을 형성하는 데 어떻게 도움이 되었습니까?"
+  },
+  {
+    "number": 451,
+    "english": "What emotional “blind spots” have you uncovered through reflection or feedback?",
+    "translated": "성찰이나 피드백을 통해 어떤 감정적 \"사각지대\"를 발견했습니까?"
+  },
+  {
+    "number": 452,
+    "english": "How do you measure growth in areas that don’t have quantifiable results?",
+    "translated": "수량화할 수 있는 결과가 없는 영역의 성장을 어떻게 측정합니까?"
+  },
+  {
+    "number": 453,
+    "english": "Which experiences have challenged your self-concept but ultimately helped you grow?",
+    "translated": "어떤 경험이 당신의 자기 개념에 도전했지만 궁극적으로 당신의 성장에 도움이 되었습니까?"
+  },
+  {
+    "number": 454,
+    "english": "When do you feel most at home within your own skin?",
+    "translated": "자신의 피부 속에서 가장 편안함을 느끼는 때는 언제입니까?"
+  },
+  {
+    "number": 455,
+    "english": "How do you handle boredom or restlessness in the pursuit of self-improvement?",
+    "translated": "자기계발을 추구하는 과정에서 지루함이나 불안함을 어떻게 처리합니까?"
+  },
+  {
+    "number": 456,
+    "english": "What does inner peace feel like to you, and how often do you reach it?",
+    "translated": "내면의 평화는 당신에게 어떤 느낌을 주며, 얼마나 자주 그 평화에 도달합니까?"
+  },
+  {
+    "number": 457,
+    "english": "Which archetypes or personality frameworks (e.g., Myers-Briggs, Enneagram) resonate with you?",
+    "translated": "어떤 원형이나 성격 체계(예: Myers-Briggs, Enneagram)가 당신에게 공감되나요?"
+  },
+  {
+    "number": 458,
+    "english": "How do you practice gentleness toward your flaws or insecurities?",
+    "translated": "당신의 결점이나 불안감에 대해 어떻게 온유함을 실천합니까?"
+  },
+  {
+    "number": 459,
+    "english": "What life lessons do you find yourself having to learn repeatedly?",
+    "translated": "반복해서 배워야 하는 인생의 교훈은 무엇입니까?"
+  },
+  {
+    "number": 460,
+    "english": "Who inspires you to become a more grounded, self-knowing person?",
+    "translated": "당신이 좀 더 확고하고 자기를 아는 사람이 되도록 영감을 준 사람은 누구입니까?"
+  },
+  {
+    "number": 461,
+    "english": "How have you developed resilience to criticism—from yourself or others?",
+    "translated": "자신이나 다른 사람의 비판에 대한 회복력을 어떻게 발전시켰습니까?"
+  },
+  {
+    "number": 462,
+    "english": "Do you typically learn more from success or from failure? Why?",
+    "translated": "당신은 일반적으로 성공이나 실패로부터 더 많은 것을 배우나요?왜?"
+  },
+  {
+    "number": 463,
+    "english": "What personal mission or mantra keeps you oriented toward growth?",
+    "translated": "성장을 향한 방향을 유지하는 개인적인 사명이나 주문은 무엇입니까?"
+  },
+  {
+    "number": 464,
+    "english": "How do you handle the tension between wanting stability and craving new experiences?",
+    "translated": "안정성을 원하는 것과 새로운 경험을 갈망하는 것 사이의 긴장을 어떻게 처리합니까?"
+  },
+  {
+    "number": 465,
+    "english": "Which life transitions (like career change, moving, or parenthood) have most accelerated your growth?",
+    "translated": "어떤 인생의 전환(예: 직업 변경, 이사, 부모 역할)이 귀하의 성장을 가장 가속화했습니까?"
+  },
+  {
+    "number": 466,
+    "english": "How do you stay true to yourself when roles or labels threaten to define you?",
+    "translated": "역할이나 레이블이 당신을 정의하려고 위협할 때 어떻게 자신에게 충실합니까?"
+  },
+  {
+    "number": 467,
+    "english": "What part of your personality have you discovered only recently?",
+    "translated": "당신의 성격 중 최근에야 발견한 부분은 무엇입니까?"
+  },
+  {
+    "number": 468,
+    "english": "When have you successfully broken a habit that was holding you back?",
+    "translated": "당신을 방해하는 습관을 성공적으로 깨뜨린 때는 언제입니까?"
+  },
+  {
+    "number": 469,
+    "english": "How do you handle triggers from your past in the present moment?",
+    "translated": "현재 순간에 과거의 유발 요인을 어떻게 처리합니까?"
+  },
+  {
+    "number": 470,
+    "english": "In which ways do you still feel like you’re “growing up,” no matter your age?",
+    "translated": "나이에 관계없이 어떤 면에서 여전히 자신이 '성장'하고 있다고 느끼나요?"
+  },
+  {
+    "number": 471,
+    "english": "How have you dealt with fear of judgment when trying something new?",
+    "translated": "새로운 것을 시도할 때 판단에 대한 두려움을 어떻게 극복했습니까?"
+  },
+  {
+    "number": 472,
+    "english": "What emotional needs do you have that often go unnoticed by others?",
+    "translated": "다른 사람들이 종종 알아채지 못하는 감정적 욕구는 무엇입니까?"
+  },
+  {
+    "number": 473,
+    "english": "How do you recognize a true calling versus a passing interest or whim?",
+    "translated": "진정한 소명과 일시적인 관심이나 변덕을 어떻게 인식합니까?"
+  },
+  {
+    "number": 474,
+    "english": "When do you feel the most confident in your own abilities?",
+    "translated": "당신은 언제 자신의 능력에 대해 가장 자신감을 느끼나요?"
+  },
+  {
+    "number": 475,
+    "english": "Which aspect of self-care do you find hardest to maintain consistently?",
+    "translated": "자기 관리의 어떤 측면을 지속적으로 유지하기가 가장 어렵다고 생각하시나요?"
+  },
+  {
+    "number": 476,
+    "english": "When you evolve or change, how do you communicate that shift to the people around you?",
+    "translated": "당신이 진화하거나 변화할 때, 그 변화를 주변 사람들에게 어떻게 전달합니까?"
+  },
+  {
+    "number": 477,
+    "english": "How do you handle it when someone you love doesn’t support your personal growth efforts?",
+    "translated": "당신이 사랑하는 사람이 당신의 개인적인 성장 노력을 지원하지 않을 때 어떻게 처리합니까?"
+  },
+  {
+    "number": 478,
+    "english": "Which accomplishments matter more to your self-esteem: internal or external validation?",
+    "translated": "내부 검증과 외부 검증 중 어떤 성취가 당신의 자존감에 더 중요합니까?"
+  },
+  {
+    "number": 479,
+    "english": "How do you decide which feedback is constructive and which to dismiss?",
+    "translated": "어떤 피드백이 건설적이고 어떤 피드백을 무시할지 어떻게 결정합니까?"
+  },
+  {
+    "number": 480,
+    "english": "Which of your personal challenges has led you to the greatest self-knowledge?",
+    "translated": "당신의 개인적인 도전 중 어떤 것이 당신을 최고의 자기 지식으로 이끌었습니까?"
+  },
+  {
+    "number": 481,
+    "english": "What fears keep you from fully stepping into your potential?",
+    "translated": "당신의 잠재력을 완전히 발휘하지 못하게 하는 두려움은 무엇입니까?"
+  },
+  {
+    "number": 482,
+    "english": "When do you find it easiest to be consistent with healthy routines?",
+    "translated": "건강한 일상을 유지하는 것이 가장 쉬운 때는 언제입니까?"
+  },
+  {
+    "number": 483,
+    "english": "How do you spot a limiting belief and replace it with a more empowering view?",
+    "translated": "제한적인 믿음을 어떻게 발견하고 이를 보다 힘을 실어주는 견해로 대체할 수 있습니까?"
+  },
+  {
+    "number": 484,
+    "english": "What personal transformation are you in the midst of right now?",
+    "translated": "당신은 지금 어떤 개인적인 변화를 겪고 있습니까?"
+  },
+  {
+    "number": 485,
+    "english": "How do you work through unhelpful comparisons to others?",
+    "translated": "다른 사람과의 도움이 되지 않는 비교를 어떻게 해결합니까?"
+  },
+  {
+    "number": 486,
+    "english": "Which area of your life best reflects your authentic self?",
+    "translated": "당신의 삶의 어느 부분이 당신의 진정한 자아를 가장 잘 반영합니까?"
+  },
+  {
+    "number": 487,
+    "english": "Have you ever felt a strong “inner voice” guiding you, and did you follow it?",
+    "translated": "당신을 인도하는 강한 “내면의 목소리”를 느끼고 그것을 따랐던 적이 있습니까?"
+  },
+  {
+    "number": 488,
+    "english": "How do you learn to accept praise or compliments without minimizing yourself?",
+    "translated": "자신을 최소화하지 않고 칭찬이나 칭찬을 받아들이는 법을 어떻게 배우나요?"
+  },
+  {
+    "number": 489,
+    "english": "When have you faced a harsh truth about your own behavior, and how did you respond?",
+    "translated": "자신의 행동에 대한 가혹한 진실을 직면한 때는 언제였으며, 어떻게 대응했습니까?"
+  },
+  {
+    "number": 490,
+    "english": "How do you maintain curiosity about yourself and the world around you?",
+    "translated": "자신과 주변 세상에 대한 호기심을 어떻게 유지합니까?"
+  },
+  {
+    "number": 491,
+    "english": "Which dreams or goals have you outgrown, and how did you let them go?",
+    "translated": "어떤 꿈이나 목표를 이루지 못했으며, 어떻게 그것을 버렸나요?"
+  },
+  {
+    "number": 492,
+    "english": "What role does mindfulness play in understanding who you truly are?",
+    "translated": "마음챙김은 당신이 진정 누구인지 이해하는 데 어떤 역할을 합니까?"
+  },
+  {
+    "number": 493,
+    "english": "How has someone else’s honest feedback changed how you view yourself?",
+    "translated": "다른 사람의 솔직한 피드백이 당신이 자신을 보는 방식을 어떻게 바꾸었나요?"
+  },
+  {
+    "number": 494,
+    "english": "When do you feel most disconnected from your true self, and why?",
+    "translated": "당신은 언제 당신의 진정한 자아로부터 가장 단절되었다고 느끼며, 그 이유는 무엇입니까?"
+  },
+  {
+    "number": 495,
+    "english": "How do you integrate self-reflection into your daily or weekly routine?",
+    "translated": "자기 성찰을 일상 또는 주간 루틴에 어떻게 통합합니까?"
+  },
+  {
+    "number": 496,
+    "english": "Which qualities in yourself have you only recently come to value or appreciate?",
+    "translated": "당신이 최근에야 가치 있게 여기거나 높이 평가하게 된 당신의 어떤 특성이 있습니까?"
+  },
+  {
+    "number": 497,
+    "english": "How does your environment (living space, social circle) influence your self-growth?",
+    "translated": "당신의 환경(생활 공간, 사교계)이 당신의 자기 성장에 어떤 영향을 미치나요?"
+  },
+  {
+    "number": 498,
+    "english": "What’s a habit or mindset you’re currently working to adopt?",
+    "translated": "현재 채택하기 위해 노력하고 있는 습관이나 사고방식은 무엇입니까?"
+  },
+  {
+    "number": 499,
+    "english": "When you think about your future self, what qualities do you hope to embody?",
+    "translated": "미래의 자신에 대해 생각할 때 어떤 자질을 구현하고 싶나요?"
+  },
+  {
+    "number": 500,
+    "english": "If your life were a book, what new chapter are you most excited to write next?",
+    "translated": "당신의 인생이 책이었다면, 다음에 어떤 새로운 장을 쓰고 싶은가?"
+  },
+  {
+    "number": 501,
+    "english": "How do you want to be remembered after you’re gone?",
+    "translated": "세상을 떠난 뒤에는 어떤 사람으로 기억되고 싶나요?"
+  },
+  {
+    "number": 502,
+    "english": "Which accomplishments do you hope will define your legacy?",
+    "translated": "어떤 성취가 당신의 유산을 정의할 것이라고 생각하시나요?"
+  },
+  {
+    "number": 503,
+    "english": "When did you first become aware of your mortality, and how did it affect you?",
+    "translated": "자신의 죽음에 대해 처음 알게 된 것은 언제였으며, 그것이 당신에게 어떤 영향을 미쳤습니까?"
+  },
+  {
+    "number": 504,
+    "english": "What material possessions hold enough meaning that you hope they’re preserved?",
+    "translated": "어떤 물질적 소유물이 보존되기를 바랄 만큼 충분한 의미를 갖고 있습니까?"
+  },
+  {
+    "number": 505,
+    "english": "Which personal values or teachings do you most want to pass on to the next generation?",
+    "translated": "다음 세대에 가장 전달하고 싶은 개인적 가치나 가르침은 무엇입니까?"
+  },
+  {
+    "number": 506,
+    "english": "How do you imagine future generations might talk about who you were?",
+    "translated": "미래 세대가 당신이 누구인지에 대해 어떻게 이야기할 것이라고 생각하시나요?"
+  },
+  {
+    "number": 507,
+    "english": "What does “dying with dignity” mean to you personally?",
+    "translated": "“존엄하게 죽는다”는 것이 당신에게 개인적으로 어떤 의미인가요?"
+  },
+  {
+    "number": 508,
+    "english": "If you knew you had only one year left, how would you spend it?",
+    "translated": "만약 당신에게 1년밖에 남지 않았다는 것을 안다면 어떻게 보내시겠습니까?"
+  },
+  {
+    "number": 509,
+    "english": "How have you prepared (or do you plan to prepare) for the practical side of end-of-life matters?",
+    "translated": "임종 문제의 실제적인 측면을 어떻게 준비했습니까(또는 준비할 계획입니까)?"
+  },
+  {
+    "number": 510,
+    "english": "Is there an ethical will or letter you hope to leave behind for loved ones?",
+    "translated": "사랑하는 사람에게 남기고 싶은 윤리적 유언장이나 편지가 있나요?"
+  },
+  {
+    "number": 511,
+    "english": "How do you want your work or creative endeavors to resonate after you’re no longer here?",
+    "translated": "당신이 더 이상 여기에 있지 않은 후에 당신의 작업이나 창의적인 노력이 어떻게 반향을 일으키기를 원하십니까?"
+  },
+  {
+    "number": 512,
+    "english": "What do you believe happens after death, and how has that shaped your life choices?",
+    "translated": "당신은 죽음 후에 어떤 일이 일어날 것이라고 믿으며, 그것이 당신의 삶의 선택에 어떤 영향을 미쳤습니까?"
+  },
+  {
+    "number": 513,
+    "english": "Which stories from your family history do you feel responsible for passing on?",
+    "translated": "가족 역사에서 어떤 이야기를 전해야 한다고 생각하시나요?"
+  },
+  {
+    "number": 514,
+    "english": "What are your thoughts on how older generations are treated in your culture?",
+    "translated": "당신의 문화에서 나이든 세대가 어떻게 대우받는지에 대해 어떻게 생각합니까?"
+  },
+  {
+    "number": 515,
+    "english": "How has aging changed your perspective on what truly matters?",
+    "translated": "노화가 진정으로 중요한 것에 대한 당신의 관점을 어떻게 바꾸었나요?"
+  },
+  {
+    "number": 516,
+    "english": "What role does legacy play in your day-to-day decision-making, if any?",
+    "translated": "레거시는 일상적인 의사 결정에서 어떤 역할을 합니까?"
+  },
+  {
+    "number": 517,
+    "english": "When did you realize life feels short, and how did it change your goals or mindset?",
+    "translated": "인생이 짧다는 느낌을 받았던 때는 언제였으며, 그로 인해 목표나 사고방식이 어떻게 바뀌었나요?"
+  },
+  {
+    "number": 518,
+    "english": "How do you wish to handle the possibility of physical or cognitive decline?",
+    "translated": "신체적 또는 인지적 저하 가능성을 어떻게 처리하고 싶나요?"
+  },
+  {
+    "number": 519,
+    "english": "Who taught you the most about acceptance of aging or impermanence?",
+    "translated": "늙음이나 무상함을 받아들이는 것에 관해 당신에게 가장 많이 가르친 사람은 누구입니까?"
+  },
+  {
+    "number": 520,
+    "english": "Which lessons or values do you hope grandchildren or younger relatives learn from you?",
+    "translated": "손주나 어린 친척들이 당신에게서 어떤 교훈이나 가치관을 배우기를 바라나요?"
+  },
+  {
+    "number": 521,
+    "english": "How has caregiving for an aging loved one influenced your own aging process or fears?",
+    "translated": "사랑하는 사람을 돌보는 것이 당신의 노화 과정이나 두려움에 어떤 영향을 미쳤습니까?"
+  },
+  {
+    "number": 522,
+    "english": "What do you admire most about how past generations approached life’s challenges?",
+    "translated": "과거 세대가 인생의 도전에 어떻게 접근했는지에 대해 가장 존경하는 점은 무엇입니까?"
+  },
+  {
+    "number": 523,
+    "english": "When do you feel most at peace with the concept of mortality?",
+    "translated": "필멸의 삶이라는 개념에 대해 가장 마음이 편해지는 때는 언제입니까?"
+  },
+  {
+    "number": 524,
+    "english": "How has witnessing someone’s passing shaped your outlook on living fully?",
+    "translated": "누군가의 죽음을 목격한 것이 온전한 삶에 대한 당신의 전망을 어떻게 형성했습니까?"
+  },
+  {
+    "number": 525,
+    "english": "Which achievements do you want to ensure live on through your community or family?",
+    "translated": "귀하의 지역사회나 가족을 통해 어떤 성과를 계속 이어가고 싶습니까?"
+  },
+  {
+    "number": 526,
+    "english": "What traditions or ceremonies do you want people to hold in your memory?",
+    "translated": "사람들이 어떤 전통이나 의식을 기억하기를 원하시나요?"
+  },
+  {
+    "number": 527,
+    "english": "Do you plan to write memoirs, letters, or instructions for loved ones before you die?",
+    "translated": "죽기 전에 사랑하는 사람을 위해 회고록, 편지, 지시 사항을 쓸 계획이 있습니까?"
+  },
+  {
+    "number": 528,
+    "english": "What do you hope friends or family will say about your character after you pass?",
+    "translated": "당신이 합격한 후 친구나 가족이 당신의 성격에 대해 뭐라고 말해주기를 바라나요?"
+  },
+  {
+    "number": 529,
+    "english": "How do you balance living in the present with planning for your eventual passing?",
+    "translated": "현재의 삶과 궁극적인 죽음에 대한 계획의 균형을 어떻게 유지합니까?"
+  },
+  {
+    "number": 530,
+    "english": "What fears about aging do you still grapple with?",
+    "translated": "노화에 대한 어떤 두려움 때문에 아직도 고민하고 있나요?"
+  },
+  {
+    "number": 531,
+    "english": "What does graceful aging look like to you?",
+    "translated": "당신에게 우아한 노화란 어떤 모습인가요?"
+  },
+  {
+    "number": 532,
+    "english": "How have your emotional or spiritual needs evolved with the passage of time?",
+    "translated": "시간이 지남에 따라 감정적 또는 영적 필요가 어떻게 진화해 왔습니까?"
+  },
+  {
+    "number": 533,
+    "english": "Do you have any rituals or reflections you practice on anniversaries of losses?",
+    "translated": "상실의 기념일에 실천하는 의식이나 성찰이 있나요?"
+  },
+  {
+    "number": 534,
+    "english": "When you think about your life’s “final chapter,” what feelings arise—peace, fear, acceptance?",
+    "translated": "인생의 “마지막 장”을 생각할 때 어떤 감정이 떠오르나요? 평화, 두려움, 수용?"
+  },
+  {
+    "number": 535,
+    "english": "How do you feel about the idea that the world goes on without us after we die?",
+    "translated": "우리가 죽은 후에도 세상이 우리 없이도 계속된다는 생각에 대해 어떻게 생각하시나요?"
+  },
+  {
+    "number": 536,
+    "english": "What is your perspective on leaving behind digital footprints or online legacies?",
+    "translated": "디지털 발자국이나 온라인 유산을 남기는 것에 대한 당신의 관점은 무엇입니까?"
+  },
+  {
+    "number": 537,
+    "english": "How has your sense of humor around aging changed over time?",
+    "translated": "시간이 지나면서 노화에 대한 유머 감각이 어떻게 변했나요?"
+  },
+  {
+    "number": 538,
+    "english": "Which regrets do you want to ensure you resolve before it’s too late?",
+    "translated": "너무 늦기 전에 해결하고 싶은 후회는 무엇입니까?"
+  },
+  {
+    "number": 539,
+    "english": "What small acts do you believe add up to a meaningful legacy for everyday people?",
+    "translated": "어떤 작은 행동이 일반 사람들에게 의미 있는 유산이 된다고 생각하시나요?"
+  },
+  {
+    "number": 540,
+    "english": "How do you discuss the topic of mortality with children or younger family members?",
+    "translated": "어린이나 어린 가족과 함께 필멸의 삶에 관한 주제를 어떻게 논의합니까?"
+  },
+  {
+    "number": 541,
+    "english": "When have you felt most aware of time slipping away?",
+    "translated": "시간이 흘러가는 걸 가장 잘 느꼈던 때는 언제였나요?"
+  },
+  {
+    "number": 542,
+    "english": "What are some joys of getting older that you never anticipated?",
+    "translated": "당신이 전혀 예상하지 못했던 나이가 들면서 느끼는 기쁨은 무엇입니까?"
+  },
+  {
+    "number": 543,
+    "english": "How do you want to support or impact your community in your later years?",
+    "translated": "나중에 지역 사회를 어떻게 지원하거나 영향을 미치고 싶습니까?"
+  },
+  {
+    "number": 544,
+    "english": "Is there a particular project or creation that feels central to your legacy?",
+    "translated": "당신의 유산의 중심이라고 생각되는 특별한 프로젝트나 창작물이 있나요?"
+  },
+  {
+    "number": 545,
+    "english": "How does acknowledging impermanence affect your relationships and priorities now?",
+    "translated": "무상함을 인정하는 것이 현재 당신의 관계와 우선순위에 어떤 영향을 미치나요?"
+  },
+  {
+    "number": 546,
+    "english": "What traditions from your youth do you hope to see continue or evolve after you’re gone?",
+    "translated": "당신이 떠난 후에도 젊었을 때의 어떤 전통이 지속되거나 발전하기를 바라나요?"
+  },
+  {
+    "number": 547,
+    "english": "How do you cope with “end of an era” moments, like retirement or moving out of a longtime home?",
+    "translated": "은퇴나 오랫동안 살던 집에서 이사하는 등 '시대의 끝' 순간에 어떻게 대처하시나요?"
+  },
+  {
+    "number": 548,
+    "english": "Who do you hope will carry on certain family or community roles after you?",
+    "translated": "당신을 이어 누가 특정 가족이나 지역 사회의 역할을 이어가길 바라나요?"
+  },
+  {
+    "number": 549,
+    "english": "When did you start thinking seriously about preparing a will or making final arrangements?",
+    "translated": "언제부터 유언장 준비나 최종 준비에 대해 진지하게 생각하기 시작했나요?"
+  },
+  {
+    "number": 550,
+    "english": "How do you reconcile missed opportunities or unfulfilled dreams as you age?",
+    "translated": "나이가 들면서 놓친 기회나 이루지 못한 꿈을 어떻게 조정합니까?"
+  },
+  {
+    "number": 551,
+    "english": "Have you ever created a “bucket list,” and if so, how has it changed over time?",
+    "translated": "혹시 '버킷 리스트'를 작성해 본 적이 있나요? 그렇다면 시간이 지남에 따라 어떻게 바뀌었나요?"
+  },
+  {
+    "number": 552,
+    "english": "What discoveries about life came only with age that you wish you’d known earlier?",
+    "translated": "더 일찍 알았더라면 좋았을 인생에 대한 어떤 발견은 나이가 들수록 찾아오나요?"
+  },
+  {
+    "number": 553,
+    "english": "In what ways might your current self surprise the person you were two decades ago?",
+    "translated": "당신의 현재 모습은 어떤 면에서 20년 전의 당신을 놀라게 할 수 있을까요?"
+  },
+  {
+    "number": 554,
+    "english": "Do you feel that aging has made you more patient or more urgent, or both?",
+    "translated": "나이가 들수록 참을성이 많아지거나 다급해지거나, 아니면 둘 다 더 좋아진다고 생각하시나요?"
+  },
+  {
+    "number": 555,
+    "english": "What actions or attitudes help you embrace the aging process rather than fight it?",
+    "translated": "노화 과정에 맞서 싸우기보다는 이를 받아들이는 데 도움이 되는 행동이나 태도는 무엇입니까?"
+  },
+  {
+    "number": 556,
+    "english": "How do you think technology will change the way future generations remember us?",
+    "translated": "기술이 미래 세대가 우리를 기억하는 방식을 어떻게 바꿀 것이라고 생각하시나요?"
+  },
+  {
+    "number": 557,
+    "english": "Has retirement (or thoughts of retirement) shifted your sense of identity?",
+    "translated": "은퇴(또는 은퇴에 대한 생각)로 인해 정체성에 대한 인식이 바뀌었나요?"
+  },
+  {
+    "number": 558,
+    "english": "What dreams do you still hope to pursue, regardless of your age?",
+    "translated": "나이와 상관없이 아직도 이루고 싶은 꿈은 무엇인가요?"
+  },
+  {
+    "number": 559,
+    "english": "How do you negotiate the worry about becoming a burden to loved ones?",
+    "translated": "사랑하는 사람에게 부담이 될까 봐 걱정하는 마음을 어떻게 극복하시나요?"
+  },
+  {
+    "number": 560,
+    "english": "What perspective on life do you hope to pass on to those who look up to you?",
+    "translated": "당신을 존경하는 사람들에게 인생에 대한 어떤 관점을 전하고 싶나요?"
+  },
+  {
+    "number": 561,
+    "english": "Do you believe in an afterlife, reincarnation, or other spiritual continuum?",
+    "translated": "당신은 사후 세계, 환생, 또는 기타 영적 연속체를 믿습니까?"
+  },
+  {
+    "number": 562,
+    "english": "How do you handle the reality that your time is finite yet your desires may be infinite?",
+    "translated": "당신의 시간은 유한하지만 당신의 욕망은 무한할 수 있다는 현실을 어떻게 처리합니까?"
+  },
+  {
+    "number": 563,
+    "english": "Have you ever had a “midlife” or “later-life” crisis, and what triggered it?",
+    "translated": "\"중년\" 또는 \"노년\"의 위기를 겪은 적이 있습니까? 그리고 그 위기를 촉발한 요인은 무엇입니까?"
+  },
+  {
+    "number": 564,
+    "english": "How do you stay open to new adventures or learning as you grow older?",
+    "translated": "나이가 들어감에 따라 새로운 모험이나 배움에 어떻게 열려 있습니까?"
+  },
+  {
+    "number": 565,
+    "english": "What steps have you taken to ensure important family histories are recorded or archived?",
+    "translated": "중요한 가족 역사를 기록하거나 보관하기 위해 어떤 조치를 취했습니까?"
+  },
+  {
+    "number": 566,
+    "english": "How does your view of self-worth shift as external roles (like career) wind down or change?",
+    "translated": "경력과 같은 외부 역할이 축소되거나 변화함에 따라 자기 가치에 대한 귀하의 견해가 어떻게 바뀌나요?"
+  },
+  {
+    "number": 567,
+    "english": "In what ways do older adults add unique wisdom or perspective to society?",
+    "translated": "노인들은 어떤 방식으로 사회에 독특한 지혜나 관점을 추가합니까?"
+  },
+  {
+    "number": 568,
+    "english": "Do you believe society undervalues the elderly? Why or why not?",
+    "translated": "사회가 노인을 과소평가한다고 생각하시나요?왜 아니면 안되나요?"
+  },
+  {
+    "number": 569,
+    "english": "What does a “good death” mean to you, in both practical and spiritual terms?",
+    "translated": "실천적 측면과 영적인 측면에서 '좋은 죽음'은 당신에게 무엇을 의미합니까?"
+  },
+  {
+    "number": 570,
+    "english": "How does aging affect your approach to health, diet, or exercise routines?",
+    "translated": "노화는 건강, 다이어트 또는 운동 루틴에 대한 접근 방식에 어떤 영향을 줍니까?"
+  },
+  {
+    "number": 571,
+    "english": "Which relationships do you hope to nurture most as you approach the latter part of life?",
+    "translated": "인생의 후반기에 접어들면서 어떤 관계를 가장 키우고 싶나요?"
+  },
+  {
+    "number": 572,
+    "english": "How do you come to terms with the physical limitations that may arise with aging?",
+    "translated": "노화로 인해 발생할 수 있는 신체적 한계를 어떻게 받아들이시나요?"
+  },
+  {
+    "number": 573,
+    "english": "When do you feel most hopeful about how future generations might build on your legacy?",
+    "translated": "미래 세대가 당신의 유산을 어떻게 이어갈 수 있을지에 대해 언제 가장 희망적이라고 느끼시나요?"
+  },
+  {
+    "number": 574,
+    "english": "How do you define a life well lived, now that you’ve experienced more years?",
+    "translated": "이제 더 많은 세월을 경험했으니, 잘 사는 삶을 어떻게 정의하시나요?"
+  },
+  {
+    "number": 575,
+    "english": "Which mistakes have you forgiven in your older years that you couldn’t forgive before?",
+    "translated": "이전에는 용서할 수 없었지만 노년기에 용서한 실수는 무엇입니까?"
+  },
+  {
+    "number": 576,
+    "english": "If you could pass on just one piece of wisdom about life to young people, what would it be?",
+    "translated": "인생의 지혜 중 단 한 가지를 젊은이들에게 전할 수 있다면 무엇일까요?"
+  },
+  {
+    "number": 577,
+    "english": "How do you want future relatives (whom you’ll never meet) to perceive your life story?",
+    "translated": "당신은 결코 만나지 않을 미래의 친척들이 당신의 인생 이야기를 어떻게 인식하기를 원합니까?"
+  },
+  {
+    "number": 578,
+    "english": "What does the passage of time reveal about superficial worries you once had?",
+    "translated": "시간이 지나면서 당신이 한때 가졌던 피상적인 걱정에 대해 무엇을 알게 됩니까?"
+  },
+  {
+    "number": 579,
+    "english": "Which cultural attitudes toward aging or death do you find most comforting or resonant?",
+    "translated": "노화나 죽음에 대한 어떤 문화적 태도가 가장 위안이 되거나 반향을 불러일으키나요?"
+  },
+  {
+    "number": 580,
+    "english": "How do you comfort someone who is afraid of aging or dying?",
+    "translated": "늙거나 죽는 것이 두려운 사람을 어떻게 위로합니까?"
+  },
+  {
+    "number": 581,
+    "english": "Have your priorities become clearer as you’ve aged? Give an example.",
+    "translated": "나이가 들수록 우선순위가 더 명확해졌나요?예를 들어보세요."
+  },
+  {
+    "number": 582,
+    "english": "When do you find yourself reflecting the most on your mortality—certain times of day or events?",
+    "translated": "하루 중 특정 시간이나 사건 등 자신의 죽음에 대해 가장 많이 생각하는 때는 언제입니까?"
+  },
+  {
+    "number": 583,
+    "english": "Do you see aging as a series of endings, or do you focus on the continual beginnings?",
+    "translated": "노화를 일련의 결말로 보시나요, 아니면 지속적인 시작에 집중하시나요?"
+  },
+  {
+    "number": 584,
+    "english": "How do you maintain respect for your own aging body and mind?",
+    "translated": "자신의 노화된 몸과 마음에 대한 존중을 어떻게 유지합니까?"
+  },
+  {
+    "number": 585,
+    "english": "What’s been your biggest surprise about getting older?",
+    "translated": "나이가 들면서 가장 놀랐던 점은 무엇입니까?"
+  },
+  {
+    "number": 586,
+    "english": "Who are your role models for aging vibrantly and gracefully?",
+    "translated": "활기차고 우아하게 늙어가는 당신의 롤모델은 누구인가요?"
+  },
+  {
+    "number": 587,
+    "english": "Have you changed your mind about how you’d want end-of-life care to look?",
+    "translated": "임종 치료가 어떤 모습으로 보이기를 원하는지 마음이 바뀌었나요?"
+  },
+  {
+    "number": 588,
+    "english": "How do you plan to remain socially engaged as you age?",
+    "translated": "나이가 들어도 어떻게 사회적 참여를 유지할 계획인가요?"
+  },
+  {
+    "number": 589,
+    "english": "In what ways has facing mortality fueled your motivation to keep learning or growing?",
+    "translated": "필멸의 운명에 직면한 것이 어떤 면에서 계속 학습하고 성장하려는 동기를 부여했습니까?"
+  },
+  {
+    "number": 590,
+    "english": "Which memories from each decade of your life stand out as most formative?",
+    "translated": "당신의 인생에서 매 10년 동안 가장 중요한 기억은 무엇입니까?"
+  },
+  {
+    "number": 591,
+    "english": "What reassurance or comfort do you find in your spiritual beliefs regarding life’s end?",
+    "translated": "인생의 종말에 관한 당신의 영적 믿음에서 어떤 안도감이나 위로를 얻습니까?"
+  },
+  {
+    "number": 592,
+    "english": "How do you make peace with leaving some goals unaccomplished?",
+    "translated": "일부 목표를 달성하지 못한 채로 남겨두면 어떻게 평화를 누릴 수 있습니까?"
+  },
+  {
+    "number": 593,
+    "english": "Which era of your life do you look back on most fondly, and why?",
+    "translated": "당신의 인생에서 가장 좋아하는 시대는 언제이며, 그 이유는 무엇입니까?"
+  },
+  {
+    "number": 594,
+    "english": "How do you see your place in the family tree, stretching from ancestors to descendants?",
+    "translated": "조상에서 후손까지 이어지는 가계도에서 귀하의 위치를 ​​어떻게 보십니까?"
+  },
+  {
+    "number": 595,
+    "english": "If you could send a message to your great-grandchildren, what would you say?",
+    "translated": "증손주들에게 메시지를 보낼 수 있다면 뭐라고 전하고 싶나요?"
+  },
+  {
+    "number": 596,
+    "english": "Are there any regrets or amends you still wish to address while you’re able?",
+    "translated": "가능하다면 아직 해결하고 싶은 후회나 수정 사항이 있나요?"
+  },
+  {
+    "number": 597,
+    "english": "How do you react to the physical signs of aging, such as wrinkles or gray hair?",
+    "translated": "주름이나 백발 등 노화의 신체적 징후에 어떻게 반응하시나요?"
+  },
+  {
+    "number": 598,
+    "english": "What is one aspect of older adulthood that you never anticipated liking?",
+    "translated": "당신이 결코 좋아하지 않을 노년기의 한 측면은 무엇입니까?"
+  },
+  {
+    "number": 599,
+    "english": "Which life lessons took the longest to absorb fully?",
+    "translated": "어떤 인생 교훈을 완전히 흡수하는 데 가장 오랜 시간이 걸렸습니까?"
+  },
+  {
+    "number": 600,
+    "english": "What do you hope the very last chapter of your life might look and feel like?",
+    "translated": "인생의 마지막 장이 어떤 모습이고 어떤 느낌이기를 바라나요?"
+  },
+  {
+    "number": 601,
+    "english": "How would you describe your personal spiritual beliefs or faith journey?",
+    "translated": "당신의 개인적인 영적 신념이나 신앙 여정을 어떻게 설명하시겠습니까?"
+  },
+  {
+    "number": 602,
+    "english": "In what ways do you sense a connection to something larger than yourself?",
+    "translated": "당신은 자신보다 더 큰 존재와의 연결을 어떤 방식으로 느끼나요?"
+  },
+  {
+    "number": 603,
+    "english": "Has your spirituality changed significantly over time, and if so, how?",
+    "translated": "시간이 지나면서 당신의 영성이 크게 변했습니까? 그렇다면 어떻게 변했습니까?"
+  },
+  {
+    "number": 604,
+    "english": "What spiritual or religious traditions most resonate with your life experiences?",
+    "translated": "당신의 삶의 경험과 가장 잘 어울리는 영적, 종교적 전통은 무엇입니까?"
+  },
+  {
+    "number": 605,
+    "english": "Which aspects of spirituality most nourish your sense of inner peace?",
+    "translated": "영성의 어떤 측면이 당신의 내면의 평화에 가장 큰 영향을 미치나요?"
+  },
+  {
+    "number": 606,
+    "english": "How does your faith (or lack of faith) shape the moral choices you make?",
+    "translated": "당신의 믿음(또는 믿음의 부족)이 당신이 내리는 도덕적 선택에 어떻게 영향을 미치나요?"
+  },
+  {
+    "number": 607,
+    "english": "Have you ever had a profound spiritual or mystical experience you can’t fully explain?",
+    "translated": "당신은 완전히 설명할 수 없는 심오한 영적, 신비로운 경험을 해본 적이 있습니까?"
+  },
+  {
+    "number": 608,
+    "english": "What doubts or questions about spirituality do you still wrestle with?",
+    "translated": "영성에 관해 어떤 의심이나 질문으로 아직도 씨름하고 있나요?"
+  },
+  {
+    "number": 609,
+    "english": "How does nature factor into your sense of the divine or sacred?",
+    "translated": "자연은 신성하거나 신성한 것에 대한 감각에 어떻게 영향을 미치나요?"
+  },
+  {
+    "number": 610,
+    "english": "Which spiritual practices (e.g., prayer, meditation) do you find grounding?",
+    "translated": "어떤 영적 실천(예: 기도, 명상)에 기초가 있다고 생각하시나요?"
+  },
+  {
+    "number": 611,
+    "english": "Do you belong to a faith community, and how has that impacted your life?",
+    "translated": "당신은 신앙 공동체에 속해 있습니까? 그것이 당신의 삶에 어떤 영향을 미쳤습니까?"
+  },
+  {
+    "number": 612,
+    "english": "How do you reconcile faith with science or rational inquiry?",
+    "translated": "신앙과 과학 또는 합리적 탐구를 어떻게 조화시키나요?"
+  },
+  {
+    "number": 613,
+    "english": "What does surrender mean to you in a spiritual context?",
+    "translated": "항복은 영적인 맥락에서 당신에게 무엇을 의미합니까?"
+  },
+  {
+    "number": 614,
+    "english": "If you believe in a deity or higher power, how does that belief inform your day-to-day life?",
+    "translated": "당신이 신이나 더 높은 힘을 믿는다면, 그 믿음이 당신의 일상 생활에 어떤 영향을 미치나요?"
+  },
+  {
+    "number": 615,
+    "english": "How do you handle disagreements about faith with family or friends?",
+    "translated": "가족이나 친구와 신앙에 관한 의견 차이가 있을 때 어떻게 해결합니까?"
+  },
+  {
+    "number": 616,
+    "english": "What spiritual figure or teacher has influenced you the most?",
+    "translated": "어떤 영적 인물이나 교사가 당신에게 가장 큰 영향을 미쳤습니까?"
+  },
+  {
+    "number": 617,
+    "english": "Have you ever lost faith, and what triggered that crisis?",
+    "translated": "당신은 믿음을 잃은 적이 있습니까? 무엇이 그 위기를 촉발시켰습니까?"
+  },
+  {
+    "number": 618,
+    "english": "How does your sense of spirituality guide your approach to suffering or hardship?",
+    "translated": "당신의 영성 감각은 고통이나 고난에 대한 접근 방식을 어떻게 안내합니까?"
+  },
+  {
+    "number": 619,
+    "english": "Do you differentiate between religion and spirituality? If so, how?",
+    "translated": "종교와 영성을 구별하시나요?그렇다면 어떻게?"
+  },
+  {
+    "number": 620,
+    "english": "How do you experience gratitude or reverence on a spiritual level?",
+    "translated": "영적인 차원에서 감사나 존경심을 어떻게 경험합니까?"
+  },
+  {
+    "number": 621,
+    "english": "Which rituals or ceremonies from any tradition hold deep personal meaning for you?",
+    "translated": "어떤 전통의 의식이나 의식이 당신에게 개인적인 의미가 깊습니까?"
+  },
+  {
+    "number": 622,
+    "english": "Have you ever felt spiritual connection through artistic endeavors like music or painting?",
+    "translated": "음악이나 그림과 같은 예술적 노력을 통해 영적인 연결을 느낀 적이 있습니까?"
+  },
+  {
+    "number": 623,
+    "english": "Does your spirituality inform how you treat animals, the environment, or other living beings?",
+    "translated": "당신의 영성은 당신이 동물, 환경, 다른 생명체를 대하는 방식에 영향을 미치나요?"
+  },
+  {
+    "number": 624,
+    "english": "What role does humility play in your spiritual beliefs?",
+    "translated": "당신의 영적 믿음에서 겸손은 어떤 역할을 합니까?"
+  },
+  {
+    "number": 625,
+    "english": "How do you handle hypocrisy or scandal within religious institutions you once trusted?",
+    "translated": "한때 신뢰했던 종교 기관 내에서 위선이나 스캔들을 어떻게 처리합니까?"
+  },
+  {
+    "number": 626,
+    "english": "In moments of despair, how does faith or spiritual practice bring you comfort?",
+    "translated": "절망의 순간에 신앙이나 영적 수행이 어떻게 위로를 가져다줍니까?"
+  },
+  {
+    "number": 627,
+    "english": "Do you believe in life after death, reincarnation, or some other form of continuity?",
+    "translated": "당신은 죽음 이후의 삶, 환생, 또는 다른 형태의 연속성을 믿습니까?"
+  },
+  {
+    "number": 628,
+    "english": "How do you handle prayers or intentions that seem to go unanswered?",
+    "translated": "응답되지 않는 것처럼 보이는 기도나 의도를 어떻게 처리합니까?"
+  },
+  {
+    "number": 629,
+    "english": "When have you felt most certain that a spiritual presence was guiding you?",
+    "translated": "영적인 존재가 당신을 인도하고 있다고 가장 확신했던 때는 언제였습니까?"
+  },
+  {
+    "number": 630,
+    "english": "What texts or sacred writings have shaped your worldview?",
+    "translated": "어떤 텍스트나 신성한 글이 당신의 세계관을 형성했습니까?"
+  },
+  {
+    "number": 631,
+    "english": "How have interfaith dialogues or exposure to diverse beliefs broadened your perspective?",
+    "translated": "종교 간 대화나 다양한 신념에 대한 노출이 어떻게 당신의 관점을 넓혔습니까?"
+  },
+  {
+    "number": 632,
+    "english": "What spiritual doubts have led you to seek more knowledge or deeper exploration?",
+    "translated": "어떤 영적인 의심으로 인해 더 많은 지식이나 더 깊은 탐구를 추구하게 되었습니까?"
+  },
+  {
+    "number": 633,
+    "english": "How do you integrate spirituality into mundane tasks or daily routines?",
+    "translated": "일상적인 업무나 일상에 영성을 어떻게 통합합니까?"
+  },
+  {
+    "number": 634,
+    "english": "Has traveling ever opened your eyes to new spiritual insights?",
+    "translated": "여행을 하면서 새로운 영적 통찰력에 눈을 뜨게 된 적이 있습니까?"
+  },
+  {
+    "number": 635,
+    "english": "Do you think morality can be separate from spirituality or religion? Why or why not?",
+    "translated": "도덕성이 영성이나 종교와 분리될 수 있다고 생각하시나요?왜 아니면 안되나요?"
+  },
+  {
+    "number": 636,
+    "english": "What does “sacred” mean to you in everyday life?",
+    "translated": "일상생활에서 '신성하다'는 것은 당신에게 어떤 의미인가요?"
+  },
+  {
+    "number": 637,
+    "english": "How do you protect yourself from spiritual bypassing—using faith to avoid real issues?",
+    "translated": "실제 문제를 피하기 위해 믿음을 사용하여 영적인 우회로부터 자신을 어떻게 보호합니까?"
+  },
+  {
+    "number": 638,
+    "english": "Who do you talk to about spiritual questions or doubts, and why do you trust them?",
+    "translated": "영적인 질문이나 의심에 대해 누구에게 이야기하며, 왜 그들을 신뢰합니까?"
+  },
+  {
+    "number": 639,
+    "english": "Do you find that your spirituality emphasizes personal salvation, collective well-being, or both?",
+    "translated": "당신의 영성은 개인의 구원이나 집단의 행복, 또는 둘 다를 강조합니까?"
+  },
+  {
+    "number": 640,
+    "english": "How has losing a loved one impacted your spiritual or religious perspective?",
+    "translated": "사랑하는 사람을 잃은 것이 당신의 영적 또는 종교적 관점에 어떤 영향을 미쳤습니까?"
+  },
+  {
+    "number": 641,
+    "english": "Are there spiritual or religious traditions in your family history you’ve revived or let go of?",
+    "translated": "당신의 가족 역사에 되살렸거나 버렸던 영적, 종교적 전통이 있습니까?"
+  },
+  {
+    "number": 642,
+    "english": "How do you stay open to mystery or paradox in spiritual matters?",
+    "translated": "영적인 문제에 있어서 신비나 역설에 어떻게 열려 있습니까?"
+  },
+  {
+    "number": 643,
+    "english": "What role does forgiveness play in your faith or spiritual practice?",
+    "translated": "당신의 신앙이나 영적 실천에서 용서는 어떤 역할을 합니까?"
+  },
+  {
+    "number": 644,
+    "english": "How do you navigate the tension between free will and the idea of destiny or fate?",
+    "translated": "자유 의지와 운명에 대한 생각 사이의 긴장을 어떻게 헤쳐나가나요?"
+  },
+  {
+    "number": 645,
+    "english": "When do you feel most aligned with your spiritual beliefs—alone or in community?",
+    "translated": "혼자서 또는 공동체에서 당신의 영적 신념에 가장 잘 부합한다고 느끼는 때는 언제입니까?"
+  },
+  {
+    "number": 646,
+    "english": "Which virtues (e.g., compassion, humility, gratitude) do you consider most vital spiritually?",
+    "translated": "영적으로 가장 중요하다고 생각하는 미덕(예: 연민, 겸손, 감사)은 무엇입니까?"
+  },
+  {
+    "number": 647,
+    "english": "How have significant life changes (birth, death, marriage, etc.) shaped your faith?",
+    "translated": "인생의 중대한 변화(출생, 사망, 결혼 등)가 당신의 신앙을 어떻게 형성했습니까?"
+  },
+  {
+    "number": 648,
+    "english": "What spiritual symbols or imagery hold deep personal significance for you?",
+    "translated": "어떤 영적 상징이나 이미지가 당신에게 개인적으로 깊은 의미를 갖고 있습니까?"
+  },
+  {
+    "number": 649,
+    "english": "How do you interpret sacred texts that contain passages you find morally troubling?",
+    "translated": "도덕적으로 문제가 있다고 생각되는 구절이 포함된 성스러운 텍스트를 어떻게 해석합니까?"
+  },
+  {
+    "number": 650,
+    "english": "Do you believe in miracles, and have you ever witnessed something you’d call miraculous?",
+    "translated": "당신은 기적을 믿으며 기적이라고 부르는 것을 목격한 적이 있습니까?"
+  },
+  {
+    "number": 651,
+    "english": "In your faith tradition, what do you love most, and what do you struggle with?",
+    "translated": "당신의 신앙 전통에서 당신이 가장 사랑하는 것은 무엇이며, 무엇 때문에 어려움을 겪고 있습니까?"
+  },
+  {
+    "number": 652,
+    "english": "How do you reconcile the existence of evil or suffering with your view of the divine?",
+    "translated": "악이나 고통의 존재와 신에 대한 관점을 어떻게 조화시키나요?"
+  },
+  {
+    "number": 653,
+    "english": "What spiritual doubts or “dark nights of the soul” have you faced, and what helped you through?",
+    "translated": "당신은 어떤 영적인 의심이나 “영혼의 어두운 밤”에 직면해 있었으며, 그것을 극복하는 데 무엇이 도움이 되었습니까?"
+  },
+  {
+    "number": 654,
+    "english": "Have you ever felt a calling toward ministry, spiritual teaching, or service?",
+    "translated": "사역, 영적인 가르침, 봉사에 대한 부르심을 느낀 적이 있습니까?"
+  },
+  {
+    "number": 655,
+    "english": "How do you cultivate or strengthen your faith during times of apathy or dryness?",
+    "translated": "무관심하거나 메마른 시기에 어떻게 믿음을 키우거나 강화합니까?"
+  },
+  {
+    "number": 656,
+    "english": "What does spiritual liberation or enlightenment mean to you, if anything?",
+    "translated": "영적 해방이나 깨달음이 당신에게 의미하는 바가 있다면 무엇입니까?"
+  },
+  {
+    "number": 657,
+    "english": "How do you integrate modern living with ancient or traditional spiritual teachings?",
+    "translated": "현대 생활과 고대 또는 전통적인 영적 가르침을 어떻게 통합합니까?"
+  },
+  {
+    "number": 658,
+    "english": "What role do meditative or contemplative practices play in your faith journey?",
+    "translated": "당신의 신앙 여정에서 명상이나 관상 수련은 어떤 역할을 합니까?"
+  },
+  {
+    "number": 659,
+    "english": "Have you experienced shifts in your belief system due to romantic partnerships or friendships?",
+    "translated": "낭만적인 파트너십이나 우정으로 인해 신념 체계에 변화를 경험한 적이 있습니까?"
+  },
+  {
+    "number": 660,
+    "english": "How do you approach religious holidays—do they hold spiritual significance or cultural tradition (or both)?",
+    "translated": "종교적인 휴일에 어떻게 접근하시나요? 영적인 의미나 문화적 전통(또는 둘 다)을 담고 있나요?"
+  },
+  {
+    "number": 661,
+    "english": "When you feel disconnected from your faith, what draws you back?",
+    "translated": "당신의 믿음에서 단절되었다고 느낄 때, 무엇이 당신을 뒤로 물러나게 합니까?"
+  },
+  {
+    "number": 662,
+    "english": "How do you engage with spiritual teachings from traditions that are not your own?",
+    "translated": "자신의 것이 아닌 전통의 영적 가르침에 어떻게 참여합니까?"
+  },
+  {
+    "number": 663,
+    "english": "Which acts of service or volunteer work feel most aligned with your spiritual values?",
+    "translated": "어떤 봉사 활동이나 자원 봉사 활동이 귀하의 영적 가치와 가장 일치한다고 생각합니까?"
+  },
+  {
+    "number": 664,
+    "english": "What does spiritual community look like in the age of online gatherings and technology?",
+    "translated": "온라인 모임과 기술의 시대에 영적 공동체는 어떤 모습일까요?"
+  },
+  {
+    "number": 665,
+    "english": "Do you believe that all major religions point to a similar core truth, or are they fundamentally different?",
+    "translated": "모든 주요 종교가 비슷한 핵심 진리를 가르친다고 생각하시나요, 아니면 근본적으로 다르다고 생각하시나요?"
+  },
+  {
+    "number": 666,
+    "english": "How do you discern legitimate spiritual guidance from manipulation or dogma?",
+    "translated": "조작이나 교리로부터 합법적인 영적 인도를 어떻게 식별합니까?"
+  },
+  {
+    "number": 667,
+    "english": "In what ways does wonder or awe figure into your spiritual experiences?",
+    "translated": "어떤 방식으로 경이로움이나 경외감이 당신의 영적 경험에 영향을 미치나요?"
+  },
+  {
+    "number": 668,
+    "english": "How do you approach prayer, and does it involve listening as well as speaking?",
+    "translated": "기도에 어떻게 접근합니까? 기도에는 말하는 것뿐 아니라 듣는 것도 포함됩니까?"
+  },
+  {
+    "number": 669,
+    "english": "Do you practice any form of spiritual study (scripture, philosophy, etc.) regularly?",
+    "translated": "당신은 정기적으로 어떤 형태의 영적 연구(성경, 철학 등)를 실천합니까?"
+  },
+  {
+    "number": 670,
+    "english": "How do you live out the principle of compassion, whether religiously motivated or not?",
+    "translated": "종교적 동기가 있든 없든 연민의 원칙을 어떻게 실천합니까?"
+  },
+  {
+    "number": 671,
+    "english": "What role do angels, saints, ancestors, or spiritual intermediaries play in your beliefs?",
+    "translated": "당신의 믿음에서 천사, 성인, 조상 또는 영적 중개자는 어떤 역할을 합니까?"
+  },
+  {
+    "number": 672,
+    "english": "Has a pilgrimage or retreat significantly impacted your spiritual outlook?",
+    "translated": "순례나 수련회가 당신의 영적 전망에 큰 영향을 미쳤습니까?"
+  },
+  {
+    "number": 673,
+    "english": "How do you see the relationship between spirituality and mental health?",
+    "translated": "영성과 정신 건강의 관계를 어떻게 보시나요?"
+  },
+  {
+    "number": 674,
+    "english": "Do you believe spiritual growth is a continuous process, or can one reach a final state?",
+    "translated": "영적 성장은 지속적인 과정이라고 생각하시나요, 아니면 최종 상태에 도달할 수 있다고 생각하시나요?"
+  },
+  {
+    "number": 675,
+    "english": "When have you felt the greatest sense of divine peace or presence in your life?",
+    "translated": "여러분의 삶에서 신성한 평안이나 임재를 가장 크게 느꼈던 때는 언제였습니까?"
+  },
+  {
+    "number": 676,
+    "english": "Which spiritual teachers or authors consistently inspire and challenge you?",
+    "translated": "당신에게 지속적으로 영감을 주고 도전을 주는 영적 교사나 작가는 누구입니까?"
+  },
+  {
+    "number": 677,
+    "english": "How do you remain humble while still feeling spiritually guided or “chosen”?",
+    "translated": "영적인 인도를 받거나 “선택”되었다고 느끼면서도 어떻게 겸손을 유지합니까?"
+  },
+  {
+    "number": 678,
+    "english": "Do you maintain any daily or weekly ritual that keeps you anchored to your faith?",
+    "translated": "당신의 믿음을 굳건하게 유지하는 매일 또는 매주의 의식을 유지하고 있습니까?"
+  },
+  {
+    "number": 679,
+    "english": "How do you engage in spiritual reflection about global issues like climate change or social justice?",
+    "translated": "기후 변화나 사회 정의와 같은 글로벌 문제에 대한 영적 성찰에 어떻게 참여합니까?"
+  },
+  {
+    "number": 680,
+    "english": "Have you ever confronted the possibility that what you believe might be wrong?",
+    "translated": "당신이 믿는 것이 틀릴 수도 있다는 가능성에 직면한 적이 있습니까?"
+  },
+  {
+    "number": 681,
+    "english": "What do you find most beautiful or uplifting in other people’s spiritual traditions?",
+    "translated": "다른 사람들의 영적 전통에서 가장 아름답거나 고양되는 것은 무엇입니까?"
+  },
+  {
+    "number": 682,
+    "english": "How do you guard against judging those who practice a faith you disagree with?",
+    "translated": "당신이 동의하지 않는 신앙을 실천하는 사람들을 판단하지 않도록 어떻게 보호합니까?"
+  },
+  {
+    "number": 683,
+    "english": "Which personal experiences confirm or strengthen your spiritual convictions?",
+    "translated": "어떤 개인적인 경험이 당신의 영적 확신을 확증하거나 강화합니까?"
+  },
+  {
+    "number": 684,
+    "english": "How do you reconcile personal spiritual experiences with skepticism from others?",
+    "translated": "개인적인 영적 경험과 다른 사람들의 회의론을 어떻게 조화시키나요?"
+  },
+  {
+    "number": 685,
+    "english": "Do you see spirituality as intertwined with creativity and self-expression?",
+    "translated": "영성이 창의성과 자기표현과 밀접하게 연관되어 있다고 생각하시나요?"
+  },
+  {
+    "number": 686,
+    "english": "How does your view of God or a higher power differ from childhood to now?",
+    "translated": "하나님이나 더 높은 능력에 대한 당신의 견해는 어린 시절과 지금까지 어떻게 다릅니까?"
+  },
+  {
+    "number": 687,
+    "english": "Have you found healing in spiritual community after experiencing any form of religious trauma?",
+    "translated": "어떤 형태로든 종교적 트라우마를 경험한 후 영적 공동체에서 치유를 찾았습니까?"
+  },
+  {
+    "number": 688,
+    "english": "What questions about life’s meaning do you still hope to find answers to?",
+    "translated": "인생의 의미에 관해 어떤 질문에 대한 답을 찾고 싶나요?"
+  },
+  {
+    "number": 689,
+    "english": "How do you interpret coincidence—mere chance or meaningful synchronicity?",
+    "translated": "우연의 일치, 즉 단순한 우연 또는 의미 있는 동시성을 어떻게 해석합니까?"
+  },
+  {
+    "number": 690,
+    "english": "In times of immense joy, how do you give thanks spiritually?",
+    "translated": "큰 기쁨의 순간에 어떻게 영적으로 감사합니까?"
+  },
+  {
+    "number": 691,
+    "english": "What do you think about the concept of a personal “calling” or life mission from a divine source?",
+    "translated": "신성한 근원으로부터 오는 개인적인 “부름”이나 인생 사명의 개념에 대해 어떻게 생각하십니까?"
+  },
+  {
+    "number": 692,
+    "english": "How do you distinguish spiritual growth from personal self-improvement?",
+    "translated": "영적 성장과 개인적인 자기 개선을 어떻게 구별합니까?"
+  },
+  {
+    "number": 693,
+    "english": "Which common misconceptions about your faith or spiritual path do you often encounter?",
+    "translated": "당신의 신앙이나 영적인 길에 관해 어떤 일반적인 오해를 자주 접하십니까?"
+  },
+  {
+    "number": 694,
+    "english": "How do you see yourself contributing to the ongoing evolution of your spiritual tradition?",
+    "translated": "당신의 영적 전통의 지속적인 발전에 당신 자신이 어떻게 기여하고 있다고 생각하시나요?"
+  },
+  {
+    "number": 695,
+    "english": "Do you believe enlightenment or spiritual awakening is available to everyone?",
+    "translated": "깨달음이나 영적 각성은 모든 사람에게 가능하다고 믿습니까?"
+  },
+  {
+    "number": 696,
+    "english": "How do you hold space for both reverence and doubt in your spiritual journey?",
+    "translated": "당신의 영적 여정에서 존경과 의심의 여지를 어떻게 둘 수 있습니까?"
+  },
+  {
+    "number": 697,
+    "english": "Which spiritual questions do you hope future generations continue exploring?",
+    "translated": "미래 세대가 계속 탐구하기를 바라는 영적인 질문은 무엇입니까?"
+  },
+  {
+    "number": 698,
+    "english": "How do you respond to spiritual cynicism or hostility from others?",
+    "translated": "다른 사람들의 영적 냉소나 적대감에 어떻게 반응합니까?"
+  },
+  {
+    "number": 699,
+    "english": "When has your faith led you to take a stand or make a sacrifice?",
+    "translated": "당신의 믿음으로 인해 당신이 입장을 취하거나 희생하게 된 적은 언제입니까?"
+  },
+  {
+    "number": 700,
+    "english": "If you had to summarize your spiritual philosophy in one sentence, what would it be?",
+    "translated": "당신의 영적 철학을 한 문장으로 요약해야 한다면 무엇입니까?"
+  },
+  {
+    "number": 701,
+    "english": "How do you define meaningful work, and has that definition changed?",
+    "translated": "의미 있는 일을 어떻게 정의하시나요? 그리고 그 정의가 바뀌었나요?"
+  },
+  {
+    "number": 702,
+    "english": "What role does purpose play in your professional or creative pursuits?",
+    "translated": "당신의 전문적이거나 창의적인 활동에서 목적은 어떤 역할을 합니까?"
+  },
+  {
+    "number": 703,
+    "english": "Which jobs or roles have felt most aligned with your core values?",
+    "translated": "어떤 직업이나 역할이 귀하의 핵심 가치와 가장 일치한다고 생각하시나요?"
+  },
+  {
+    "number": 704,
+    "english": "How did you discover your current career path, and was it straightforward or winding?",
+    "translated": "현재의 진로를 어떻게 발견하게 되었으며, 그것이 간단했습니까, 아니면 구불구불했습니까?"
+  },
+  {
+    "number": 705,
+    "english": "What sacrifices have you made to pursue work that matters to you?",
+    "translated": "당신에게 중요한 일을 추구하기 위해 당신은 어떤 희생을 했습니까?"
+  },
+  {
+    "number": 706,
+    "english": "Do you believe your job should reflect your identity, or is it just a means to an end?",
+    "translated": "당신의 직업이 당신의 정체성을 반영해야 한다고 생각합니까, 아니면 단지 목적을 위한 수단일 뿐입니까?"
+  },
+  {
+    "number": 707,
+    "english": "When have you felt the deepest sense of fulfillment in your work?",
+    "translated": "일을 하면서 가장 깊은 성취감을 느꼈던 때는 언제였나요?"
+  },
+  {
+    "number": 708,
+    "english": "How do you cope with burnout or career stagnation?",
+    "translated": "소진이나 경력 침체에 어떻게 대처합니까?"
+  },
+  {
+    "number": 709,
+    "english": "Which mentors have shaped your approach to work and personal development?",
+    "translated": "일과 개인 발전에 대한 접근 방식을 형성한 멘토는 누구입니까?"
+  },
+  {
+    "number": 710,
+    "english": "How do you balance ambition with contentment in your career?",
+    "translated": "경력에 있어서 야망과 만족 사이의 균형을 어떻게 맞추나요?"
+  },
+  {
+    "number": 711,
+    "english": "What role does creativity play in your everyday work life?",
+    "translated": "일상적인 직장 생활에서 창의성은 어떤 역할을 합니까?"
+  },
+  {
+    "number": 712,
+    "english": "Have you ever turned down a lucrative opportunity because it didn’t align with your values?",
+    "translated": "당신의 가치관과 맞지 않는다는 이유로 수익성 있는 기회를 거절한 적이 있습니까?"
+  },
+  {
+    "number": 713,
+    "english": "How do you approach learning new skills or pivoting professionally?",
+    "translated": "새로운 기술을 배우거나 전문적으로 전환하는 데 어떻게 접근합니까?"
+  },
+  {
+    "number": 714,
+    "english": "When has failure at work led you to a better role or opportunity elsewhere?",
+    "translated": "직장에서의 실패로 인해 다른 곳에서 더 나은 역할이나 기회를 얻게 된 때는 언제입니까?"
+  },
+  {
+    "number": 715,
+    "english": "Do you believe in having one “calling,” or can a person have multiple callings over time?",
+    "translated": "당신은 하나의 “부름”을 갖는 것을 믿습니까, 아니면 한 사람이 시간이 지남에 따라 여러 가지 부르심을 가질 수 있다고 믿습니까?"
+  },
+  {
+    "number": 716,
+    "english": "What personal traits help you thrive in your chosen field?",
+    "translated": "당신이 선택한 분야에서 성공하는 데 도움이 되는 개인적인 특성은 무엇입니까?"
+  },
+  {
+    "number": 717,
+    "english": "How do you maintain ethical standards if your workplace culture conflicts with them?",
+    "translated": "직장 문화가 윤리적 기준과 충돌하는 경우 어떻게 윤리적 기준을 유지합니까?"
+  },
+  {
+    "number": 718,
+    "english": "When is it time to leave a job that no longer fulfills you?",
+    "translated": "더 이상 만족스럽지 못한 직장을 그만둘 때가 언제입니까?"
+  },
+  {
+    "number": 719,
+    "english": "How do you define success beyond monetary earnings or status?",
+    "translated": "금전적 수입이나 지위를 넘어서는 성공을 어떻게 정의하나요?"
+  },
+  {
+    "number": 720,
+    "english": "Which accomplishments in your work history bring you the most pride?",
+    "translated": "귀하의 경력 중 어떤 성취가 귀하에게 가장 자부심을 갖게 합니까?"
+  },
+  {
+    "number": 721,
+    "english": "What project or goal are you most excited about right now?",
+    "translated": "지금 가장 기대되는 프로젝트나 목표는 무엇인가요?"
+  },
+  {
+    "number": 722,
+    "english": "Do you ever feel imposter syndrome at work, and how do you combat it?",
+    "translated": "직장에서 가면 증후군을 느낀 적이 있습니까? 어떻게 대처합니까?"
+  },
+  {
+    "number": 723,
+    "english": "How do you handle workplace conflict or difficult colleagues?",
+    "translated": "직장 내 갈등이나 어려운 동료를 어떻게 처리하나요?"
+  },
+  {
+    "number": 724,
+    "english": "Have you ever considered starting your own business or freelancing? Why or why not?",
+    "translated": "자신의 사업을 시작하거나 프리랜서로 일하는 것을 고려해 본 적이 있습니까?왜 아니면 안되나요?"
+  },
+  {
+    "number": 725,
+    "english": "What daily habits keep you motivated and productive?",
+    "translated": "어떤 일상 습관이 당신에게 동기를 부여하고 생산성을 유지하게 합니까?"
+  },
+  {
+    "number": 726,
+    "english": "How do you deal with rejection or criticism in your professional life?",
+    "translated": "직장 생활에서 거절이나 비판에 어떻게 대처하시나요?"
+  },
+  {
+    "number": 727,
+    "english": "What does work-life balance mean to you, and how do you practice it?",
+    "translated": "일과 삶의 균형은 당신에게 무엇을 의미하며, 이를 어떻게 실천하고 있나요?"
+  },
+  {
+    "number": 728,
+    "english": "Which skills have proven most valuable in your career so far?",
+    "translated": "지금까지 귀하의 경력에서 가장 가치 있는 것으로 입증된 기술은 무엇입니까?"
+  },
+  {
+    "number": 729,
+    "english": "How has technology changed the way you approach your work or craft?",
+    "translated": "기술이 귀하의 작업이나 기술에 접근하는 방식을 어떻게 변화시켰습니까?"
+  },
+  {
+    "number": 730,
+    "english": "When have you felt compelled to advocate for someone’s rights in the workplace?",
+    "translated": "직장에서 누군가의 권리를 옹호해야 한다고 느꼈던 때는 언제였습니까?"
+  },
+  {
+    "number": 731,
+    "english": "Do you find meaning in mentorship or guiding others professionally?",
+    "translated": "멘토십이나 다른 사람을 전문적으로 지도하는 것에서 의미를 찾으시나요?"
+  },
+  {
+    "number": 732,
+    "english": "How do you stay resilient amid layoffs, economic downturns, or unstable job markets?",
+    "translated": "정리해고, 경기 침체, 불안정한 고용 시장 속에서 어떻게 회복력을 유지할 수 있습니까?"
+  },
+  {
+    "number": 733,
+    "english": "What is your relationship with authority figures, such as bosses or supervisors?",
+    "translated": "상사나 감독자 등 권위 있는 인물과의 관계는 어떻습니까?"
+  },
+  {
+    "number": 734,
+    "english": "Have you ever had to rebuild your career after a major setback?",
+    "translated": "큰 좌절을 겪은 후 경력을 다시 구축해야 했던 적이 있습니까?"
+  },
+  {
+    "number": 735,
+    "english": "How do you ensure your work aligns with your personal sense of purpose?",
+    "translated": "귀하의 업무가 귀하의 개인적인 목적의식과 일치하는지 어떻게 확인합니까?"
+  },
+  {
+    "number": 736,
+    "english": "Which industries or professions do you admire for their contributions to society?",
+    "translated": "사회에 기여하는 산업이나 직업 중 어떤 분야를 존경하시나요?"
+  },
+  {
+    "number": 737,
+    "english": "Have you ever questioned your career path due to moral or ethical concerns?",
+    "translated": "도덕적 또는 윤리적 문제로 인해 진로에 의문을 품은 적이 있습니까?"
+  },
+  {
+    "number": 738,
+    "english": "How do you stay relevant or update your skill set in a rapidly changing world?",
+    "translated": "빠르게 변화하는 세상에서 어떻게 관련성을 유지하거나 기술을 업데이트합니까?"
+  },
+  {
+    "number": 739,
+    "english": "What’s one piece of professional advice you wish you had learned sooner?",
+    "translated": "더 일찍 배웠더라면 좋았을 전문적인 조언 한 가지는 무엇입니까?"
+  },
+  {
+    "number": 740,
+    "english": "How do you navigate office politics while staying true to your integrity?",
+    "translated": "성실성을 유지하면서 어떻게 사무실 정치를 헤쳐 나가나요?"
+  },
+  {
+    "number": 741,
+    "english": "In what ways do your personal relationships influence your work priorities?",
+    "translated": "당신의 개인적인 관계는 어떤 방식으로 당신의 업무 우선순위에 영향을 미치나요?"
+  },
+  {
+    "number": 742,
+    "english": "Which moments of collaboration or teamwork stand out as particularly inspiring?",
+    "translated": "특히 영감을 주는 협업이나 팀워크의 순간은 무엇입니까?"
+  },
+  {
+    "number": 743,
+    "english": "Do you dream of retirement, or do you hope to keep working in some capacity indefinitely?",
+    "translated": "은퇴를 꿈꾸시나요, 아니면 일정 기간 동안 계속해서 일하고 싶으신가요?"
+  },
+  {
+    "number": 744,
+    "english": "What practices help you maintain a sense of gratitude for your job, even on tough days?",
+    "translated": "힘든 날에도 자신의 직업에 대한 감사의 마음을 유지하는 데 도움이 되는 실천 방법은 무엇입니까?"
+  },
+  {
+    "number": 745,
+    "english": "When have you felt your work is making a real difference in others’ lives?",
+    "translated": "당신의 일이 다른 사람들의 삶에 실질적인 변화를 가져오고 있다고 느낀 적은 언제입니까?"
+  },
+  {
+    "number": 746,
+    "english": "Do you see your current role as a stepping stone to something else, or an end in itself?",
+    "translated": "현재의 역할이 다른 것을 향한 디딤돌이라고 생각하시나요, 아니면 그 자체가 목적이라고 생각하시나요?"
+  },
+  {
+    "number": 747,
+    "english": "How do you cope when your passion for your job fluctuates?",
+    "translated": "직업에 대한 열정이 흔들릴 때 어떻게 대처하시나요?"
+  },
+  {
+    "number": 748,
+    "english": "Have you ever pursued a side project or hobby that became more fulfilling than your primary job?",
+    "translated": "본업보다 더 만족스러운 부업이나 취미를 추구한 적이 있습니까?"
+  },
+  {
+    "number": 749,
+    "english": "In what ways does your work challenge you to grow as a person?",
+    "translated": "당신의 일은 어떤 면에서 당신이 인간으로서 성장하도록 도전하는가?"
+  },
+  {
+    "number": 750,
+    "english": "What kind of legacy do you hope to leave in your field or industry?",
+    "translated": "당신의 분야나 업계에 어떤 유산을 남기고 싶나요?"
+  },
+  {
+    "number": 751,
+    "english": "Are there any fields you’re curious to explore in the future?",
+    "translated": "앞으로 탐구하고 싶은 분야가 있나요?"
+  },
+  {
+    "number": 752,
+    "english": "How has feedback from coworkers or clients shaped your professional style?",
+    "translated": "동료나 고객의 피드백이 귀하의 직업 스타일을 어떻게 형성했습니까?"
+  },
+  {
+    "number": 753,
+    "english": "What boundaries do you set to protect your personal life from work demands?",
+    "translated": "업무 요구로부터 개인 생활을 보호하기 위해 어떤 경계를 설정합니까?"
+  },
+  {
+    "number": 754,
+    "english": "How do you handle second-guessing your career choices or path?",
+    "translated": "당신의 직업 선택이나 진로에 대한 추측을 어떻게 처리합니까?"
+  },
+  {
+    "number": 755,
+    "english": "If money were no object, would you still do the same kind of work?",
+    "translated": "돈이 문제가 되지 않더라도 당신은 여전히 ​​같은 일을 하시겠습니까?"
+  },
+  {
+    "number": 756,
+    "english": "Who are the unsung heroes in your workplace, and how do they inspire you?",
+    "translated": "당신의 직장에서 알려지지 않은 영웅은 누구이며, 그들은 당신에게 어떻게 영감을 주나요?"
+  },
+  {
+    "number": 757,
+    "english": "When have you used your professional skills for volunteering or pro bono efforts?",
+    "translated": "귀하의 전문 기술을 자원 봉사 또는 무료 활동에 활용한 적이 언제입니까?"
+  },
+  {
+    "number": 758,
+    "english": "What steps do you take to keep your work aligned with your moral principles?",
+    "translated": "당신의 업무가 도덕적 원칙에 부합하도록 하기 위해 어떤 조치를 취합니까?"
+  },
+  {
+    "number": 759,
+    "english": "How do you avoid tying your entire identity to your job title?",
+    "translated": "당신의 전체 정체성을 직위에 묶는 것을 어떻게 피합니까?"
+  },
+  {
+    "number": 760,
+    "english": "Do you enjoy being in leadership positions, or do you prefer contributing without leading?",
+    "translated": "당신은 리더십 위치에 있는 것을 좋아합니까, 아니면 이끌지 않고 기여하는 것을 선호합니까?"
+  },
+  {
+    "number": 761,
+    "english": "Which personal values have become nonnegotiable in your professional choices?",
+    "translated": "당신의 직업적 선택에서 어떤 개인적인 가치가 타협할 수 없게 되었습니까?"
+  },
+  {
+    "number": 762,
+    "english": "How do you maintain your mental health in high-pressure work environments?",
+    "translated": "압박감이 심한 작업 환경에서 정신 건강을 어떻게 유지합니까?"
+  },
+  {
+    "number": 763,
+    "english": "What’s the greatest challenge you face in striving for work-life harmony?",
+    "translated": "일과 삶의 조화를 이루기 위해 노력하면서 직면하는 가장 큰 어려움은 무엇입니까?"
+  },
+  {
+    "number": 764,
+    "english": "Do you feel it’s important for your career to serve a greater social or environmental purpose? Why or why not?",
+    "translated": "귀하의 경력이 더 큰 사회적 또는 환경적 목적을 달성하는 것이 중요하다고 생각하십니까?왜 아니면 안되나요?"
+  },
+  {
+    "number": 765,
+    "english": "How do you measure success across various life domains—family, work, health, etc.?",
+    "translated": "가족, 직장, 건강 등 다양한 삶의 영역에서 성공을 어떻게 측정합니까?"
+  },
+  {
+    "number": 766,
+    "english": "Which coworker or manager taught you an invaluable lesson you still carry with you?",
+    "translated": "당신이 아직도 갖고 있는 귀중한 교훈을 가르쳐 준 동료나 관리자는 누구입니까?"
+  },
+  {
+    "number": 767,
+    "english": "When have you had to adapt quickly to new responsibilities or a promotion?",
+    "translated": "새로운 책임이나 승진에 빠르게 적응해야 했던 때는 언제였습니까?"
+  },
+  {
+    "number": 768,
+    "english": "How do you handle ethical dilemmas when corporate policy contradicts your conscience?",
+    "translated": "기업 정책이 귀하의 양심과 모순될 때 윤리적 딜레마를 어떻게 처리합니까?"
+  },
+  {
+    "number": 769,
+    "english": "Have you found a sense of community or camaraderie within your workplace?",
+    "translated": "직장 내에서 공동체 의식이나 동지애를 찾았습니까?"
+  },
+  {
+    "number": 770,
+    "english": "What’s your greatest fear related to your professional future?",
+    "translated": "직업적 미래와 관련하여 가장 큰 두려움은 무엇입니까?"
+  },
+  {
+    "number": 771,
+    "english": "Which achievements or milestones do you still aspire to reach in your career?",
+    "translated": "당신의 경력에서 여전히 도달하고 싶은 성취나 이정표는 무엇입니까?"
+  },
+  {
+    "number": 772,
+    "english": "When has following your passion proved more complicated than you expected?",
+    "translated": "당신의 열정을 따르는 것이 예상보다 더 복잡했던 때는 언제였습니까?"
+  },
+  {
+    "number": 773,
+    "english": "How do you navigate cultural, generational, or personality differences with coworkers?",
+    "translated": "동료들과의 문화적, 세대적, 성격 차이를 어떻게 극복합니까?"
+  },
+  {
+    "number": 774,
+    "english": "Do you have a “Plan B” if your career path takes an unexpected turn?",
+    "translated": "당신의 진로가 예상치 못한 방향으로 바뀔 경우를 대비한 \"플랜 B\"가 있습니까?"
+  },
+  {
+    "number": 775,
+    "english": "In what ways does technology or social media both help and hinder your professional life?",
+    "translated": "기술이나 소셜 미디어는 어떤 방식으로 귀하의 직업 생활을 돕거나 방해합니까?"
+  },
+  {
+    "number": 776,
+    "english": "How do you handle days when your motivation is at rock bottom?",
+    "translated": "의욕이 바닥에 떨어진 날에는 어떻게 대처하시나요?"
+  },
+  {
+    "number": 777,
+    "english": "Have you experienced gender, racial, or other forms of bias, and how did you respond?",
+    "translated": "성별, 인종 또는 기타 형태의 편견을 경험한 적이 있으며 어떻게 대응했습니까?"
+  },
+  {
+    "number": 778,
+    "english": "What small habits or routines help you feel more productive or creative at work?",
+    "translated": "직장에서 생산성이나 창의성을 높이는 데 도움이 되는 작은 습관이나 일상은 무엇입니까?"
+  },
+  {
+    "number": 779,
+    "english": "When you retire or step back, what would you most like people to remember about your work ethic?",
+    "translated": "당신이 은퇴하거나 물러날 때 사람들이 당신의 직업 윤리에 대해 무엇을 가장 기억하고 싶습니까?"
+  },
+  {
+    "number": 780,
+    "english": "How do you maintain a beginner’s mind and stay open to learning in your field?",
+    "translated": "초보자의 마음을 유지하고 해당 분야에서 학습에 열려 있는 방법은 무엇입니까?"
+  },
+  {
+    "number": 781,
+    "english": "Has a mentor or role model ever changed your professional trajectory?",
+    "translated": "멘토나 역할 모델이 당신의 직업적 궤도를 바꾼 적이 있습니까?"
+  },
+  {
+    "number": 782,
+    "english": "What does “healthy ambition” look like compared to unhealthy ambition?",
+    "translated": "건강하지 못한 야망에 비해 “건강한 야망”은 어떤 모습일까요?"
+  },
+  {
+    "number": 783,
+    "english": "How do you recover from professional burnout, physically and mentally?",
+    "translated": "육체적으로나 정신적으로 직업적 소진을 어떻게 회복합니까?"
+  },
+  {
+    "number": 784,
+    "english": "Which compliments about your work mean the most to you, and why?",
+    "translated": "귀하의 업무에 대한 어떤 칭찬이 귀하에게 가장 의미가 있으며, 그 이유는 무엇입니까?"
+  },
+  {
+    "number": 785,
+    "english": "Do you keep your personal values visible in your workspace (e.g., quotes, reminders)?",
+    "translated": "작업 공간에 개인적인 가치(예: 인용문, 알림)가 표시됩니까?"
+  },
+  {
+    "number": 786,
+    "english": "What’s the toughest feedback you’ve ever received, and how did you grow from it?",
+    "translated": "지금까지 받은 피드백 중 가장 힘든 피드백은 무엇이며, 이를 통해 어떻게 성장했나요?"
+  },
+  {
+    "number": 787,
+    "english": "In your field, what positive changes do you hope to see over the next decade?",
+    "translated": "귀하의 분야에서 향후 10년 동안 어떤 긍정적인 변화를 보기를 희망하시나요?"
+  },
+  {
+    "number": 788,
+    "english": "How do you handle job transitions when they affect your sense of identity?",
+    "translated": "직업 전환이 정체성에 영향을 미칠 때 어떻게 처리합니까?"
+  },
+  {
+    "number": 789,
+    "english": "Have you ever felt called to activism or social entrepreneurship through your work?",
+    "translated": "당신의 일을 통해 행동주의나 사회적 기업가 정신에 대한 부르심을 느낀 적이 있습니까?"
+  },
+  {
+    "number": 790,
+    "english": "When do you most feel like you’re operating in your “zone of genius”?",
+    "translated": "당신이 \"천재의 영역\"에서 활동하고 있다고 가장 느낄 때는 언제입니까?"
+  },
+  {
+    "number": 791,
+    "english": "If you had to switch careers tomorrow, what new path would you explore?",
+    "translated": "내일 직업을 바꿔야 한다면 어떤 새로운 길을 탐색하시겠습니까?"
+  },
+  {
+    "number": 792,
+    "english": "How do you celebrate major work achievements with your team or loved ones?",
+    "translated": "팀이나 사랑하는 사람과 함께 주요 업무 성과를 어떻게 축하합니까?"
+  },
+  {
+    "number": 793,
+    "english": "What is the biggest misconception people have about your line of work?",
+    "translated": "당신의 직업에 대해 사람들이 갖고 있는 가장 큰 오해는 무엇입니까?"
+  },
+  {
+    "number": 794,
+    "english": "How do you find mentors or peers who can challenge and support your growth?",
+    "translated": "당신의 성장에 도전하고 지원해줄 수 있는 멘토나 동료를 어떻게 찾나요?"
+  },
+  {
+    "number": 795,
+    "english": "Which parts of your personality shine most in your professional life?",
+    "translated": "직업 생활에서 당신의 성격 중 어떤 부분이 가장 빛나는가요?"
+  },
+  {
+    "number": 796,
+    "english": "Have you ever struggled to assert boundaries with bosses or clients?",
+    "translated": "상사나 고객과의 경계를 주장하기 위해 애쓴 적이 있습니까?"
+  },
+  {
+    "number": 797,
+    "english": "What criteria do you use to decide which professional risks are worth taking?",
+    "translated": "어떤 직업적 위험을 감수할 가치가 있는지 결정하기 위해 어떤 기준을 사용합니까?"
+  },
+  {
+    "number": 798,
+    "english": "How do you handle boredom or routine in your job while still finding inspiration?",
+    "translated": "영감을 얻으면서 직장에서 지루함이나 일상을 어떻게 처리합니까?"
+  },
+  {
+    "number": 799,
+    "english": "When has collaboration taught you something you couldn’t have learned on your own?",
+    "translated": "혼자서는 배울 수 없는 것을 협업을 통해 배운 적이 있나요?"
+  },
+  {
+    "number": 800,
+    "english": "If you had the power, how would you transform your industry for the better?",
+    "translated": "당신에게 권력이 있다면 어떻게 당신의 산업을 더 나은 방향으로 변화시키겠습니까?"
+  },
+  {
+    "number": 801,
+    "english": "What activities or pursuits consistently spark joy and creativity in you?",
+    "translated": "어떤 활동이나 추구가 지속적으로 당신에게 기쁨과 창의성을 불러일으키나요?"
+  },
+  {
+    "number": 802,
+    "english": "How do you handle creative blocks or feeling uninspired?",
+    "translated": "창의적인 블록이나 영감이 없는 느낌을 어떻게 처리합니까?"
+  },
+  {
+    "number": 803,
+    "english": "Which artistic medium (music, writing, painting, etc.) do you connect with most deeply?",
+    "translated": "당신은 어떤 예술 매체(음악, 글쓰기, 그림 등)와 가장 깊이 연관되어 있습니까?"
+  },
+  {
+    "number": 804,
+    "english": "When did you first realize you had a passion or talent worth nurturing?",
+    "translated": "자신에게 육성할 가치가 있는 열정이나 재능이 있다는 것을 언제 처음 깨달았나요?"
+  },
+  {
+    "number": 805,
+    "english": "What do you love about being in a state of creative “flow”?",
+    "translated": "창의적인 \"흐름\" 상태에 있는 것에 대해 당신은 무엇을 좋아합니까?"
+  },
+  {
+    "number": 806,
+    "english": "How do you juggle creativity with practical responsibilities like work or family?",
+    "translated": "일이나 가족과 같은 실질적인 책임과 창의성을 어떻게 조화시키나요?"
+  },
+  {
+    "number": 807,
+    "english": "Who are your biggest creative inspirations or role models?",
+    "translated": "당신에게 가장 큰 창의적 영감을 주거나 롤모델이 되는 사람은 누구입니까?"
+  },
+  {
+    "number": 808,
+    "english": "When have you felt most validated or appreciated for your creative output?",
+    "translated": "당신의 창의적인 결과물이 가장 인정받거나 높이 평가되었다고 느꼈던 때는 언제였나요?"
+  },
+  {
+    "number": 809,
+    "english": "How do you overcome the fear of sharing your creative work with others?",
+    "translated": "당신의 창의적인 작품을 다른 사람들과 공유하는 것에 대한 두려움을 어떻게 극복합니까?"
+  },
+  {
+    "number": 810,
+    "english": "In what ways can creativity emerge from adversity or heartbreak?",
+    "translated": "역경이나 비탄 속에서 창의성은 어떤 방식으로 나타날 수 있습니까?"
+  },
+  {
+    "number": 811,
+    "english": "How have collaborations with others expanded your sense of artistic possibility?",
+    "translated": "다른 사람들과의 협업을 통해 예술적 가능성에 대한 감각이 어떻게 확장되었나요?"
+  },
+  {
+    "number": 812,
+    "english": "Do you see creativity as an innate gift, a learned skill, or both?",
+    "translated": "창의성을 타고난 재능으로 보시나요, 학습된 기술로 보시나요, 아니면 둘 다로 보시나요?"
+  },
+  {
+    "number": 813,
+    "english": "How do you handle perfectionism when it stifles your creative process?",
+    "translated": "완벽주의가 창작 과정을 방해할 때 어떻게 처리합니까?"
+  },
+  {
+    "number": 814,
+    "english": "Which environments or conditions help your creativity thrive?",
+    "translated": "어떤 환경이나 조건이 창의력을 발휘하는 데 도움이 됩니까?"
+  },
+  {
+    "number": 815,
+    "english": "When you lose motivation for a creative passion, what brings you back to it?",
+    "translated": "창의적인 열정에 대한 의욕을 잃었을 때, 무엇이 다시 그 열정을 불러일으키나요?"
+  },
+  {
+    "number": 816,
+    "english": "Do you think everyone has a creative spark, even if they don’t recognize it?",
+    "translated": "인식하지 못하더라도 모든 사람에게 창의적인 불꽃이 있다고 생각하시나요?"
+  },
+  {
+    "number": 817,
+    "english": "What have you learned about yourself through pursuing a beloved hobby or art form?",
+    "translated": "사랑하는 취미나 예술 형식을 추구하면서 자신에 대해 무엇을 배웠습니까?"
+  },
+  {
+    "number": 818,
+    "english": "How do you balance the drive to innovate with the fear of failing publicly?",
+    "translated": "공개적으로 실패하는 것에 대한 두려움과 혁신을 향한 추진력의 균형을 어떻게 맞추나요?"
+  },
+  {
+    "number": 819,
+    "english": "Which personal insecurities come up most often when you create?",
+    "translated": "창작을 할 때 어떤 개인적 불안감이 가장 자주 발생하나요?"
+  },
+  {
+    "number": 820,
+    "english": "When have you felt pressured to monetize a passion that was once purely for enjoyment?",
+    "translated": "한때 순전히 즐거움을 위한 것이었던 열정을 현금화해야 한다는 압박감을 느낀 적은 언제입니까?"
+  },
+  {
+    "number": 821,
+    "english": "How has technology influenced your creative expression, positively or negatively?",
+    "translated": "기술이 귀하의 창의적인 표현에 긍정적으로 또는 부정적으로 어떤 영향을 미쳤습니까?"
+  },
+  {
+    "number": 822,
+    "english": "Do you share your creative passions with loved ones, or keep them private?",
+    "translated": "당신의 창의적인 열정을 사랑하는 사람들과 공유하시나요, 아니면 비공개로 유지하시나요?"
+  },
+  {
+    "number": 823,
+    "english": "What childhood passions or fantasies have you carried into adulthood?",
+    "translated": "당신은 어린 시절 어떤 열정이나 환상을 성인이 되어 가지고 왔습니까?"
+  },
+  {
+    "number": 824,
+    "english": "When has a creative project brought healing or catharsis for you?",
+    "translated": "창의적인 프로젝트가 당신에게 힐링이나 카타르시스를 가져다준 때는 언제였나요?"
+  },
+  {
+    "number": 825,
+    "english": "How do you deal with harsh criticism of something you’ve poured your heart into?",
+    "translated": "당신이 마음을 쏟은 것에 대한 가혹한 비판에 어떻게 대처합니까?"
+  },
+  {
+    "number": 826,
+    "english": "What new creative horizons do you want to explore in the next few years?",
+    "translated": "향후 몇 년 동안 어떤 새로운 창의적 지평을 탐구하고 싶나요?"
+  },
+  {
+    "number": 827,
+    "english": "Have you ever taught or mentored someone in a creative skill you’ve mastered?",
+    "translated": "당신이 터득한 창의적인 기술을 누군가에게 가르치거나 멘토링한 적이 있습니까?"
+  },
+  {
+    "number": 828,
+    "english": "How do you track or measure growth in your creative pursuits over time?",
+    "translated": "시간이 지남에 따라 창의적인 활동의 성장을 어떻게 추적하거나 측정합니까?"
+  },
+  {
+    "number": 829,
+    "english": "When does comparison to others’ creativity become harmful for you?",
+    "translated": "다른 사람의 창의성과 비교하는 것이 언제 당신에게 해로울까요?"
+  },
+  {
+    "number": 830,
+    "english": "Which famous creators or innovators have most influenced your perspective?",
+    "translated": "당신의 관점에 가장 큰 영향을 준 유명 크리에이터나 혁신가는 누구인가요?"
+  },
+  {
+    "number": 831,
+    "english": "How do you revive creativity if life’s responsibilities have taken center stage for a while?",
+    "translated": "인생의 책임이 한동안 중심 무대에 올랐다면 어떻게 창의력을 되살릴 수 있습니까?"
+  },
+  {
+    "number": 832,
+    "english": "Which creative risk are you proudest of taking, and why?",
+    "translated": "당신이 가장 자랑스럽게 생각하는 창의적 위험은 무엇이며 그 이유는 무엇입니까?"
+  },
+  {
+    "number": 833,
+    "english": "Do you ever feel misunderstood by those who don’t share your creative passions?",
+    "translated": "당신의 창의적인 열정을 공유하지 않는 사람들로부터 오해를 받은 적이 있습니까?"
+  },
+  {
+    "number": 834,
+    "english": "When do you find it easiest to sink into a playful, imaginative mindset?",
+    "translated": "장난스럽고 상상력이 풍부한 사고방식에 빠지기 가장 쉬운 때는 언제입니까?"
+  },
+  {
+    "number": 835,
+    "english": "How do you handle practicality (paying the bills) while chasing a creative dream?",
+    "translated": "창의적인 꿈을 쫓으면서 실용성(요금 지불)을 어떻게 처리하시나요?"
+  },
+  {
+    "number": 836,
+    "english": "What role does discipline play in turning creative impulses into finished projects?",
+    "translated": "창의적인 충동을 완성된 프로젝트로 전환하는 데 규율은 어떤 역할을 합니까?"
+  },
+  {
+    "number": 837,
+    "english": "Which compliments or feedback on your art have deeply resonated with you?",
+    "translated": "당신의 예술에 대한 어떤 칭찬이나 피드백이 당신에게 깊은 울림을 주었나요?"
+  },
+  {
+    "number": 838,
+    "english": "How do you approach creative expression as a way to process or explore big questions about life?",
+    "translated": "삶에 대한 큰 질문을 처리하거나 탐구하는 방법으로 창의적인 표현에 어떻게 접근합니까?"
+  },
+  {
+    "number": 839,
+    "english": "Have you ever traveled somewhere specifically to fuel inspiration or gather new ideas?",
+    "translated": "영감을 얻거나 새로운 아이디어를 수집하기 위해 특별히 어딘가로 여행한 적이 있습니까?"
+  },
+  {
+    "number": 840,
+    "english": "What emotional challenges—such as self-doubt or anxiety—do you face in creative work?",
+    "translated": "창의적인 작업을 하면서 자기 회의나 불안과 같은 감정적인 어려움에 직면하시나요?"
+  },
+  {
+    "number": 841,
+    "english": "When have you felt an urge to create something bigger than yourself?",
+    "translated": "자신보다 더 큰 것을 창조하고 싶다는 충동을 느낀 적은 언제였나요?"
+  },
+  {
+    "number": 842,
+    "english": "How do you choose between multiple creative passions competing for your time?",
+    "translated": "당신의 시간을 두고 경쟁하는 여러 창의적인 열정 중에서 어떻게 선택합니까?"
+  },
+  {
+    "number": 843,
+    "english": "What is the most fulfilling collaborative creative project you’ve ever worked on?",
+    "translated": "지금까지 작업한 것 중 가장 성취감이 컸던 공동 창작 프로젝트는 무엇입니까?"
+  },
+  {
+    "number": 844,
+    "english": "How has your cultural background shaped your creative expression?",
+    "translated": "당신의 문화적 배경이 당신의 창의적인 표현을 어떻게 형성했습니까?"
+  },
+  {
+    "number": 845,
+    "english": "Do deadlines help or hinder your creative process, and in what ways?",
+    "translated": "마감일은 창작 과정에 도움이 됩니까, 방해가 됩니까? 그리고 어떤 면에서 방해가 됩니까?"
+  },
+  {
+    "number": 846,
+    "english": "What do you hope others experience or feel when they encounter your creations?",
+    "translated": "다른 사람들이 당신의 창작물을 접했을 때 무엇을 경험하거나 느끼기를 바라나요?"
+  },
+  {
+    "number": 847,
+    "english": "Which personal experiences serve as your greatest creative fuel?",
+    "translated": "어떤 개인적인 경험이 가장 큰 창의적 원동력이 됩니까?"
+  },
+  {
+    "number": 848,
+    "english": "When have you stopped creating something you loved due to external pressures or criticism?",
+    "translated": "외부의 압력이나 비판으로 인해 좋아했던 것을 만드는 것을 중단한 때는 언제였습니까?"
+  },
+  {
+    "number": 849,
+    "english": "How do you find the courage to try a new creative outlet as a complete beginner?",
+    "translated": "완전한 초보자로서 새로운 창의적 출구를 시도할 용기를 어떻게 찾습니까?"
+  },
+  {
+    "number": 850,
+    "english": "What’s the best piece of advice you’ve received about living a creative life?",
+    "translated": "창의적인 삶을 사는 것에 관해 당신이 받은 최고의 조언은 무엇입니까?"
+  },
+  {
+    "number": 851,
+    "english": "How do you handle jealousy or envy of someone else’s creative achievements?",
+    "translated": "다른 사람의 창의적인 업적에 대한 질투나 부러움을 어떻게 처리합니까?"
+  },
+  {
+    "number": 852,
+    "english": "When have you integrated creativity into your professional life to solve problems?",
+    "translated": "문제를 해결하기 위해 직업 생활에 창의성을 통합한 때는 언제입니까?"
+  },
+  {
+    "number": 853,
+    "english": "Do you believe creative breakthroughs happen spontaneously or through consistent work?",
+    "translated": "창의적인 혁신이 자발적으로 발생한다고 생각하시나요, 아니면 지속적인 작업을 통해 발생한다고 생각하시나요?"
+  },
+  {
+    "number": 854,
+    "english": "Which creative project felt like a true labor of love, regardless of outside response?",
+    "translated": "외부 반응에 관계없이 진정한 사랑의 노동처럼 느껴지는 창의적인 프로젝트는 무엇입니까?"
+  },
+  {
+    "number": 855,
+    "english": "How do you know when a piece of creative work is “finished”?",
+    "translated": "창의적인 작품이 언제 \"완료\"되었는지 어떻게 알 수 있나요?"
+  },
+  {
+    "number": 856,
+    "english": "Have you ever lost track of time while creating, and how did that feel?",
+    "translated": "창작하는 동안 시간 가는 줄 모르게 된 적이 있나요? 그때 기분이 어땠나요?"
+  },
+  {
+    "number": 857,
+    "english": "When you share your creative gifts, do you hope to educate, entertain, provoke, heal, or all of the above?",
+    "translated": "당신의 창의적인 선물을 공유할 때 교육, 즐거움, 자극, 치유 또는 위의 모든 것을 원하십니까?"
+  },
+  {
+    "number": 858,
+    "english": "Which everyday activities can be turned into acts of creativity with the right mindset?",
+    "translated": "올바른 사고방식을 갖춘다면 어떤 일상 활동이 창의성을 발휘할 수 있나요?"
+  },
+  {
+    "number": 859,
+    "english": "Have you ever experienced burnout from turning a passion into a full-time job?",
+    "translated": "열정을 정규직으로 전환하면서 번아웃을 경험한 적이 있습니까?"
+  },
+  {
+    "number": 860,
+    "english": "In what ways do you celebrate or reward yourself after completing a creative project?",
+    "translated": "창의적인 프로젝트를 완료한 후 어떤 방법으로 자신을 축하하거나 보상합니까?"
+  },
+  {
+    "number": 861,
+    "english": "Which part of the creative process—ideation, execution, or sharing—do you love most?",
+    "translated": "아이디어, 실행, 공유 등 창의적인 과정 중 어떤 부분을 가장 좋아하시나요?"
+  },
+  {
+    "number": 862,
+    "english": "How do you handle creative differences when working with collaborators?",
+    "translated": "공동작업자와 작업할 때 창의적 차이를 어떻게 처리하나요?"
+  },
+  {
+    "number": 863,
+    "english": "What have you learned about your own resilience through finishing difficult creative endeavors?",
+    "translated": "어려운 창의적 노력을 마치면서 자신의 회복력에 대해 무엇을 배웠습니까?"
+  },
+  {
+    "number": 864,
+    "english": "When have you stepped out of your artistic comfort zone and what did you learn?",
+    "translated": "언제부터 예술적 안전지대에서 벗어나 무엇을 배웠나요?"
+  },
+  {
+    "number": 865,
+    "english": "What recurring themes or messages seem to appear in your creative expressions?",
+    "translated": "당신의 창의적인 표현에는 어떤 반복되는 주제나 메시지가 나타나는 것 같나요?"
+  },
+  {
+    "number": 866,
+    "english": "Are there certain emotional states (e.g., sadness, joy) that fuel your creativity more?",
+    "translated": "창의력을 더욱 자극하는 특정 감정 상태(예: 슬픔, 기쁨)가 있습니까?"
+  },
+  {
+    "number": 867,
+    "english": "What role does constructive feedback play in refining your creative abilities?",
+    "translated": "당신의 창의적 능력을 향상시키는 데 건설적인 피드백은 어떤 역할을 합니까?"
+  },
+  {
+    "number": 868,
+    "english": "Do you set specific goals or timelines for creative work, or prefer spontaneity?",
+    "translated": "창의적인 작업에 대한 구체적인 목표나 일정을 설정합니까, 아니면 즉흥성을 선호합니까?"
+  },
+  {
+    "number": 869,
+    "english": "How do you stay curious and continually evolve your style or approach?",
+    "translated": "호기심을 유지하고 스타일이나 접근 방식을 지속적으로 발전시키려면 어떻게 해야 합니까?"
+  },
+  {
+    "number": 870,
+    "english": "What creative dream or project remains on your “someday” list?",
+    "translated": "당신의 \"언젠가\" 목록에는 어떤 창의적인 꿈이나 프로젝트가 남아 있나요?"
+  },
+  {
+    "number": 871,
+    "english": "How has traveling to unfamiliar places inspired new artistic ideas in you?",
+    "translated": "낯선 곳으로의 여행은 어떻게 당신에게 새로운 예술적 아이디어에 영감을 주었나요?"
+  },
+  {
+    "number": 872,
+    "english": "When have you combined multiple passions into a single creative endeavor?",
+    "translated": "다양한 열정을 하나의 창의적인 노력으로 결합한 때는 언제였나요?"
+  },
+  {
+    "number": 873,
+    "english": "How do you overcome the fear that your work isn’t original enough?",
+    "translated": "당신의 작품이 충분히 독창적이지 않다는 두려움을 어떻게 극복합니까?"
+  },
+  {
+    "number": 874,
+    "english": "Do you think solitude is necessary for deep creativity, or can it thrive in community?",
+    "translated": "깊은 창의성을 위해서는 고독이 필요하다고 생각하시나요, 아니면 그것이 공동체 안에서 번창할 수 있다고 생각하시나요?"
+  },
+  {
+    "number": 875,
+    "english": "Which mediums or tools help you translate your imagination into tangible form?",
+    "translated": "어떤 매체나 도구가 당신의 상상력을 실질적인 형태로 변환하는 데 도움이 됩니까?"
+  },
+  {
+    "number": 876,
+    "english": "When has a stroke of inspiration arrived at the strangest moment or place?",
+    "translated": "가장 이상한 순간이나 장소에서 영감이 떠오르는 때는 언제인가요?"
+  },
+  {
+    "number": 877,
+    "english": "How do you push through the messy middle of a project when enthusiasm wanes?",
+    "translated": "열정이 식었을 때 프로젝트의 혼란스러운 중간을 어떻게 헤쳐나가나요?"
+  },
+  {
+    "number": 878,
+    "english": "Which living artists or creators would you love to collaborate with, if given the chance?",
+    "translated": "기회가 주어진다면 어떤 살아있는 예술가나 창작자와 협력하고 싶나요?"
+  },
+  {
+    "number": 879,
+    "english": "Have you ever used creativity as a form of activism or social commentary?",
+    "translated": "창의성을 행동주의나 사회적 논평의 한 형태로 사용해 본 적이 있나요?"
+  },
+  {
+    "number": 880,
+    "english": "When has failing at a creative attempt led you to a surprising breakthrough?",
+    "translated": "창의적인 시도의 실패가 당신을 놀라운 돌파구로 이끌었던 때는 언제였나요?"
+  },
+  {
+    "number": 881,
+    "english": "How do you protect your creative passion from negativity or gatekeeping in the industry?",
+    "translated": "업계의 부정적인 시선이나 감시로부터 창의적인 열정을 어떻게 보호할 수 있나요?"
+  },
+  {
+    "number": 882,
+    "english": "What parallels do you see between creativity and personal growth?",
+    "translated": "창의성과 개인적 성장 사이에 어떤 유사점이 있다고 생각하시나요?"
+  },
+  {
+    "number": 883,
+    "english": "Do you ever create solely for yourself, with no intention of sharing it publicly?",
+    "translated": "공개적으로 공유할 의도 없이 오로지 자신만을 위해 창작한 적이 있습니까?"
+  },
+  {
+    "number": 884,
+    "english": "Which major life events have deeply influenced your creative perspective?",
+    "translated": "인생에서 어떤 주요 사건이 당신의 창의적인 관점에 큰 영향을 미쳤나요?"
+  },
+  {
+    "number": 885,
+    "english": "How do you maintain authenticity in your work without caving to trends or fads?",
+    "translated": "트렌드나 유행에 얽매이지 않고 어떻게 작업의 진정성을 유지하나요?"
+  },
+  {
+    "number": 886,
+    "english": "In what ways has your creative identity become a key part of who you are?",
+    "translated": "당신의 창의적인 정체성은 어떤 면에서 당신의 핵심 부분이 되었나요?"
+  },
+  {
+    "number": 887,
+    "english": "When have you faced external pressure to stop “wasting time” on a creative pursuit?",
+    "translated": "창의적인 일을 추구하는 데 '시간 낭비'를 중단하라는 외부 압력에 직면한 적이 언제였습니까?"
+  },
+  {
+    "number": 888,
+    "english": "Which moment in your creative journey felt like a major turning point?",
+    "translated": "당신의 창의적인 여정에서 어떤 순간이 중요한 전환점처럼 느껴졌나요?"
+  },
+  {
+    "number": 889,
+    "english": "How do you celebrate others’ successes in your creative field without comparing yourself negatively?",
+    "translated": "자신을 부정적으로 비교하지 않고 자신의 창작 분야에서 다른 사람의 성공을 어떻게 축하합니까?"
+  },
+  {
+    "number": 890,
+    "english": "When did you realize that perfecting your art might be less important than expressing yourself honestly?",
+    "translated": "자신의 예술을 완성하는 것이 자신을 솔직하게 표현하는 것보다 덜 중요할 수 있다는 것을 언제 깨달았나요?"
+  },
+  {
+    "number": 891,
+    "english": "Has mentorship played a role in sharpening your creative skills or vision?",
+    "translated": "멘토링이 귀하의 창의적인 기술이나 비전을 연마하는 데 중요한 역할을 했습니까?"
+  },
+  {
+    "number": 892,
+    "english": "How do you keep your childlike sense of wonder alive through creative projects?",
+    "translated": "창의적인 프로젝트를 통해 어린아이 같은 경이로움을 어떻게 유지합니까?"
+  },
+  {
+    "number": 893,
+    "english": "Have you ever used your creativity to help someone else through a hard time?",
+    "translated": "어려운 시기를 겪고 있는 다른 사람을 돕기 위해 창의력을 사용해 본 적이 있나요?"
+  },
+  {
+    "number": 894,
+    "english": "In what ways do you hope your art or work will outlive you?",
+    "translated": "In what ways do you hope your art or work will outlive you?"
+  },
+  {
+    "number": 895,
+    "english": "What does it feel like when someone connects deeply with something you’ve created?",
+    "translated": "당신이 만든 무언가에 누군가가 깊이 연결될 때 어떤 느낌이 들까요?"
+  },
+  {
+    "number": 896,
+    "english": "How do you plan for the future of your artistic pursuits if life circumstances shift dramatically?",
+    "translated": "삶의 상황이 극적으로 변할 경우 예술적 추구의 미래를 어떻게 계획하시나요?"
+  },
+  {
+    "number": 897,
+    "english": "What similarities or differences do you see in how children and adults express creativity?",
+    "translated": "어린이와 성인이 창의력을 표현하는 방식에서 어떤 유사점과 차이점을 발견했나요?"
+  },
+  {
+    "number": 898,
+    "english": "When has self-expression through art or design given you a new understanding of yourself?",
+    "translated": "예술이나 디자인을 통한 자기 표현을 통해 자신에 대한 새로운 이해를 얻은 때는 언제였나요?"
+  },
+  {
+    "number": 899,
+    "english": "Do you think passion alone can sustain a creative career, or are other factors equally important?",
+    "translated": "열정만으로도 창의적인 경력을 유지할 수 있다고 생각하시나요? 아니면 다른 요소도 똑같이 중요하다고 생각하시나요?"
+  },
+  {
+    "number": 900,
+    "english": "How does practicing a craft, day after day, shape not just what you create, but who you become?",
+    "translated": "매일 공예를 연습하는 것이 당신이 창조하는 것뿐만 아니라 당신이 누구인지를 어떻게 형성합니까?"
+  },
+  {
+    "number": 901,
+    "english": "What brings you the purest sense of joy in everyday life?",
+    "translated": "일상생활에서 당신에게 가장 순수한 기쁨을 가져다주는 것은 무엇입니까?"
+  },
+  {
+    "number": 902,
+    "english": "How do you define fulfillment, and has that definition evolved over time?",
+    "translated": "이행을 어떻게 정의하며, 그 정의는 시간이 지남에 따라 진화해 왔나요?"
+  },
+  {
+    "number": 903,
+    "english": "Which mindfulness or meditation practices help you stay present?",
+    "translated": "마음챙김이나 명상 수련이 현재 상태를 유지하는 데 도움이 됩니까?"
+  },
+  {
+    "number": 904,
+    "english": "How do you handle negative thoughts without letting them overshadow positive aspects of life?",
+    "translated": "삶의 긍정적인 측면을 가리지 않고 부정적인 생각을 어떻게 처리합니까?"
+  },
+  {
+    "number": 905,
+    "english": "When do you feel most “in the moment,” and how can you cultivate that feeling more often?",
+    "translated": "당신은 언제 가장 “순간”을 느끼며, 그러한 감정을 더 자주 키울 수 있는 방법은 무엇입니까?"
+  },
+  {
+    "number": 906,
+    "english": "What small daily rituals keep you grounded and aware of life’s simple pleasures?",
+    "translated": "어떤 작은 일상의 의식이 당신을 기반으로 하고 삶의 단순한 즐거움을 인식하게 합니까?"
+  },
+  {
+    "number": 907,
+    "english": "Have you ever experienced a moment of pure awe or wonder that deeply changed you?",
+    "translated": "당신을 크게 변화시킨 순수한 경외감이나 경이로움의 순간을 경험한 적이 있습니까?"
+  },
+  {
+    "number": 908,
+    "english": "How do you balance the pursuit of goals with gratitude for what you already have?",
+    "translated": "목표 추구와 이미 가지고 있는 것에 대한 감사의 균형을 어떻게 유지합니까?"
+  },
+  {
+    "number": 909,
+    "english": "When you’re overwhelmed, what do you do to return to a state of calm?",
+    "translated": "압도당했을 때, 평온한 상태로 돌아가기 위해 무엇을 합니까?"
+  },
+  {
+    "number": 910,
+    "english": "What role does gratitude play in boosting your sense of happiness and satisfaction?",
+    "translated": "감사는 행복감과 만족감을 높이는 데 어떤 역할을 합니까?"
+  },
+  {
+    "number": 911,
+    "english": "How do you practice self-care without feeling guilty or selfish?",
+    "translated": "죄책감이나 이기심을 느끼지 않고 자기 관리를 어떻게 실천합니까?"
+  },
+  {
+    "number": 912,
+    "english": "Which activities make you lose track of time in a positive, life-enhancing way?",
+    "translated": "긍정적이고 삶을 향상시키는 방식으로 시간 가는 줄 모르게 만드는 활동은 무엇입니까?"
+  },
+  {
+    "number": 913,
+    "english": "Have you ever engaged in a retreat or digital detox to reclaim mindfulness?",
+    "translated": "마음챙김을 되찾기 위해 수련회나 디지털 해독에 참여한 적이 있습니까?"
+  },
+  {
+    "number": 914,
+    "english": "How do you keep from numbing out or going on autopilot during mundane tasks?",
+    "translated": "일상적인 작업 중에 마비되거나 자동 조종 장치가 작동하지 않도록 하려면 어떻게 해야 합니까?"
+  },
+  {
+    "number": 915,
+    "english": "When has slowing down and savoring a single moment shifted your perspective?",
+    "translated": "속도를 늦추고 한 순간을 음미하는 것이 당신의 관점을 바꾸었나요?"
+  },
+  {
+    "number": 916,
+    "english": "How do you cultivate a beginner’s mind, staying open and curious each day?",
+    "translated": "매일 열린 마음과 호기심을 유지하면서 초보자의 마음을 어떻게 키우나요?"
+  },
+  {
+    "number": 917,
+    "english": "What are your go-to strategies for coping with daily stressors or frustrations?",
+    "translated": "일상적인 스트레스 요인이나 좌절감을 극복하기 위해 어떤 전략을 사용합니까?"
+  },
+  {
+    "number": 918,
+    "english": "In what ways do you celebrate small wins and everyday accomplishments?",
+    "translated": "작은 승리와 일상의 성취를 어떤 방법으로 축하합니까?"
+  },
+  {
+    "number": 919,
+    "english": "How do you create mental or emotional space in a busy schedule?",
+    "translated": "바쁜 일정 속에서 정신적, 정서적 공간을 어떻게 만드나요?"
+  },
+  {
+    "number": 920,
+    "english": "Have you ever integrated breathwork or body awareness practices into your routine?",
+    "translated": "호흡 운동이나 신체 인식 연습을 일상 생활에 통합한 적이 있습니까?"
+  },
+  {
+    "number": 921,
+    "english": "Do you find it challenging to focus on the here and now rather than future worries?",
+    "translated": "미래의 걱정보다는 지금 현재에 집중하는 것이 어렵다고 생각하시나요?"
+  },
+  {
+    "number": 922,
+    "english": "When do you feel most connected to the world around you, and why?",
+    "translated": "주변 세계와 가장 연결되어 있다고 느끼는 때는 언제이며, 그 이유는 무엇입니까?"
+  },
+  {
+    "number": 923,
+    "english": "How do you stay mindful when interacting with technology or social media?",
+    "translated": "기술이나 소셜 미디어와 상호작용할 때 어떻게 주의를 기울이나요?"
+  },
+  {
+    "number": 924,
+    "english": "Which scents, sounds, or sights instantly calm or center you?",
+    "translated": "어떤 향기, 소리, 광경이 즉시 당신을 진정시키거나 집중하게 합니까?"
+  },
+  {
+    "number": 925,
+    "english": "How do you cultivate a sense of playfulness and spontaneity in adulthood?",
+    "translated": "성인이 되어서도 장난기와 자발성을 키우는 방법은 무엇입니까?"
+  },
+  {
+    "number": 926,
+    "english": "When have you noticed that a shift in mindset immediately elevated your mood?",
+    "translated": "사고방식의 변화가 즉시 기분을 좋게 만들었다는 것을 언제 알아차렸나요?"
+  },
+  {
+    "number": 927,
+    "english": "Have you ever engaged in mindful eating or drinking, and what did you learn?",
+    "translated": "마음챙김 식사나 음주에 참여한 적이 있습니까? 그리고 무엇을 배웠습니까?"
+  },
+  {
+    "number": 928,
+    "english": "How do you bring mindfulness or meditative presence into your relationships?",
+    "translated": "어떻게 당신의 관계에 마음챙김이나 명상적인 존재감을 가져오나요?"
+  },
+  {
+    "number": 929,
+    "english": "What does a “perfect day” look like to you, and how can you create elements of it more often?",
+    "translated": "당신에게 \"완벽한 날\"은 어떤 모습이며, 그 요소를 더 자주 만들 수 있는 방법은 무엇입니까?"
+  },
+  {
+    "number": 930,
+    "english": "How do you respond to life’s unpredictability without losing your inner peace?",
+    "translated": "내면의 평화를 잃지 않으면서 삶의 예측 불가능성에 어떻게 대응합니까?"
+  },
+  {
+    "number": 931,
+    "english": "Which physical practices (yoga, walking, dancing) help you stay embodied and present?",
+    "translated": "어떤 신체 활동(요가, 걷기, 춤)이 신체를 유지하고 현재 상태를 유지하는 데 도움이 됩니까?"
+  },
+  {
+    "number": 932,
+    "english": "What strategies help you remain compassionate toward yourself on difficult days?",
+    "translated": "어려운 날에도 자신에 대한 연민을 유지하는 데 도움이 되는 전략은 무엇입니까?"
+  },
+  {
+    "number": 933,
+    "english": "When have you discovered joy in a place or activity you least expected?",
+    "translated": "전혀 기대하지 않았던 장소나 활동에서 기쁨을 발견한 때는 언제입니까?"
+  },
+  {
+    "number": 934,
+    "english": "Do you think constant pursuit of happiness can paradoxically undermine it? Why or why not?",
+    "translated": "행복에 대한 끊임없는 추구가 역설적으로 행복을 약화시킬 수 있다고 생각하십니까?왜 아니면 안되나요?"
+  },
+  {
+    "number": 935,
+    "english": "How do you manage your energy levels so you can remain present for the things that matter?",
+    "translated": "중요한 일에 집중할 수 있도록 에너지 수준을 어떻게 관리합니까?"
+  },
+  {
+    "number": 936,
+    "english": "Which gratitude exercises or journaling methods have had the biggest impact on your outlook?",
+    "translated": "어떤 감사 연습이나 일기 쓰기 방법이 당신의 전망에 가장 큰 영향을 미쳤습니까?"
+  },
+  {
+    "number": 937,
+    "english": "Have you ever tried a loving-kindness or metta meditation practice? How did it feel?",
+    "translated": "자애 명상이나 메타 명상을 시도해 본 적이 있나요?기분이 어땠나요?"
+  },
+  {
+    "number": 938,
+    "english": "When do you feel a profound sense of “enoughness”?",
+    "translated": "당신은 언제 '충분하다'는 깊은 느낌을 느끼나요?"
+  },
+  {
+    "number": 939,
+    "english": "How do you break free from ruminating thoughts and bring your focus back to the present?",
+    "translated": "어떻게 반추하는 생각에서 벗어나 현재에 집중할 수 있나요?"
+  },
+  {
+    "number": 940,
+    "english": "Which life moments have made you realize that happiness can be found in simplicity?",
+    "translated": "단순함 속에서 행복을 찾을 수 있다는 것을 깨닫게 해 준 삶의 순간은 언제였습니까?"
+  },
+  {
+    "number": 941,
+    "english": "How do you define spiritual or emotional abundance?",
+    "translated": "영적, 정서적 풍요를 어떻게 정의합니까?"
+  },
+  {
+    "number": 942,
+    "english": "What are your “joy triggers”—the little things that never fail to make you smile?",
+    "translated": "당신의 “기쁨을 유발하는 요인”은 무엇입니까? 즉 당신을 항상 웃게 만드는 작은 것입니까?"
+  },
+  {
+    "number": 943,
+    "english": "When have you felt the most peace in solitude, and what contributed to that feeling?",
+    "translated": "고독 속에서 가장 평화로움을 느꼈던 때는 언제였으며, 그러한 느낌을 갖게 된 계기는 무엇입니까?"
+  },
+  {
+    "number": 944,
+    "english": "Do you have any traditions (morning coffee, evening walks) that ground and calm you?",
+    "translated": "당신을 안정시키고 안정시켜 주는 전통(아침 커피, 저녁 산책)이 있습니까?"
+  },
+  {
+    "number": 945,
+    "english": "How do you handle the pressure to always be productive, when sometimes stillness is needed?",
+    "translated": "때로는 고요함이 필요할 때 항상 생산적이어야 한다는 압박감을 어떻게 처리합니까?"
+  },
+  {
+    "number": 946,
+    "english": "What does it look like for you to truly savor the present moment?",
+    "translated": "현재 순간을 진정으로 음미하는 것은 어떤 모습인가요?"
+  },
+  {
+    "number": 947,
+    "english": "Which experiences have taught you to slow down and appreciate daily life more deeply?",
+    "translated": "어떤 경험을 통해 일상의 속도를 늦추고 더 깊이 감사하게 되었나요?"
+  },
+  {
+    "number": 948,
+    "english": "Do you think external circumstances or internal mindset plays a bigger role in joy?",
+    "translated": "외부 상황이나 내부 사고방식이 기쁨에 더 큰 역할을 한다고 생각하시나요?"
+  },
+  {
+    "number": 949,
+    "english": "What role do pets or animals play in bringing everyday happiness or calm?",
+    "translated": "애완동물이나 동물은 일상의 행복이나 평온을 가져오는 데 어떤 역할을 합니까?"
+  },
+  {
+    "number": 950,
+    "english": "How do you encourage a mindful approach in your loved ones without sounding preachy?",
+    "translated": "설교처럼 들리지 않으면서 사랑하는 사람들에게 마음챙김 접근 방식을 어떻게 장려합니까?"
+  },
+  {
+    "number": 951,
+    "english": "When you’re feeling disconnected from gratitude, how do you reconnect?",
+    "translated": "감사로부터 단절된 느낌을 받을 때, 어떻게 다시 연결됩니까?"
+  },
+  {
+    "number": 952,
+    "english": "Which memories do you revisit when you need a quick boost of happiness?",
+    "translated": "빠른 행복감이 필요할 때 어떤 추억을 다시 방문하시나요?"
+  },
+  {
+    "number": 953,
+    "english": "How do you navigate the gap between your expectations and reality without losing contentment?",
+    "translated": "만족감을 잃지 않고 어떻게 기대와 현실 사이의 격차를 헤쳐 나갈 수 있습니까?"
+  },
+  {
+    "number": 954,
+    "english": "When has minimalist living or decluttering enhanced your sense of peace?",
+    "translated": "미니멀리스트 생활이나 잡동사니 정리가 당신의 평화감을 강화시켰던 때는 언제였나요?"
+  },
+  {
+    "number": 955,
+    "english": "How do you maintain a sense of humor about life’s chaos and unpredictability?",
+    "translated": "삶의 혼돈과 예측 불가능성에 대해 어떻게 유머 감각을 유지합니까?"
+  },
+  {
+    "number": 956,
+    "english": "Which spontaneous decisions have brought you unexpected joy?",
+    "translated": "어떤 자발적인 결정이 당신에게 예상치 못한 기쁨을 가져다 주었나요?"
+  },
+  {
+    "number": 957,
+    "english": "How do you handle the guilt that sometimes arises from resting or doing nothing?",
+    "translated": "쉬거나 아무것도 하지 않을 때 나타나는 죄책감을 어떻게 처리하시나요?"
+  },
+  {
+    "number": 958,
+    "english": "When have you actively chosen happiness or forgiveness over resentment and regret?",
+    "translated": "원망과 후회 대신 행복과 용서를 적극적으로 선택해본 적은 언제였나요?"
+  },
+  {
+    "number": 959,
+    "english": "Do you find relaxation easily, or do you need specific rituals or environments to unwind?",
+    "translated": "당신은 쉽게 휴식을 취합니까, 아니면 긴장을 풀기 위해 특정한 의식이나 환경이 필요합니까?"
+  },
+  {
+    "number": 960,
+    "english": "Which elements of nature (ocean, forest, mountains) most restore your sense of wonder?",
+    "translated": "자연의 어떤 요소(바다, 숲, 산)가 당신의 경이로움을 가장 잘 회복시켜 주나요?"
+  },
+  {
+    "number": 961,
+    "english": "How do you remain present for loved ones when your own mind is swirling with worries?",
+    "translated": "당신의 마음이 걱정으로 소용돌이칠 때 사랑하는 사람들을 위해 어떻게 현존합니까?"
+  },
+  {
+    "number": 962,
+    "english": "Which self-talk phrases or mantras help you stay grounded in moments of anxiety?",
+    "translated": "불안한 순간에 안정을 유지하는 데 도움이 되는 자기 대화 문구나 진언은 무엇입니까?"
+  },
+  {
+    "number": 963,
+    "english": "How do you define a meaningful life, and how does that differ from a merely “successful” one?",
+    "translated": "의미 있는 삶을 어떻게 정의하며, 그것은 단지 '성공적인' 삶과 어떻게 다릅니까?"
+  },
+  {
+    "number": 964,
+    "english": "What are some of your favorite ways to celebrate life’s small joys?",
+    "translated": "인생의 작은 기쁨을 축하하는 가장 좋아하는 방법은 무엇입니까?"
+  },
+  {
+    "number": 965,
+    "english": "Have you found peace in accepting certain limitations or unchangeable aspects of life?",
+    "translated": "당신은 삶의 특정한 한계나 변하지 않는 측면을 받아들이면서 평화를 찾았습니까?"
+  },
+  {
+    "number": 966,
+    "english": "In what ways does learning new things contribute to your sense of fulfillment?",
+    "translated": "새로운 것을 배우는 것이 어떤 방식으로 성취감에 기여합니까?"
+  },
+  {
+    "number": 967,
+    "english": "Which community or social activities most amplify your overall well-being?",
+    "translated": "귀하의 전반적인 웰빙을 가장 증폭시키는 커뮤니티 또는 사회 활동은 무엇입니까?"
+  },
+  {
+    "number": 968,
+    "english": "How do you preserve the wonder and curiosity you felt as a child?",
+    "translated": "어렸을 때 느꼈던 경이로움과 호기심을 어떻게 보존하나요?"
+  },
+  {
+    "number": 969,
+    "english": "Which daily chores or routines can be turned into moments of mindfulness?",
+    "translated": "어떤 일상적인 집안일이나 일과를 마음챙김의 순간으로 바꿀 수 있나요?"
+  },
+  {
+    "number": 970,
+    "english": "How do you protect your mental space from negativity, whether online or in person?",
+    "translated": "온라인에서든 직접 만나든 부정적인 생각으로부터 정신적 공간을 어떻게 보호합니까?"
+  },
+  {
+    "number": 971,
+    "english": "When have you realized that a stressful problem wasn’t as big as it initially seemed?",
+    "translated": "스트레스를 주는 문제가 처음에 생각했던 것만큼 크지 않다는 것을 언제 깨달았습니까?"
+  },
+  {
+    "number": 972,
+    "english": "How do you discern which relationships bring you lasting joy versus short-lived thrills?",
+    "translated": "어떤 관계가 당신에게 지속적인 기쁨을 가져다 주는지, 아니면 단기적인 스릴을 가져다 주는지 어떻게 식별합니까?"
+  },
+  {
+    "number": 973,
+    "english": "In what ways does volunteering or helping others add meaning to your life?",
+    "translated": "자원봉사나 다른 사람들을 돕는 것이 어떤 면에서 당신의 삶에 의미를 더해 주나요?"
+  },
+  {
+    "number": 974,
+    "english": "Do you prefer seeking new thrills for excitement or savoring everyday contentment?",
+    "translated": "당신은 흥분을 위해 새로운 스릴을 추구하는 것을 선호합니까, 아니면 일상의 만족을 즐기는 것을 선호합니까?"
+  },
+  {
+    "number": 975,
+    "english": "How do you bounce back to a place of balance after you’ve been emotionally derailed?",
+    "translated": "감정적으로 탈선한 후에 어떻게 균형의 장소로 되돌아오나요?"
+  },
+  {
+    "number": 976,
+    "english": "Which travel experiences expanded your perspective on what true happiness can be?",
+    "translated": "어떤 여행 경험이 진정한 행복이 무엇인지에 대한 관점을 넓혔나요?"
+  },
+  {
+    "number": 977,
+    "english": "How do you gracefully let go of control in situations you cannot change?",
+    "translated": "바꿀 수 없는 상황에서 어떻게 우아하게 통제력을 버릴 수 있나요?"
+  },
+  {
+    "number": 978,
+    "english": "Do you find that a regular gratitude practice can shift your overall mindset?",
+    "translated": "정기적으로 감사하는 습관을 들이면 전반적인 사고방식이 바뀔 수 있다고 생각하시나요?"
+  },
+  {
+    "number": 979,
+    "english": "When do you feel at peace with both the past and the future, existing fully in the now?",
+    "translated": "현재에 온전히 존재하는 과거와 미래 모두에서 평화로움을 느끼는 때는 언제입니까?"
+  },
+  {
+    "number": 980,
+    "english": "Which quote or line of poetry encapsulates the essence of living mindfully?",
+    "translated": "마음챙김 생활의 본질을 요약한 시의 인용문이나 구절은 무엇입니까?"
+  },
+  {
+    "number": 981,
+    "english": "How do you handle the tension between wanting to achieve more and enjoying what is?",
+    "translated": "더 많은 것을 성취하고 싶은 것과 현재를 즐기는 것 사이의 긴장을 어떻게 처리합니까?"
+  },
+  {
+    "number": 982,
+    "english": "When did you last experience a childlike sense of play or wonder, and what sparked it?",
+    "translated": "마지막으로 어린아이 같은 놀이 감각이나 경이로움을 경험한 것이 언제였으며, 그것이 촉발된 계기는 무엇입니까?"
+  },
+  {
+    "number": 983,
+    "english": "Are there particular scents or sounds that instantly recall a sense of comfort or home?",
+    "translated": "편안함이나 집의 느낌을 즉각적으로 불러일으키는 특별한 향기나 소리가 있습니까?"
+  },
+  {
+    "number": 984,
+    "english": "Which aspects of your life do you find easiest to appreciate, and which require more effort?",
+    "translated": "당신의 삶에서 어떤 면을 가장 이해하기 쉽고, 어떤 면에 더 많은 노력이 필요한가요?"
+  },
+  {
+    "number": 985,
+    "english": "How do you maintain emotional equilibrium on days when little annoyances build up?",
+    "translated": "작은 짜증이 쌓이는 날에는 어떻게 정서적 균형을 유지합니까?"
+  },
+  {
+    "number": 986,
+    "english": "Have you ever practiced a “mindful pause” before reacting to stress or conflict?",
+    "translated": "스트레스나 갈등에 반응하기 전에 “마음챙김 잠시 멈추기”를 연습해 본 적이 있습니까?"
+  },
+  {
+    "number": 987,
+    "english": "Which mindful or reflective questions do you ask yourself at the end of each day?",
+    "translated": "하루가 끝날 때마다 스스로에게 어떤 마음챙김 또는 성찰 질문을 하시나요?"
+  },
+  {
+    "number": 988,
+    "english": "In what moments do you realize that gratitude itself can be a form of prayer or meditation?",
+    "translated": "감사 자체가 기도나 명상의 한 형태가 될 수 있다는 사실을 깨닫는 순간은 언제입니까?"
+  },
+  {
+    "number": 989,
+    "english": "How do you ensure that your pursuit of long-term goals doesn’t rob you of present peace?",
+    "translated": "장기적인 목표를 추구하는 것이 현재의 평화를 빼앗기지 않도록 어떻게 보장할 수 있습니까?"
+  },
+  {
+    "number": 990,
+    "english": "Do you have a personal ritual for resetting your mindset (like lighting a candle or journaling)?",
+    "translated": "마음가짐을 재설정하기 위한 개인적인 의식(예: 촛불 켜기, 일기 쓰기 등)이 있습니까?"
+  },
+  {
+    "number": 991,
+    "english": "When you catch yourself complaining, how do you pivot to a more grateful or constructive mindset?",
+    "translated": "불평하는 자신을 발견할 때 어떻게 좀 더 감사하거나 건설적인 사고방식으로 전환할 수 있습니까?"
+  },
+  {
+    "number": 992,
+    "english": "Which family or cultural traditions center around celebrating everyday blessings?",
+    "translated": "매일의 축복을 축하하는 데 중점을 두는 가족 또는 문화적 전통은 무엇입니까?"
+  },
+  {
+    "number": 993,
+    "english": "How do you quiet the inner critic that says you should be doing more, having more, or achieving more?",
+    "translated": "더 많은 일을 하고, 더 많이 갖고, 더 많은 것을 성취해야 한다고 말하는 내부 비판자를 어떻게 잠재울 수 있습니까?"
+  },
+  {
+    "number": 994,
+    "english": "When has laughter been the best medicine for you in a tough situation?",
+    "translated": "힘든 상황에서 웃음이 최고의 보약이었던 때는 언제였나요?"
+  },
+  {
+    "number": 995,
+    "english": "What “simple pleasures” do you cherish most—like a good cup of tea or a walk at sunrise?",
+    "translated": "맛있는 차 한 잔이나 일출 산책 등 어떤 '단순한 즐거움'을 가장 소중히 여기시나요?"
+  },
+  {
+    "number": 996,
+    "english": "How do you handle the pressure of society’s definition of success versus your own definition of joy?",
+    "translated": "성공에 대한 사회의 정의와 기쁨에 대한 자신의 정의에 대한 압력을 어떻게 처리합니까?"
+  },
+  {
+    "number": 997,
+    "english": "Who in your life models genuine, steady contentment, and what do you learn from them?",
+    "translated": "당신의 인생에서 진정하고 꾸준한 만족의 본보기가 되는 사람은 누구이며, 당신은 그들에게서 무엇을 배울 수 있습니까?"
+  },
+  {
+    "number": 998,
+    "english": "How do you keep perspective during setbacks so that they don’t overshadow life’s joys?",
+    "translated": "인생의 기쁨을 가리지 않도록 좌절 중에 어떻게 관점을 유지합니까?"
+  },
+  {
+    "number": 999,
+    "english": "When do you feel the most gratitude for simply being alive, and how can you foster that feeling more often?",
+    "translated": "살아 있다는 것만으로도 가장 감사함을 느낄 때는 언제이며, 그 느낌을 더 자주 키울 수 있는 방법은 무엇입니까?"
+  },
+  {
+    "number": 1000,
+    "english": "How do you consciously design your life to maximize both mindfulness and fulfillment?",
+    "translated": "마음챙김과 성취감을 모두 극대화하기 위해 의식적으로 삶을 어떻게 설계합니까?"
+  }
+]

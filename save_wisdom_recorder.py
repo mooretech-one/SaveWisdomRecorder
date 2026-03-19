@@ -15,12 +15,10 @@ import sounddevice as sd
 from scipy.io import wavfile
 from pydub import AudioSegment
 
-
 # ------------------------------------------------------------------------------
 # RESOURCE PATH HELPER (FIXES LINUX + BUNDLED EXECUTABLE PATHS)
 # ------------------------------------------------------------------------------
 def resource_path(relative_path: str) -> Path:
-    """Works perfectly in development AND when frozen with PyInstaller (--contents-directory .)"""
     if getattr(sys, 'frozen', False):
         # Bundled executable: everything is next to SaveWisdomRecorder.exe
         base_path = Path(os.path.dirname(sys.executable))
@@ -34,14 +32,12 @@ def resource_path(relative_path: str) -> Path:
 # CONSTANTS (ALL SIZES NOW ~2/3 OF ORIGINAL)
 # ------------------------------------------------------------------------------
 FONT_SIZE = 16
-NEON_GREEN = "#00FF41"
-DARK_BG = "#000000"
+TEXT_COLOR = "#00FF41"
+BG_COLOR = "#000000"
 
-# These now use the helper → QUESTIONS folder will be found on Linux
 RECORDINGS_BASE = resource_path("RECORDINGS")
 QUESTIONS_DIR   = resource_path("QUESTIONS")
 CONFIG_PATH     = resource_path("config.json")
-
 
 # ------------------------------------------------------------------------------
 # CONFIG MANAGER (with migration + answered count storage)
@@ -115,8 +111,8 @@ class AudioRecorder:
         wavfile.write(str(wav), 44100, audio.astype(np.float32))
 
         segment = AudioSegment.from_wav(str(wav))
-        if len(segment) > 500:
-            trimmed = segment[:-500]
+        if len(segment) > 200:
+            trimmed = segment[:-200]
         else:
             trimmed = segment
 
@@ -131,7 +127,6 @@ class SaveWisdomApp(tk.Tk):
     def __init__(self):
         super().__init__()
 
-        # Ensure RECORDINGS folder always exists at runtime (important in bundled exe)
         RECORDINGS_BASE.mkdir(parents=True, exist_ok=True)
 
         style = ttk.Style(self)
@@ -148,7 +143,7 @@ class SaveWisdomApp(tk.Tk):
         self.option_add('*TCombobox*Listbox.selectForeground', "#00FF41")
         self.option_add('*TCombobox*Listbox.font', ("Courier", FONT_SIZE))
 
-        self.configure(bg=DARK_BG)
+        self.configure(bg=BG_COLOR)
         self.minsize(633, 467)
         self.update_idletasks()
         self.geometry(f"{self.winfo_screenwidth()}x{self.winfo_screenheight()}")
@@ -179,91 +174,91 @@ class SaveWisdomApp(tk.Tk):
         self._reset_ui_state()
 
     def _build_ui(self):
-        top = tk.Frame(self, bg=DARK_BG)
+        top = tk.Frame(self, bg=BG_COLOR)
         top.pack(fill="x", padx=13, pady=(17, 17))
 
-        tk.Label(top, text="NAME:", bg=DARK_BG, fg=NEON_GREEN, font=("Courier", FONT_SIZE + 1, "bold")).pack(side="left")
+        tk.Label(top, text="NAME:", bg=BG_COLOR, fg=TEXT_COLOR, font=("Courier", FONT_SIZE + 1, "bold")).pack(side="left")
         self.name_combo = ttk.Combobox(top, width=32, height=16, style="Neon.TCombobox", font=("Courier", FONT_SIZE))
         self.name_combo.pack(side="left", padx=8, pady=16)
         self.name_combo.bind("<<ComboboxSelected>>", self._on_name_selected)
         self.name_combo.bind("<KeyRelease>", self._on_name_key_release)
 
-        tk.Label(top, text="LANGUAGE:", bg=DARK_BG, fg=NEON_GREEN, font=("Courier", FONT_SIZE + 1, "bold")).pack(side="left", padx=(20, 5))
+        tk.Label(top, text="LANGUAGE:", bg=BG_COLOR, fg=TEXT_COLOR, font=("Courier", FONT_SIZE + 1, "bold")).pack(side="left", padx=(20, 5))
         self.lang_combo = ttk.Combobox(top, state="readonly", style="Neon.TCombobox", width=6, height=16, font=("Courier", FONT_SIZE))
         self.lang_combo.pack(side="left")
         self.lang_combo.bind("<<ComboboxSelected>>", self._on_lang_changed)
 
-        self.select_btn = tk.Button(top, text="Select", bg=DARK_BG, fg=NEON_GREEN,
+        self.select_btn = tk.Button(top, text="Select", bg=BG_COLOR, fg=TEXT_COLOR,
                                     font=("Courier", FONT_SIZE, "bold"), command=self._on_select_clicked,
-                                    activebackground=DARK_BG, activeforeground=NEON_GREEN,
-                                    disabledforeground=NEON_GREEN, highlightbackground=DARK_BG, height=2, padx=29)
+                                    activebackground=BG_COLOR, activeforeground=TEXT_COLOR,
+                                    disabledforeground=TEXT_COLOR, highlightbackground=BG_COLOR, height=2, padx=29)
         self.select_btn.pack(side="left", padx=15)
 
-        qnum = tk.Frame(self, bg=DARK_BG)
+        qnum = tk.Frame(self, bg=BG_COLOR)
         qnum.pack(fill="x", padx=13, pady=21)
-        tk.Label(qnum, text="QUESTION:", bg=DARK_BG, fg=NEON_GREEN, font=("Courier", FONT_SIZE + 1, "bold")).pack(side="left")
-        self.q_number_label = tk.Label(qnum, text="0000", bg=DARK_BG, fg=NEON_GREEN,
+        tk.Label(qnum, text="QUESTION:", bg=BG_COLOR, fg=TEXT_COLOR, font=("Courier", FONT_SIZE + 1, "bold")).pack(side="left")
+        self.q_number_label = tk.Label(qnum, text="0000", bg=BG_COLOR, fg=TEXT_COLOR,
                                        font=("Courier", FONT_SIZE + 4, "bold"), width=6, relief="ridge")
         self.q_number_label.pack(side="left", padx=10)
 
-        self.question_box = tk.Label(self, text="", bg=DARK_BG, fg=NEON_GREEN,
+        self.question_box = tk.Label(self, text="", bg=BG_COLOR, fg=TEXT_COLOR,
                                      font=("Courier", 24), wraplength=1067, justify="left",
-                                     relief="ridge", bd=3, height=7, padx=17, pady=33, anchor="center")
+                                     relief="ridge", bd=3, height=5, padx=17, pady=33, anchor="center")
         self.question_box.pack(fill="both", expand=True, padx=13, pady=15)
 
-        btns = tk.Frame(self, bg=DARK_BG)
+        btns = tk.Frame(self, bg=BG_COLOR)
         btns.pack(fill="x", padx=13, pady=15)
 
-        self.next_btn = tk.Button(btns, text="Next", bg=DARK_BG, fg=NEON_GREEN,
-                                  font=("Courier", FONT_SIZE, "bold"), command=self.next_question, state="disabled",
-                                  activebackground=DARK_BG, activeforeground=NEON_GREEN,
-                                  disabledforeground=NEON_GREEN, highlightbackground=DARK_BG,
-                                  width=12, height=2, pady=15)
-        self.next_btn.pack(side="left", padx=5)
-
-        self.random_btn = tk.Button(btns, text="Random", bg=DARK_BG, fg=NEON_GREEN,
+        self.random_btn = tk.Button(btns, text="Random", bg=BG_COLOR, fg=TEXT_COLOR,
                                     font=("Courier", FONT_SIZE, "bold"), command=self.random_question, state="disabled",
-                                    activebackground=DARK_BG, activeforeground=NEON_GREEN,
-                                    disabledforeground=NEON_GREEN, highlightbackground=DARK_BG,
+                                    activebackground=BG_COLOR, activeforeground=TEXT_COLOR,
+                                    disabledforeground=TEXT_COLOR, highlightbackground=BG_COLOR,
                                     width=12, height=2, pady=15)
         self.random_btn.pack(side="left", padx=5)
 
-        tk.Label(btns, text="     ", bg=DARK_BG).pack(side="left")
+        self.next_btn = tk.Button(btns, text="Next", bg=BG_COLOR, fg=TEXT_COLOR,
+                                  font=("Courier", FONT_SIZE, "bold"), command=self.next_question, state="disabled",
+                                  activebackground=BG_COLOR, activeforeground=TEXT_COLOR,
+                                  disabledforeground=TEXT_COLOR, highlightbackground=BG_COLOR,
+                                  width=12, height=2, pady=15)
+        self.next_btn.pack(side="left", padx=5)
 
-        self.rec_btn = tk.Button(btns, text="🎤 Record", bg=DARK_BG, fg=NEON_GREEN,
+        tk.Label(btns, text="     ", bg=BG_COLOR).pack(side="left")
+
+        self.rec_btn = tk.Button(btns, text="🎤 Record", bg=BG_COLOR, fg=TEXT_COLOR,
                                  font=("Courier", FONT_SIZE, "bold"), command=self.start_recording, state="disabled",
-                                 activebackground=DARK_BG, activeforeground=NEON_GREEN,
-                                 disabledforeground=NEON_GREEN, highlightbackground=DARK_BG,
+                                 activebackground=BG_COLOR, activeforeground=TEXT_COLOR,
+                                 disabledforeground=TEXT_COLOR, highlightbackground=BG_COLOR,
                                  width=12, height=2, pady=15)
         self.rec_btn.pack(side="left", padx=5)
 
-        self.stop_btn = tk.Button(btns, text="⏹ Stop", bg=DARK_BG, fg=NEON_GREEN,
+        self.stop_btn = tk.Button(btns, text="⏹ Stop", bg=BG_COLOR, fg=TEXT_COLOR,
                                   font=("Courier", FONT_SIZE, "bold"), command=self.stop_recording, state="disabled",
-                                  activebackground=DARK_BG, activeforeground=NEON_GREEN,
-                                  disabledforeground=NEON_GREEN, highlightbackground=DARK_BG,
+                                  activebackground=BG_COLOR, activeforeground=TEXT_COLOR,
+                                  disabledforeground=TEXT_COLOR, highlightbackground=BG_COLOR,
                                   width=12, height=2, pady=15)
         self.stop_btn.pack(side="left", padx=5)
 
-        level_frame = tk.Frame(self, bg=DARK_BG)
+        level_frame = tk.Frame(self, bg=BG_COLOR)
         level_frame.pack(fill="x", padx=13, pady=15)
 
-        tk.Label(level_frame, text="LEVEL:", bg=DARK_BG, fg=NEON_GREEN, font=("Courier", FONT_SIZE)).pack(side="left")
-        self.level_canvas = tk.Canvas(level_frame, width=413, height=20, bg="#001100", highlightthickness=2, highlightbackground=NEON_GREEN)
+        tk.Label(level_frame, text="LEVEL:", bg=BG_COLOR, fg=TEXT_COLOR, font=("Courier", FONT_SIZE)).pack(side="left")
+        self.level_canvas = tk.Canvas(level_frame, width=413, height=20, bg="#001100", highlightthickness=2, highlightbackground=TEXT_COLOR)
         self.level_canvas.pack(side="left", padx=7)
         self.level_canvas.create_line(413, 3, 413, 17, fill="#003300", width=2)
 
-        tk.Label(level_frame, text="     ", bg=DARK_BG).pack(side="left")
-        tk.Label(level_frame, text="ANSWERED:", bg=DARK_BG, fg=NEON_GREEN, font=("Courier", FONT_SIZE)).pack(side="left", padx=(20, 7))
-        self.progress_canvas = tk.Canvas(level_frame, width=413, height=20, bg="#001100", highlightthickness=2, highlightbackground=NEON_GREEN)
+        tk.Label(level_frame, text="     ", bg=BG_COLOR).pack(side="left")
+        tk.Label(level_frame, text="ANSWERED:", bg=BG_COLOR, fg=TEXT_COLOR, font=("Courier", FONT_SIZE)).pack(side="left", padx=(20, 7))
+        self.progress_canvas = tk.Canvas(level_frame, width=413, height=20, bg="#001100", highlightthickness=2, highlightbackground=TEXT_COLOR)
         self.progress_canvas.pack(side="left", padx=7)
         self.progress_canvas.create_line(413, 3, 413, 17, fill="#003300", width=2)
 
-        self.percent_label = tk.Label(level_frame, text="0%", bg=DARK_BG, fg=NEON_GREEN,
+        self.percent_label = tk.Label(level_frame, text="0%", bg=BG_COLOR, fg=TEXT_COLOR,
                                       font=("Courier", FONT_SIZE, "bold"), width=6)
         self.percent_label.pack(side="left", padx=8)
 
         self.status_var = tk.StringVar(value="Ready")
-        self.status_bar = tk.Label(self, textvariable=self.status_var, bg=DARK_BG, fg=NEON_GREEN,
+        self.status_bar = tk.Label(self, textvariable=self.status_var, bg=BG_COLOR, fg=TEXT_COLOR,
                                    font=("Courier", FONT_SIZE), relief="sunken", anchor="w")
         self.status_bar.pack(fill="x", side="bottom", padx=13, pady=15)
 
@@ -332,7 +327,7 @@ class SaveWisdomApp(tk.Tk):
         width = int(perc / 100 * 413)
 
         self.progress_canvas.delete("bar")
-        self.progress_canvas.create_rectangle(0, 3, width, 17, fill=NEON_GREEN, tags="bar")
+        self.progress_canvas.create_rectangle(0, 3, width, 17, fill=TEXT_COLOR, tags="bar")
         self.percent_label.config(text=f"{perc}%")
 
     def _on_select_clicked(self):
@@ -481,7 +476,7 @@ class SaveWisdomApp(tk.Tk):
         level = self.recorder.current_level
         width = int(level * 413)
         self.level_canvas.delete("bar")
-        self.level_canvas.create_rectangle(0, 3, width, 17, fill=NEON_GREEN, tags="bar")
+        self.level_canvas.create_rectangle(0, 3, width, 17, fill=TEXT_COLOR, tags="bar")
         self.after(40, self._update_level_bar)
 
     def _on_close(self):
