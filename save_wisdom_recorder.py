@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import tkinter as tk
-from tkinter import ttk, messagebox
+from tkinter import ttk
 import json
 from pathlib import Path
 import random
@@ -130,17 +130,17 @@ class SaveWisdomApp(tk.Tk):
         RECORDINGS_BASE.mkdir(parents=True, exist_ok=True)
 
         style = ttk.Style(self)
-        style.configure("Neon.TCombobox", fieldbackground="#000000", background="#000000",
-                        foreground="#00FF41", padding=11, arrowsize=24)
-        style.map("Neon.TCombobox", background=[("readonly", "#000000")],
-                  fieldbackground=[("readonly", "#000000")], arrowsize=[("readonly", 24)])
+        style.configure("Neon.TCombobox", fieldbackground=BG_COLOR, background=BG_COLOR,
+                        foreground=TEXT_COLOR, padding=11, arrowsize=24)
+        style.map("Neon.TCombobox", background=[("readonly", BG_COLOR)],
+                  fieldbackground=[("readonly", BG_COLOR)], arrowsize=[("readonly", 24)])
 
         self.title("Save Wisdom Recorder")
 
-        self.option_add('*TCombobox*Listbox.background', "#000000")
-        self.option_add('*TCombobox*Listbox.foreground', "#00FF41")
-        self.option_add('*TCombobox*Listbox.selectBackground', "#003300")
-        self.option_add('*TCombobox*Listbox.selectForeground', "#00FF41")
+        self.option_add('*TCombobox*Listbox.background', BG_COLOR)
+        self.option_add('*TCombobox*Listbox.foreground', TEXT_COLOR)
+        self.option_add('*TCombobox*Listbox.selectBackground', BG_COLOR)
+        self.option_add('*TCombobox*Listbox.selectForeground', TEXT_COLOR)
         self.option_add('*TCombobox*Listbox.font', ("Courier", FONT_SIZE))
 
         self.configure(bg=BG_COLOR)
@@ -243,15 +243,15 @@ class SaveWisdomApp(tk.Tk):
         level_frame.pack(fill="x", padx=13, pady=15)
 
         tk.Label(level_frame, text="LEVEL:", bg=BG_COLOR, fg=TEXT_COLOR, font=("Courier", FONT_SIZE)).pack(side="left")
-        self.level_canvas = tk.Canvas(level_frame, width=413, height=20, bg="#001100", highlightthickness=2, highlightbackground=TEXT_COLOR)
+        self.level_canvas = tk.Canvas(level_frame, width=413, height=20, bg=BG_COLOR, highlightthickness=2, highlightbackground=TEXT_COLOR)
         self.level_canvas.pack(side="left", padx=7)
-        self.level_canvas.create_line(413, 3, 413, 17, fill="#003300", width=2)
+        self.level_canvas.create_line(413, 3, 413, 17, fill=TEXT_COLOR, width=2)
 
         tk.Label(level_frame, text="     ", bg=BG_COLOR).pack(side="left")
         tk.Label(level_frame, text="ANSWERED:", bg=BG_COLOR, fg=TEXT_COLOR, font=("Courier", FONT_SIZE)).pack(side="left", padx=(20, 7))
-        self.progress_canvas = tk.Canvas(level_frame, width=413, height=20, bg="#001100", highlightthickness=2, highlightbackground=TEXT_COLOR)
+        self.progress_canvas = tk.Canvas(level_frame, width=413, height=20, bg=BG_COLOR, highlightthickness=2, highlightbackground=TEXT_COLOR)
         self.progress_canvas.pack(side="left", padx=7)
-        self.progress_canvas.create_line(413, 3, 413, 17, fill="#003300", width=2)
+        self.progress_canvas.create_line(413, 3, 413, 17, fill=TEXT_COLOR, width=2)
 
         self.percent_label = tk.Label(level_frame, text="0%", bg=BG_COLOR, fg=TEXT_COLOR,
                                       font=("Courier", FONT_SIZE, "bold"), width=6)
@@ -335,7 +335,7 @@ class SaveWisdomApp(tk.Tk):
         lang = self.lang_combo.get()
 
         if not name or not lang:
-            messagebox.showwarning("Missing info", "Please enter a name and choose a language")
+            self.status_var.set("Missing info, Please enter a name and choose a language")
             return
 
         # Ensure config format
@@ -354,7 +354,7 @@ class SaveWisdomApp(tk.Tk):
             with open(filename, encoding="utf-8") as f:
                 self.questions = json.load(f)
         except FileNotFoundError:
-            messagebox.showerror("Missing file", f"{filename} not found.")
+            self.status_var.set("Questions file not found!")
             return
 
         self.folder = RECORDINGS_BASE / name
@@ -381,7 +381,7 @@ class SaveWisdomApp(tk.Tk):
             self.random_btn.config(state="normal")
             self.rec_btn.config(state="normal")
             self.stop_btn.config(state="normal")
-            self.status_var.set(f"Question {self.current_question['number']:04d} (unanswered)")
+            self.status_var.set(f"Click Record to answer, Random or Next for another question")
         else:
             self._show_congratulations()
 
@@ -447,7 +447,7 @@ class SaveWisdomApp(tk.Tk):
             self.stop_btn.config(state="normal")
             self.is_recording_ui = True
             self._update_level_bar()
-            self.status_var.set("🎤 RECORDING... Speak now!")
+            self.status_var.set("🎤 RECORDING... Speak now! Clicking Stop, Random, or Next will store your answer")
 
     def stop_recording(self, advance=True):
         filename = self.recorder.stop()
