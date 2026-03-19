@@ -438,7 +438,7 @@ class SaveWisdomApp(tk.Tk):
     def _display_current(self):
         self.q_number_label.config(text=f"{self.current_question['number']:04d}")
         self.question_box.config(text=self.current_question["translated"])
-        self.status_var.set(f"Question {self.current_question['number']:04d}")
+        self.status_var.set(f"Click Record to answer, Random or Next to Select a question")
 
     def start_recording(self):
         if not self.current_question: return
