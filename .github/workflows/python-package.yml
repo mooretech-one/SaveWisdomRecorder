@@ -1,7 +1,7 @@
 name: Build Executables
 
 on:
-  workflow_dispatch:   # ← this line must exist
+  workflow_dispatch:
   push:
     tags:
       - 'v*'
@@ -36,11 +36,7 @@ jobs:
           fi
 
           # === CRITICAL FIX: Dynamically find and bundle _sounddevice_data (PortAudio) ===
-          SOUNDDEVICE_DATA=$(python -c '
-import os
-import sounddevice
-print(os.path.join(os.path.dirname(sounddevice.__file__), "_sounddevice_data"))
-')
+          SOUNDDEVICE_DATA=$(python -c "import os, sounddevice; print(os.path.join(os.path.dirname(sounddevice.__file__), '_sounddevice_data'))")
 
           # Upgrade to latest PyInstaller
           pip install pyinstaller --upgrade
@@ -68,4 +64,3 @@ print(os.path.join(os.path.dirname(sounddevice.__file__), "_sounddevice_data"))
         with:
           name: SaveWisdomRecorder-${{ matrix.os }}
           path: dist/*
-n
