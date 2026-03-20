@@ -26,6 +26,13 @@ jobs:
           python -m pip install --upgrade pip
           pip install pyinstaller sounddevice scipy pydub numpy
 
+      # === NEW STEP: Fix for Linux ===
+      - name: Install system dependencies (Linux only)
+        if: matrix.os == 'ubuntu-latest'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y portaudio19-dev libsndfile1
+
       - name: Build with PyInstaller
         shell: bash
         run: |
@@ -35,7 +42,7 @@ jobs:
             SEP=":"
           fi
 
-          # === CRITICAL FIX: Dynamically find and bundle _sounddevice_data (PortAudio) ===
+          # Dynamically find and bundle _sounddevice_data (PortAudio)
           SOUNDDEVICE_DATA=$(python -c "import os, sounddevice; print(os.path.join(os.path.dirname(sounddevice.__file__), '_sounddevice_data'))")
 
           # Upgrade to latest PyInstaller
