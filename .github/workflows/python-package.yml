@@ -64,10 +64,7 @@ jobs:
 
           # Only bundle _sounddevice_data on Windows + macOS (Linux uses system library)
           if [[ "${{ matrix.os }}" != "ubuntu-latest" ]]; then
-            SOUNDDEVICE_DATA=$(python -c "
-              import os, sounddevice
-              print(os.path.join(os.path.dirname(sounddevice.__file__), '_sounddevice_data'))
-            ")
+            SOUNDDEVICE_DATA=$(python -c "import os, sounddevice;print(os.path.join(os.path.dirname(sounddevice.__file__), '_sounddevice_data'));")
             args+=(--add-data "${SOUNDDEVICE_DATA}${SEP}_sounddevice_data")
             echo "✓ Bundling _sounddevice_data from: $SOUNDDEVICE_DATA"
           else
