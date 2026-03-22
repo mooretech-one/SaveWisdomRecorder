@@ -9,6 +9,7 @@ on:
 jobs:
   build:
     strategy:
+      fail-fast: false
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
     runs-on: ${{ matrix.os }}
@@ -30,7 +31,7 @@ jobs:
         if: matrix.os == 'ubuntu-latest'
         run: |
           sudo apt-get update
-          sudo apt-get install -y libportaudio2 libsndfile1 
+          sudo apt-get install -y libportaudio2 libsndfile1 libasound2
 
       - name: Build with PyInstaller
         shell: bash
@@ -41,34 +42,48 @@ jobs:
             SEP=":"
           fi
 
-          # === Only bundle _sounddevice_data on Windows + macOS ===
+          # === Build argument list safely with an array (this fixes the quoting bug on macOS) ===
+          args=(
+            --onedir
+            --name SaveWisdomRecorder
+            --add-data "QUESTIONS${SEP}QUESTIONS"
+            --collect-all sounddevice
+            --collect-all numpy
+            --collect-all scipy
+            --collect-binaries sounddevice     # extra safety for the PortAudio dylib on macOS
+            --hidden-import sounddevice
+            --hidden-import pydub
+            --hidden-import numpy
+            --hidden-import scipy
+            --hidden-import scipy.io.wavfile
+            --hidden-import tkinter
+            --windowed
+            --clean
+            save_wisdom_recorder.py
+          )
+
+          # Only bundle _sounddevice_data on Windows + macOS (Linux uses system library)
           if [[ "${{ matrix.os }}" != "ubuntu-latest" ]]; then
-            SOUNDDEVICE_DATA=$(python -c "import os, sounddevice; print(os.path.join(os.path.dirname(sounddevice.__file__), '_sounddevice_data'))")
-            SOUNDDEVICE_ADD="--add-data \"${SOUNDDEVICE_DATA}${SEP}_sounddevice_data\""
+            SOUNDDEVICE_DATA=$(python -c "
+              import os, sounddevice
+              print(os.path.join(os.path.dirname(sounddevice.__file__), '_sounddevice_data'))
+            ")
+            args+=(--add-data "${SOUNDDEVICE_DATA}${SEP}_sounddevice_data")
+            echo "✓ Bundling _sounddevice_data from: $SOUNDDEVICE_DATA"
           else
-            SOUNDDEVICE_ADD=""
+            echo "✓ Linux build — using system libportaudio (no _sounddevice_data folder)"
           fi
 
-          # Upgrade to latest PyInstaller (good practice)
+          # Upgrade to latest PyInstaller
           pip install pyinstaller --upgrade
 
-          pyinstaller \
-            --onedir \
-            --name SaveWisdomRecorder \
-            --add-data "QUESTIONS${SEP}QUESTIONS" \
-            $SOUNDDEVICE_ADD \
-            --collect-all sounddevice \
-            --collect-all numpy \
-            --collect-all scipy \
-            --hidden-import sounddevice \
-            --hidden-import pydub \
-            --hidden-import numpy \
-            --hidden-import scipy \
-            --hidden-import scipy.io.wavfile \
-            --hidden-import tkinter \
-            --windowed \
-            --clean \
-            save_wisdom_recorder.py
+          # Show the exact command for debugging
+          echo "=== Running PyInstaller ==="
+          printf '  %s\n' "${args[@]}"
+          echo "==========================="
+
+          pyinstaller "${args[@]}"
+
       - name: Upload artifacts
         uses: actions/upload-artifact@v4
         with:
