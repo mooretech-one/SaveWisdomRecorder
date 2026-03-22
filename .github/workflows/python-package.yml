@@ -30,7 +30,7 @@ jobs:
         if: matrix.os == 'ubuntu-latest'
         run: |
           sudo apt-get update
-          sudo apt-get install -y libportaudio2 libsndfile1 libasound2
+          sudo apt-get install -y libportaudio2 libsndfile1 
 
       - name: Build with PyInstaller
         shell: bash
