@@ -27,6 +27,22 @@ def resource_path(relative_path: str) -> Path:
         base_path = Path(os.path.dirname(os.path.abspath(__file__)))
     return base_path / relative_path
 
+# ------------------------------------------------------------------------------
+# FFMPEG BUNDLE HELPER (for frozen executables)
+# ------------------------------------------------------------------------------
+def get_ffmpeg_path() -> str:
+    if getattr(sys, 'frozen', False):
+        # Inside the bundled app
+        base = Path(os.path.dirname(sys.executable))
+        if sys.platform == "win32":
+            return str(base / "ffmpeg.exe")
+        elif sys.platform == "darwin":
+            return str(base / "ffmpeg")
+        else:  # Linux
+            return str(base / "ffmpeg")
+    else:
+        # Development mode – just use system ffmpeg
+        return "ffmpeg"
 
 # ------------------------------------------------------------------------------
 # CONSTANTS (ALL SIZES NOW ~2/3 OF ORIGINAL)
@@ -488,9 +504,10 @@ class SaveWisdomApp(tk.Tk):
 
 
 if __name__ == "__main__":
-    try:
-        AudioSegment.converter = "ffmpeg"
-    except Exception:
-        print("WARNING: ffmpeg not found")
-
-    SaveWisdomApp().mainloop()
+    if __name__ == "__main__":
+        AudioSegment.ffmpeg = get_ffmpeg_path()  # pydub uses .ffmpeg (not .converter)
+        try:
+            AudioSegment.ffprobe = get_ffmpeg_path().replace("ffmpeg", "ffprobe")
+        except Exception:
+            pass
+        SaveWisdomApp().mainloop()
